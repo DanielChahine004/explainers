@@ -1,21 +1,151 @@
 <!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="theme-color" content="#121211">
+<html lang="en"><head><script src="config.js?v=c9e99053"></script><script src="site.js?v=c9e99053"></script><link rel="alternate" type="application/rss+xml" title="Explainers" href="feed.xml"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Explainers</title>
-<link rel="alternate" type="application/rss+xml" title="Explainers" href="feed.xml">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect width='24' height='24' rx='6' fill='%238aa2ff'/%3E%3Cpath d='M9 7l8 5-8 5z' fill='%23121211'/%3E%3C/svg%3E">
-<link rel="stylesheet" href="style.css?v=1">
-</head>
-<body>
-<header id="bar">
-	<a class="brand" href="#/"><span class="logo"></span>Explainers</a>
-	<label class="search"><input type="search" placeholder="Search" aria-label="Search videos"></label>
-	<a class="feed" href="feed.xml" title="Follow new and updated videos (RSS)" aria-label="RSS feed">RSS</a>
-</header>
-<main id="main"><p class="empty">Loading…</p></main>
-<script src="app.js?v=1"></script>
-</body>
-</html>
+<style>
+:root{--bg:#0e1015;--card:#171a21;--line:#262a33;--text:#e8e6e1;--mute:#9a9ca3;--acc:#e8915a}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:15px/1.4 system-ui,-apple-system,sans-serif}
+header{padding:20px 16px 8px;max-width:1200px;margin:auto;display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
+h1{font-size:22px;margin:0;font-weight:600}#reels{color:var(--acc);text-decoration:none;font-weight:600}#count{color:var(--mute)}
+#q{margin-left:auto;background:var(--card);border:1px solid var(--line);color:var(--text);border-radius:8px;padding:8px 10px;
+  font:inherit;width:min(260px,100%)}
+main{max-width:1200px;margin:auto;padding:0 16px 40px}
+h2{font-size:17px;margin:22px 0 10px;font-weight:600;cursor:pointer;user-select:none}h2::before{content:'▾';display:inline-block;width:18px;color:var(--mute)}section.fold h2::before{content:'▸'}section.fold .grid{display:none}h2 .n{color:var(--mute);font-weight:400;margin-left:8px;font-size:14px}
+.grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fill,minmax(260px,1fr))}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden;cursor:pointer;transition:transform .15s}
+.card:hover{transform:translateY(-2px)}.card:focus-visible{outline:2px solid var(--acc)}
+.th{position:relative;aspect-ratio:16/9;background:#000}.th img,.th video{width:100%;height:100%;object-fit:cover;display:block}
+.dur{position:absolute;right:8px;bottom:8px;background:#000c;padding:1px 6px;border-radius:4px;font-size:12px}
+.new{position:absolute;left:8px;top:8px;background:var(--acc);color:#111;padding:1px 7px;border-radius:4px;font-size:12px;font-weight:600}.new.upd{background:#6fd1a0}
+.bar{position:absolute;left:0;bottom:0;height:3px;background:var(--acc)}
+.meta{padding:10px 12px 12px}.t{font-weight:600}.s{color:var(--mute);font-size:13px;margin-top:4px}
+#player{position:fixed;inset:0;background:#000;display:none;flex-direction:column;z-index:9}
+#player.on{display:flex}#player video{flex:1;width:100%;min-height:0;background:#000}
+#pbar{display:flex;gap:10px;align-items:center;padding:10px 16px;background:#111}
+#pbar button{background:#222;color:var(--text);border:1px solid #333;border-radius:8px;padding:8px 14px;font:inherit;cursor:pointer}
+#ptitle{flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+#pbody{flex:1;display:flex;min-height:0}#pbody video{flex:1;min-width:0}
+#notes{width:min(340px,40vw);background:#14161c;border-left:1px solid #262a33;display:none;flex-direction:column;min-height:0}
+#notes.on{display:flex}#nlist{flex:1;overflow:auto;padding:8px}
+.note{display:flex;gap:8px;padding:8px;border-bottom:1px solid #222;font-size:14px}
+.note .ts{color:var(--acc);cursor:pointer;font-variant-numeric:tabular-nums;white-space:nowrap}
+.note .tx{flex:1;white-space:pre-wrap;word-break:break-word}.note .sc{color:var(--mute);font-size:12px}
+.note .x{background:none;border:0;color:var(--mute);cursor:pointer;font-size:16px}
+.note.done{opacity:.55}.note .rs{color:var(--mute);font-size:12px;margin-top:4px}.note .k{color:var(--acc);font-weight:600}
+#rtog{background:none;border:0;color:var(--mute);cursor:pointer;font:inherit;font-size:13px;padding:10px 8px;text-align:left;width:100%}
+#nform{padding:10px;border-top:1px solid #262a33;display:none;flex-direction:column;gap:8px}#nform.on{display:flex}
+#nform textarea{background:#0e1015;color:var(--text);border:1px solid #333;border-radius:8px;padding:8px;font:inherit;min-height:90px;resize:vertical}
+#nform .row{display:flex;gap:8px;align-items:center}#nat{color:var(--acc);flex:1}
+#nform button,#notes .hd button{background:#222;color:var(--text);border:1px solid #333;border-radius:8px;padding:6px 12px;font:inherit;cursor:pointer}
+#notes .hd{display:flex;align-items:center;padding:10px;border-bottom:1px solid #262a33;gap:8px}#notes .hd b{flex:1}
+.nb{position:absolute;right:8px;top:8px;background:#e05d5d;color:#fff;padding:1px 7px;border-radius:4px;font-size:12px;font-weight:600}
+@media (max-width:700px){#pbody{flex-direction:column}#notes{width:100%;max-height:45vh;border-left:0;border-top:1px solid #262a33}}
+</style></head><body>
+<header><h1>Explainers</h1><span id="count"></span><a id="reels" href="/reels">Reels &rsaquo;</a><input id="q" placeholder="Search" aria-label="Search"></header>
+<main id="grid"></main>
+<div id="player"><div id="pbar"><button id="back">&larr; Back</button><span id="ptitle"></span><button id="qual"></button>
+<button id="nbtn" title="Note at this moment (n)">Note</button><button id="ntog">Notes</button></div>
+<div id="pbody"><video id="vid" controls playsinline preload="metadata"></video>
+<div id="notes"><div class="hd"><b>Feedback</b><button id="nclose">Hide</button></div><div id="nlist"></div>
+<div id="nform"><div class="row"><span id="nat"></span></div>
+<textarea id="ntext" placeholder="What should change here? (Enter saves, Shift+Enter for a new line)"></textarea>
+<div class="row"><button id="nsave">Save</button><button id="ncancel">Cancel</button></div></div></div></div></div>
+<script>
+// window.SITE is set on the website (site/public/site.js): the list, playlists and notes come from there instead of this server
+const SITE=window.SITE||null,HOME=SITE?'./':'/',NEWDAYS=SITE?7:1;
+if(SITE)document.getElementById('reels').href='reels.html';
+const grid=document.getElementById('grid'),vid=document.getElementById('vid'),player=document.getElementById('player');
+let list=[],pls=[],cur=null,curPl=null,small=false;
+const fmt=s=>{s=Math.round(s);return Math.floor(s/60)+':'+String(s%60).padStart(2,'0')};
+const pos=id=>{try{return +localStorage.getItem('pos:'+id)||0}catch(e){return 0}};
+const save=(id,t)=>{try{localStorage.setItem('pos:'+id,t)}catch(e){}};
+// seen:<id> holds the render last opened here (its mtime), so a newer render shows as UPDATED; older pages stored 1
+const seenAt=id=>{try{const s=localStorage.getItem('seen:'+id);return s===null?null:+s}catch(e){return 0}};
+const markSeen=v=>{try{localStorage.setItem('seen:'+v.id,Math.floor(v.mtime))}catch(e){}};
+function card(v){
+  const d=document.createElement('div');d.className='card';d.tabIndex=0;
+  const age=(Date.now()/1000-v.born)/86400,p=pos(v.id),s=seenAt(v.id);
+  const badge=age<NEWDAYS&&s===null&&!p?'<span class="new">NEW</span>':s>1&&v.mtime>=s+1?'<span class="new upd">UPDATED</span>':'';
+  d.innerHTML=`<div class="th"><img loading="lazy" alt=""><span class="dur">${fmt(v.dur)}</span>${badge}${v.notes?`<span class="nb">${v.notes} note${v.notes>1?'s':''}</span>`:''}
+    ${p>5?`<div class="bar" style="width:${Math.min(100,100*p/v.dur)}%"></div>`:''}</div>
+    <div class="meta"><div class="t"></div><div class="s">${new Date(v.mtime*1000).toLocaleDateString()} · ${(v.size/1048576).toFixed(0)} MB</div></div>`;
+  d.querySelector('.t').textContent=v.title;
+  const img=d.querySelector('img');img.src=v.thumb;
+  img.onerror=()=>{const f=document.createElement('video');f.src=v.src+'#t=20';f.muted=true;f.preload='metadata';f.playsInline=true;img.replaceWith(f)};
+  d.onclick=()=>play(v,d.dataset.pl);d.onkeydown=e=>{if(e.key==='Enter')play(v,d.dataset.pl)};
+  return d}
+// a row folds away on a tap of its heading, remembered per device; a search shows every row open
+const folded=k=>{try{return localStorage.getItem('fold:'+k)==='1'}catch(e){return false}};
+function section(name,n,cards){const s=document.createElement('section'),h=document.createElement('h2'),g=document.createElement('div');
+  h.textContent=name||'All videos';if(n){const c=document.createElement('span');c.className='n';c.textContent=n;h.append(c)}
+  const k=name||'All videos';if(folded(k)&&!document.getElementById('q').value)s.className='fold';
+  h.onclick=()=>{const f=s.classList.toggle('fold');try{localStorage.setItem('fold:'+k,f?'1':'0')}catch(e){}};
+  g.className='grid';g.append(...cards);s.append(h,g);return s}
+function render(){const q=document.getElementById('q').value.toLowerCase(),by=Object.fromEntries(list.map(v=>[v.id,v]));
+  const hit=v=>v.title.toLowerCase().includes(q)||v.id.includes(q),out=[];
+  for(const p of pls){const cards=[];order(p).forEach(v=>{if(hit(v)){const c=card(v);c.dataset.pl=p.name;cards.push(c)}});
+    const have=p.ids.filter(id=>by[id]).length;if(cards.length)out.push(section(p.name,have+' of '+p.ids.length+' ready',cards))}
+  const shown=list.filter(hit).map(v=>card(v));if(shown.length)out.push(section(pls.length?'All videos':'',null,shown));
+  grid.replaceChildren(...out);document.getElementById('count').textContent=list.length+' videos'}
+// a playlist's rendered videos, newest paper first
+function order(p){const by=Object.fromEntries(list.map(v=>[v.id,v]));return p.ids.map(id=>by[id]).filter(Boolean).sort((a,b)=>b.born-a.born)}
+function next(){if(!cur||!curPl)return null;const p=pls.find(p=>p.name===curPl);if(!p)return null;
+  const o=order(p),i=o.findIndex(v=>v.id===cur.id);return i>=0&&o[i+1]||null}
+function play(v,pl){cur=v;curPl=pl||null;markSeen(v);document.getElementById('ptitle').textContent=v.title;
+  document.getElementById('qual').style.display=v.small?'':'none';load(pos(v.id));player.classList.add('on');
+  if(!history.state)history.pushState({p:1},'')}
+function load(t){loadNotes();vid.src=small&&cur.small?cur.small:cur.src;document.getElementById('qual').textContent=small?'Small':'HD';
+  vid.addEventListener('loadedmetadata',()=>{if(t>5&&t<vid.duration-10)vid.currentTime=t;vid.play().catch(()=>{})},{once:true})}
+const notesEl=document.getElementById('notes'),nform=document.getElementById('nform'),ntext=document.getElementById('ntext');
+let noteT=0,notes=[],showDone=false;
+// Open notes are the to-do list. Resolved ones stay in feedback.json as the record of what each led to, folded
+// away below them; one made on an earlier cut may point at a moment that has since moved.
+function noteRow(n){const d=document.createElement('div');d.className='note'+(n.status==='open'?'':' done');
+  d.innerHTML='<span class="ts"></span><div class="tx"></div><button class="x" title="Delete">&times;</button>';
+  const ts=d.querySelector('.ts');ts.textContent=fmt(n.t);ts.onclick=()=>{vid.currentTime=n.t;vid.pause()};
+  const tx=d.querySelector('.tx');tx.textContent=n.text;
+  if(n.by){const b=document.createElement('div');b.className='sc';b.textContent='@'+n.by;tx.prepend(b)}
+  if(SITE&&!n.mine)d.querySelector('.x').remove();   // on the site, only your own comments can be deleted
+  if(n.scene){const s=document.createElement('div');s.className='sc';s.textContent=n.scene+' @ '+n.scene_t+' s'+
+    (n.status!=='open'&&n.render&&cur.mtime&&Math.abs(n.render-cur.mtime)>2?' · earlier cut':'');tx.append(s)}
+  if(n.resolution){const r=document.createElement('div');r.className='rs';const k=document.createElement('span');k.className='k';
+    k.textContent=(n.kind||'done')+': ';r.append(k,n.resolution);tx.append(r)}
+  if(d.querySelector('.x'))d.querySelector('.x').onclick=async()=>{if(!confirm('Delete this note?'))return;
+    if(SITE){await SITE.delNote(cur.id,n);return loadNotes()}
+    await fetch('/api/notes/delete',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({id:cur.id,nid:n.nid})});loadNotes()};
+  return d}
+async function loadNotes(){if(!cur)return;try{notes=SITE?await SITE.notes(cur.id):await (await fetch('/api/notes?id='+encodeURIComponent(cur.id))).json()}catch(e){notes=[]}
+  const by=(a,b)=>a.t-b.t,open=notes.filter(n=>n.status==='open').sort(by),done=notes.filter(n=>n.status!=='open').sort(by);
+  const rows=open.map(noteRow);
+  if(!open.length)rows.push(Object.assign(document.createElement('div'),{className:'sc',textContent:'No open notes.',style:'padding:8px'}));
+  if(done.length){const b=document.createElement('button');b.id='rtog';b.textContent=(showDone?'▾':'▸')+' Resolved ('+done.length+')';
+    b.onclick=()=>{showDone=!showDone;loadNotes()};rows.push(b);if(showDone)rows.push(...done.map(noteRow))}
+  document.getElementById('nlist').replaceChildren(...rows);
+  document.getElementById('ntog').textContent='Notes'+(open.length?' ('+open.length+')':'')}
+function startNote(){if(!cur)return;vid.pause();noteT=vid.currentTime;notesEl.classList.add('on');nform.classList.add('on');
+  document.getElementById('nat').textContent='at '+fmt(noteT);ntext.value='';ntext.focus()}
+async function saveNote(){const text=ntext.value.trim();if(!text||!cur)return;
+  if(SITE){if(!await SITE.addNote(cur.id,noteT,text))return}else
+  await fetch('/api/notes',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({id:cur.id,t:noteT,text})});
+  nform.classList.remove('on');loadNotes()}
+document.getElementById('nbtn').onclick=startNote;
+document.getElementById('ntog').onclick=()=>notesEl.classList.toggle('on');
+document.getElementById('nclose').onclick=()=>notesEl.classList.remove('on');
+document.getElementById('nsave').onclick=saveNote;
+document.getElementById('ncancel').onclick=()=>nform.classList.remove('on');
+ntext.onkeydown=e=>{if(e.key==='Enter'&&!e.shiftKey&&!e.isComposing){e.preventDefault();saveNote()}if(e.key==='Escape')nform.classList.remove('on');e.stopPropagation()};
+document.addEventListener('keydown',e=>{const a=document.activeElement;
+  if(cur&&e.key==='n'&&a!==ntext&&a!==document.getElementById('q')){e.preventDefault();startNote()}});
+function close(){nform.classList.remove('on');if(cur)save(cur.id,vid.currentTime);vid.pause();vid.removeAttribute('src');vid.load();player.classList.remove('on');cur=null;render()}
+document.getElementById('qual').onclick=()=>{small=!small;load(vid.currentTime)};
+document.getElementById('back').onclick=()=>history.back();
+window.onpopstate=()=>{if(cur)close()};
+vid.ontimeupdate=()=>{if(cur&&Math.floor(vid.currentTime)%5===0)save(cur.id,vid.currentTime)};
+vid.onended=()=>{if(!cur)return;save(cur.id,0);const n=next();if(n)play(n,curPl)};
+document.getElementById('q').oninput=render;
+async function refresh(){try{const [n,p]=SITE?await SITE.videos():await Promise.all([fetch('/api/videos').then(r=>r.json()),fetch('/api/playlists').then(r=>r.json())]);
+  if(JSON.stringify([n,p])!==JSON.stringify([list,pls])){list=n;pls=p;if(!cur)render()}}catch(e){}
+  const m=location.hash.match(/^#v=([^&]+)&t=(\d+)/);   // from a reel's Full button: open that video at that moment
+  if(m){const v=list.find(x=>x.id===decodeURIComponent(m[1]));history.replaceState(null,'',location.pathname);
+    if(v){save(v.id,+m[2]);play(v)}}}
+refresh();setInterval(refresh,20000);window.addEventListener('hashchange',refresh);
+</script></body></html>
