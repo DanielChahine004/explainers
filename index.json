@@ -1,5 +1,5 @@
 {
-"generated": 1794582469,
+"generated": 1794584006,
 "playlists": [
 {
 "name": "PET reading",
@@ -27,7 +27,7 @@
 "videos": [
 {
 "id": "celeritas_optical",
-"title": "Celeritas_optical: D",
+"title": "Validation of Celeritas GPU optical photon transport for monolithic scintillation…",
 "dur": 366.4,
 "v": "ff16df123ea1",
 "size": 24146023,
@@ -39,7 +39,7 @@
 },
 {
 "id": "lxe_tpc",
-"title": "Lxe_tpc: Li, Ma and Ni, \"A New Concept of Liquid Xenon Time Projection Chamber for…",
+"title": "A New Concept of Liquid Xenon Time Projection Chamber for Medical Imaging",
 "dur": 308.3,
 "v": "d5d881918af3",
 "size": 29947710,
@@ -51,7 +51,7 @@
 },
 {
 "id": "bgo_compton",
-"title": "Bgo_compton: Yi et al., \"Investigating the Timing Behavior of Compton Scattering in BGO…",
+"title": "Investigating the Timing Behavior of Compton Scattering in BGO for Time-of-Flight PET",
 "dur": 387.1,
 "v": "04ac08a87403",
 "size": 20737756,
@@ -63,7 +63,7 @@
 },
 {
 "id": "rydberg_radar",
-"title": "Rydberg_radar: Chen et al., \"Radar Ranging Using Rydberg Atomic Homodyne Receiver\",…",
+"title": "Radar Ranging Using Rydberg Atomic Homodyne Receiver",
 "dur": 410.6,
 "v": "dfbc97e0ff73",
 "size": 22995416,
@@ -75,7 +75,7 @@
 },
 {
 "id": "mono_review",
-"title": "Mono_review: Gonzalez-Montoro et al., \"Evolution of PET Detectors and Event Positioning…",
+"title": "Evolution of PET Detectors and Event Positioning Algorithms Using Monolithic…",
 "dur": 420.0,
 "v": "f9f25dba32df",
 "size": 26438882,
@@ -87,7 +87,7 @@
 },
 {
 "id": "pico40l",
-"title": "Pico40l: The PICO-40L detector",
+"title": "The PICO-40L detector",
 "dur": 361.3,
 "v": "d8ddef26896a",
 "size": 18359076,
@@ -99,7 +99,7 @@
 },
 {
 "id": "pet_mrpc",
-"title": "Pet_mrpc: Georgiev et al., \"Multigap RPC for PET: development and optimisation of the…",
+"title": "Multigap RPC for PET: development and optimisation of the detector design",
 "dur": 373.2,
 "v": "753fc32272b4",
 "size": 17220283,
@@ -111,7 +111,7 @@
 },
 {
 "id": "pet_entangled",
-"title": "Pet_entangled: Watts et al., \"Photon quantum entanglement in the MeV regime and its…",
+"title": "Photon quantum entanglement in the MeV regime and its application in PET imaging",
 "dur": 404.2,
 "v": "170fccac76ff",
 "size": 20565636,
@@ -123,7 +123,7 @@
 },
 {
 "id": "pet_g4_configs",
-"title": "Pet_g4_configs: López Toxquia et al., \"Characterization in Geant4 of different PET…",
+"title": "Characterization in Geant4 of different PET configurations",
 "dur": 467.5,
 "v": "4c5f8f6c76a8",
 "size": 25750311,
@@ -147,7 +147,7 @@
 },
 {
 "id": "g4_inside",
-"title": "The user's tutorial \"Geant4: how a simulation is built",
+"title": "Geant4: how a simulation is built",
 "dur": 963.0,
 "v": "4a71f74120e4",
 "size": 41839126,
@@ -171,7 +171,7 @@
 },
 {
 "id": "si_psf",
-"title": "Liu, Zhou, Wang et al., \"Axial localization and tracking of self-interference…",
+"title": "Axial localization and tracking of self-interference nanoparticles by lateral point…",
 "dur": 415.2,
 "v": "d42867cf2abf",
 "size": 19000906,
@@ -183,7 +183,7 @@
 },
 {
 "id": "geant4",
-"title": "Why Geant4 lasted",
+"title": "Geant4: a Game Changer in High Energy Physics and Related Applicative Fields",
 "dur": 465.0,
 "v": "f84fc45d5ad5",
 "size": 23439915,
@@ -215,7 +215,7 @@
 "thumb": "https://github.com/DanielChahine004/explainers/releases/download/mc_recon/b62ac5f05171.jpg",
 "small": "https://github.com/DanielChahine004/explainers/releases/download/mc_recon/aaebd7c989ee-s.mp4",
 "added": 1794193704,
-"updated": 1794193704
+"updated": 1794584006
 },
 {
 "id": "mc_recon",
@@ -627,7 +627,7 @@
 },
 {
 "id": "feynman2",
-"title": "The Feynman Lectures on Physics, Volume II, \"mainly electromagnetism and matter",
+"title": "Mainly electromagnetism and matter",
 "dur": 442.6,
 "v": "8d709415cc0c",
 "size": 25478862,
