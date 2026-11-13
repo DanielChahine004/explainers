@@ -1,0 +1,1 @@
+window.SITE_CFG = {"repo": "DanielChahine004/explainers", "api": "https://api.github.com", "auth": "https://paperstore-auth.daniel-chahine004.workers.dev", "base": "https://danielchahine004.github.io/explainers/"};
