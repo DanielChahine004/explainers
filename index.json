@@ -1,5 +1,5 @@
 {
-"generated": 1794637090,
+"generated": 1794661165,
 "playlists": [
 {
 "name": "PET reading",
@@ -25,6 +25,90 @@
 }
 ],
 "videos": [
+{
+"id": "lu177_dual",
+"title": "A full Monte Carlo reconstruction algorithm for improved precision via dual-photopeak…",
+"dur": 451.5,
+"v": "87b8506c3cf8",
+"size": 28720335,
+"src": "https://explainers-media.daniel-chahine004.workers.dev/lu177_dual/87b8506c3cf8.mp4",
+"thumb": "https://explainers-media.daniel-chahine004.workers.dev/lu177_dual/87b8506c3cf8.jpg",
+"small": "https://explainers-media.daniel-chahine004.workers.dev/lu177_dual/9a6176fccf70-s.mp4",
+"issue": 61,
+"notes": 0,
+"added": 1794661165,
+"updated": 1794661165,
+"reels": [
+"r0-87b8506c3cf8.jpg",
+"r1-87b8506c3cf8.jpg",
+"r2-87b8506c3cf8.jpg",
+"r3-87b8506c3cf8.jpg",
+"r4-87b8506c3cf8.jpg",
+"r5-87b8506c3cf8.jpg",
+"r6-87b8506c3cf8.jpg",
+"r7-87b8506c3cf8.jpg",
+"r8-87b8506c3cf8.jpg",
+"r9-87b8506c3cf8.jpg",
+"r10-87b8506c3cf8.jpg",
+"r11-87b8506c3cf8.jpg",
+"av-87b8506c3cf8.jpg"
+],
+"vtt": "https://explainers-media.daniel-chahine004.workers.dev/lu177_dual/87b8506c3cf8.vtt",
+"chapters": [
+[
+"Intro",
+0.0
+],
+[
+"Spectrum",
+38.4
+],
+[
+"Detect",
+81.75
+],
+[
+"Counts",
+122.8
+],
+[
+"Joint",
+147.3
+],
+[
+"Transport",
+181.517
+],
+[
+"Adjoint",
+224.001
+],
+[
+"Design",
+264.001
+],
+[
+"Metric",
+301.785
+],
+[
+"Phantom",
+337.102
+],
+[
+"Patient",
+376.119
+],
+[
+"Recap",
+414.636
+]
+],
+"paper": {
+"cite": "Polson et al. · EJNMMI Physics 2026",
+"url": "https://doi.org/10.1186/s40658-026-00963-4"
+}
+},
 {
 "id": "celeritas_optical",
 "title": "Validation of Celeritas GPU optical photon transport for monolithic scintillation…",
