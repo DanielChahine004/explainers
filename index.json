@@ -1,5 +1,5 @@
 {
-"generated": 1794664388,
+"generated": 1794665165,
 "playlists": [
 {
 "name": "PET reading",
@@ -107,7 +107,238 @@
 "paper": {
 "cite": "Polson et al. · EJNMMI Physics 2026",
 "url": "https://doi.org/10.1186/s40658-026-00963-4"
+},
+"sources": [
+{
+"t": 0.0,
+"e": 23.18,
+"scene": "Intro",
+"cites": [
+[
+1,
+"Received: 30 June 2026",
+"quote"
+],
+[
+null,
+"37% = 1/2.73, the share of the standard scan time at equal precision",
+"computed"
+]
+]
+},
+{
+"t": 23.18,
+"e": 39.0,
+"scene": "Intro",
+"cites": [
+[
+null,
+"37% = 1/2.73",
+"computed"
+],
+[
+1,
+"largest mean speed-up factor (2.73 ± 0.23)",
+"quote"
+],
+[
+1,
+"mean speed-up factor of 3.25 ± 0.61",
+"quote"
+]
+]
+},
+{
+"t": 39.0,
+"e": 59.9,
+"scene": "Spectrum",
+"cites": [
+[
+6,
+"20% photopeak windows at 101.7",
+"quote"
+]
+]
+},
+{
+"t": 122.8,
+"e": 147.3,
+"scene": "Counts",
+"cites": [
+[
+15,
+"the 113 keV window has a scatter fraction of 55.2%",
+"quote"
+],
+[
+15,
+"30.9% for the 208 keV window. It collects 1.355 times the raw counts",
+"quote"
+],
+[
+15,
+"0.878 times the primary counts of that window",
+"quote"
+]
+]
+},
+{
+"t": 236.8,
+"e": 264.0,
+"scene": "Adjoint",
+"cites": [
+[
+15,
+"voxels, whereas a forward projection spreads them over",
+"quote"
+],
+[
+null,
+"10000 and 1000000: the text's \"∼104\" and \"∼106\" are 10^4 and 10^6 with the superscripts flattened",
+"computed"
+]
+]
+},
+{
+"t": 287.48,
+"e": 301.78,
+"scene": "Design",
+"cites": [
+[
+6,
+"spheres of 37, 28, 22, 17, 13 and 10 mm diameter",
+"quote"
+],
+[
+6,
+"12 min per acquisi",
+"quote"
+],
+[
+1,
+"52 repeated acquisitions",
+"quote"
+]
+]
+},
+{
+"t": 301.78,
+"e": 321.85,
+"scene": "Metric",
+"cites": [
+[
+1,
+"52 repeated acquisitions",
+"quote"
+]
+]
+},
+{
+"t": 337.1,
+"e": 361.13,
+"scene": "Phantom",
+"cites": [
+[
+8,
+"0.63 ± 0.08 for ANA-113, 1.87 ± 0.13 for ANA-113&208, 0.93 ± 0.11 for HMC-113, 1.38 ± 0.06 for HMC-208",
+"quote"
+],
+[
+8,
+"2.73 ± 0.23 for FMC-113&208. FMC-113&208 yielded the largest SF in every sphere",
+"quote"
+]
+]
+},
+{
+"t": 361.13,
+"e": 376.12,
+"scene": "Phantom",
+"cites": [
+[
+8,
+"1.87 ± 0.13 for ANA-113&208",
+"quote"
+],
+[
+11,
+"113&208) = 1.47 ± 0.08",
+"quote"
+],
+[
+8,
+"2.73 ± 0.23 for FMC-113&208",
+"quote"
+]
+]
+},
+{
+"t": 376.12,
+"e": 396.77,
+"scene": "Patient",
+"cites": [
+[
+6,
+"(7400 MBq administered) was imaged 48 h",
+"quote"
+],
+[
+1,
+"14 independent 500 MBq-equivalent realizations",
+"quote"
+]
+]
+},
+{
+"t": 396.77,
+"e": 414.63,
+"scene": "Patient",
+"cites": [
+[
+9,
+"a mean of 3.25 ± 0.61 and a range from 1.40 ± 0.50 in the L5",
+"quote"
+],
+[
+9,
+"5.26 ± 2.82 in the liver",
+"quote"
+],
+[
+14,
+"5.7 to 9.5% higher mean activity concentrations",
+"quote"
+]
+]
+},
+{
+"t": 431.12,
+"e": 456.96,
+"scene": "Recap",
+"cites": [
+[
+1,
+"(2.73 ± 0.23)",
+"quote"
+],
+[
+1,
+"3.25 ± 0.61",
+"quote"
+],
+[
+13,
+"FMC-113&208 took 70 min",
+"quote"
+],
+[
+13,
+"compared with 6 and 13 min for HMC-208",
+"quote"
+]
+]
 }
+]
 },
 {
 "id": "celeritas_optical",
@@ -183,7 +414,8 @@
 327.537
 ]
 ],
-"paper": null
+"paper": null,
+"sources": []
 },
 {
 "id": "lxe_tpc",
@@ -247,7 +479,8 @@
 "paper": {
 "cite": "Li, Ma & Ni · arXiv 2026",
 "url": "https://arxiv.org/abs/2603.25974"
-}
+},
+"sources": []
 },
 {
 "id": "bgo_compton",
@@ -321,7 +554,8 @@
 "paper": {
 "cite": "Yi et al. · arXiv 2025",
 "url": "https://arxiv.org/abs/2511.20864"
-}
+},
+"sources": []
 },
 {
 "id": "rydberg_radar",
@@ -400,7 +634,8 @@
 "paper": {
 "cite": "Chen et al. · arXiv 2025",
 "url": "https://arxiv.org/abs/2506.11833"
-}
+},
+"sources": []
 },
 {
 "id": "mono_review",
@@ -489,7 +724,8 @@
 "paper": {
 "cite": "González-Montoro et al. · IEEE TRPMS 2021",
 "url": "https://doi.org/10.1109/trpms.2021.3059181"
-}
+},
+"sources": []
 },
 {
 "id": "pico40l",
@@ -578,7 +814,8 @@
 "paper": {
 "cite": "PICO Collaboration · JINST 2026",
 "url": "https://arxiv.org/abs/2611.09517"
-}
+},
+"sources": []
 },
 {
 "id": "pet_mrpc",
@@ -652,7 +889,8 @@
 "paper": {
 "cite": "Georgiev et al. · arXiv 2012",
 "url": "https://arxiv.org/abs/1212.5551"
-}
+},
+"sources": []
 },
 {
 "id": "pet_entangled",
@@ -741,7 +979,8 @@
 "paper": {
 "cite": "Watts et al. · Nature Communications 2021",
 "url": "https://doi.org/10.1038/s41467-021-22907-5"
-}
+},
+"sources": []
 },
 {
 "id": "pet_g4_configs",
@@ -820,7 +1059,8 @@
 "paper": {
 "cite": "López Toxquia et al. · arXiv 2023",
 "url": "https://arxiv.org/abs/2311.03522"
-}
+},
+"sources": []
 },
 {
 "id": "g4_setup",
@@ -931,7 +1171,8 @@
 768.957
 ]
 ],
-"paper": null
+"paper": null,
+"sources": []
 },
 {
 "id": "g4_inside",
@@ -1042,7 +1283,8 @@
 889.288
 ]
 ],
-"paper": null
+"paper": null,
+"sources": []
 },
 {
 "id": "g4_tutorial",
@@ -1123,7 +1365,8 @@
 489.437
 ]
 ],
-"paper": null
+"paper": null,
+"sources": []
 },
 {
 "id": "si_psf",
@@ -1197,7 +1440,8 @@
 "paper": {
 "cite": "Liu, Zhou, Wang et al. · Nature Communications 2021",
 "url": "https://doi.org/10.1038/s41467-021-22283-0"
-}
+},
+"sources": []
 },
 {
 "id": "geant4",
@@ -1296,7 +1540,8 @@
 "paper": {
 "cite": "Basaglia et al. · arXiv 2024",
 "url": "https://arxiv.org/abs/2405.12159"
-}
+},
+"sources": []
 },
 {
 "id": "capstone",
@@ -1387,7 +1632,8 @@
 443.99
 ]
 ],
-"paper": null
+"paper": null,
+"sources": []
 },
 {
 "id": "mc_recon",
@@ -1461,7 +1707,8 @@
 "paper": {
 "cite": "Schramm et al. · arXiv 2026",
 "url": "https://arxiv.org/abs/2610.41583"
-}
+},
+"sources": []
 },
 {
 "id": "lnp_comet",
@@ -1550,7 +1797,8 @@
 "paper": {
 "cite": "Chan, Kirtane et al. · Nature Nanotechnology 2025",
 "url": "https://doi.org/10.1038/s41565-025-01975-4"
-}
+},
+"sources": []
 },
 {
 "id": "bone_putty",
@@ -1624,7 +1872,8 @@
 "paper": {
 "cite": "Zhang et al. · Cell and Tissue Banking 2018",
 "url": "https://doi.org/10.1007/s10561-018-9708-z"
-}
+},
+"sources": []
 },
 {
 "id": "brain_swin",
@@ -1693,7 +1942,8 @@
 "paper": {
 "cite": "Sun, Chahine et al. · IEEE JBHI 2025",
 "url": "https://doi.org/10.1109/jbhi.2025.3613793"
-}
+},
+"sources": []
 },
 {
 "id": "pet_semimono_nn",
@@ -1782,7 +2032,8 @@
 "paper": {
 "cite": "Freire et al. · Phys Med Biol 2022",
 "url": "https://doi.org/10.1088/1361-6560/aca389"
-}
+},
+"sources": []
 },
 {
 "id": "pet_perovskite",
@@ -1861,7 +2112,8 @@
 "paper": {
 "cite": "Pagano et al. · Adv Mater Interfaces 2024",
 "url": "https://doi.org/10.1002/admi.202300659"
-}
+},
+"sources": []
 },
 {
 "id": "pet_nn_timestamp",
@@ -1950,7 +2202,8 @@
 "paper": {
 "cite": "Carra et al. · Phys Med Biol 2022",
 "url": "https://doi.org/10.1088/1361-6560/ac72f2"
-}
+},
+"sources": []
 },
 {
 "id": "pet_nn_monolithic",
@@ -2024,7 +2277,8 @@
 "paper": {
 "cite": "Decuyper et al. · Phys Med Biol 2021",
 "url": "https://doi.org/10.1088/1361-6560/abebfc"
-}
+},
+"sources": []
 },
 {
 "id": "pet_hetero_nn",
@@ -2093,7 +2347,8 @@
 "paper": {
 "cite": "Lowis et al. · IEEE TRPMS 2025",
 "url": "https://doi.org/10.1109/trpms.2025.3540559"
-}
+},
+"sources": []
 },
 {
 "id": "pet_hetero_nanocomposites",
@@ -2182,7 +2437,8 @@
 "paper": {
 "cite": "Sala et al. · Adv Funct Mater 2025",
 "url": "https://doi.org/10.1002/adfm.202421434"
-}
+},
+"sources": []
 },
 {
 "id": "pet_3dcnn_tof",
@@ -2266,7 +2522,8 @@
 "paper": {
 "cite": "Maebe & Vandenberghe · Phys Med Biol 2022",
 "url": "https://doi.org/10.1088/1361-6560/ac73d3"
-}
+},
+"sources": []
 },
 {
 "id": "pet_realtime_nn",
@@ -2350,7 +2607,8 @@
 "paper": {
 "cite": "Di Giacomo et al. · IEEE TRPMS 2024",
 "url": "https://doi.org/10.1109/trpms.2024.3378421"
-}
+},
+"sources": []
 },
 {
 "id": "slab_crlb",
@@ -2416,7 +2674,8 @@
 401.968
 ]
 ],
-"paper": null
+"paper": null,
+"sources": []
 },
 {
 "id": "guitar_theory",
@@ -2557,7 +2816,8 @@
 1078.675
 ]
 ],
-"paper": null
+"paper": null,
+"sources": []
 },
 {
 "id": "subseasonal_pbc",
@@ -2630,7 +2890,8 @@
 ],
 "paper": {
 "cite": "Guan, Mouatadid et al. · Nature 2026"
-}
+},
+"sources": []
 },
 {
 "id": "pet_fbsem",
@@ -2704,7 +2965,8 @@
 "paper": {
 "cite": "Mehranian & Reader · IEEE TRPMS 2021",
 "url": "https://doi.org/10.1109/trpms.2020.3004408"
-}
+},
+"sources": []
 },
 {
 "id": "pet_dl_recon",
@@ -2788,7 +3050,8 @@
 "paper": {
 "cite": "Reader et al. · IEEE TRPMS 2021",
 "url": "https://doi.org/10.1109/trpms.2020.3014786"
-}
+},
+"sources": []
 },
 {
 "id": "pet_dl_review",
@@ -2862,7 +3125,8 @@
 "paper": {
 "cite": "Hashimoto et al. · Radiol Phys Technol 2024",
 "url": "https://doi.org/10.1007/s12194-024-00780-3"
-}
+},
+"sources": []
 },
 {
 "id": "pet_diffusion",
@@ -2936,7 +3200,8 @@
 "paper": {
 "cite": "Webber & Reader · BJR|AI 2024",
 "url": "https://doi.org/10.1093/bjrai/ubae013"
-}
+},
+"sources": []
 },
 {
 "id": "wt_pet",
@@ -3017,7 +3282,8 @@
 428.755
 ]
 ],
-"paper": null
+"paper": null,
+"sources": []
 },
 {
 "id": "relativity",
@@ -3108,7 +3374,8 @@
 600.671
 ]
 ],
-"paper": null
+"paper": null,
+"sources": []
 },
 {
 "id": "recon",
@@ -3199,7 +3466,8 @@
 579.921
 ]
 ],
-"paper": null
+"paper": null,
+"sources": []
 },
 {
 "id": "pet_recon_free",
@@ -3263,7 +3531,8 @@
 "paper": {
 "cite": "Kwon et al. · Nature Photonics 2021",
 "url": "https://doi.org/10.1038/s41566-021-00871-2"
-}
+},
+"sources": []
 },
 {
 "id": "pet_nanocomposites",
@@ -3337,7 +3606,8 @@
 "paper": {
 "cite": "Orfano et al. · Adv Mater Technol 2024",
 "url": "https://doi.org/10.1002/admt.202302075"
-}
+},
+"sources": []
 },
 {
 "id": "laser_rt",
@@ -3451,7 +3721,8 @@
 "paper": {
 "cite": "Alabd & Franklin · Phys Med Biol 2026",
 "url": "https://doi.org/10.1088/1361-6560/ae97af"
-}
+},
+"sources": []
 },
 {
 "id": "i3m_pet",
@@ -3532,7 +3803,8 @@
 426.119
 ]
 ],
-"paper": null
+"paper": null,
+"sources": []
 },
 {
 "id": "calib",
@@ -3658,7 +3930,8 @@
 710.441
 ]
 ],
-"paper": null
+"paper": null,
+"sources": []
 },
 {
 "id": "simultaneity",
@@ -3684,7 +3957,8 @@
 0.0
 ]
 ],
-"paper": null
+"paper": null,
+"sources": []
 },
 {
 "id": "einstein1905",
@@ -3748,7 +4022,8 @@
 "paper": {
 "cite": "Einstein · Annalen der Physik 1905",
 "url": "https://doi.org/10.1002/andp.19053221004"
-}
+},
+"sources": []
 },
 {
 "id": "pet_neuroexplorer",
@@ -3827,7 +4102,8 @@
 "paper": {
 "cite": "Li et al. · J Nucl Med 2024",
 "url": "https://doi.org/10.2967/jnumed.124.267767"
-}
+},
+"sources": []
 },
 {
 "id": "flow_match",
@@ -3901,7 +4177,8 @@
 "paper": {
 "cite": "Lipman et al. · ICLR 2023",
 "url": "https://arxiv.org/abs/2210.02747"
-}
+},
+"sources": []
 },
 {
 "id": "pet_10ps",
@@ -3975,7 +4252,8 @@
 "paper": {
 "cite": "Lecoq et al. · Phys Med Biol 2020",
 "url": "https://doi.org/10.1088/1361-6560/ab9500"
-}
+},
+"sources": []
 },
 {
 "id": "liquid_tc",
@@ -4044,7 +4322,8 @@
 "paper": {
 "cite": "Hasani et al. · AAAI 2021",
 "url": "https://arxiv.org/abs/2006.04439"
-}
+},
+"sources": []
 },
 {
 "id": "scintillation",
@@ -4095,7 +4374,8 @@
 350.784
 ]
 ],
-"paper": null
+"paper": null,
+"sources": []
 },
 {
 "id": "feynman2",
@@ -4179,7 +4459,8 @@
 "paper": {
 "cite": "Feynman, Leighton & Sands · The Feynman Lectures, Vol. II",
 "url": "https://www.feynmanlectures.caltech.edu/II_toc.html"
-}
+},
+"sources": []
 },
 {
 "id": "slab_timing",
@@ -4235,7 +4516,8 @@
 278.935
 ]
 ],
-"paper": null
+"paper": null,
+"sources": []
 },
 {
 "id": "shell_pet",
@@ -4311,7 +4593,8 @@
 404.402
 ]
 ],
-"paper": null
+"paper": null,
+"sources": []
 },
 {
 "id": "prism_loc",
@@ -4397,7 +4680,8 @@
 438.42
 ]
 ],
-"paper": null
+"paper": null,
+"sources": []
 },
 {
 "id": "metamono",
@@ -4496,7 +4780,8 @@
 "paper": {
 "cite": "Konstantinou et al. · IEEE TRPMS 2022, and a second review",
 "url": "https://doi.org/10.1109/trpms.2021.3069624"
-}
+},
+"sources": []
 },
 {
 "id": "mouse_pet",
@@ -4557,7 +4842,8 @@
 261.536
 ]
 ],
-"paper": null
+"paper": null,
+"sources": []
 },
 {
 "id": "prism_pet",
@@ -4623,7 +4909,8 @@
 315.035
 ]
 ],
-"paper": null
+"paper": null,
+"sources": []
 },
 {
 "id": "pet_explorer",
@@ -4697,7 +4984,8 @@
 "paper": {
 "cite": "Badawi et al. · J Nucl Med 2019",
 "url": "https://doi.org/10.2967/jnumed.119.226498"
-}
+},
+"sources": []
 },
 {
 "id": "zzb_slab",
@@ -4793,7 +5081,8 @@
 783.255
 ]
 ],
-"paper": null
+"paper": null,
+"sources": []
 },
 {
 "id": "fourier",
@@ -4839,7 +5128,8 @@
 88.385
 ]
 ],
-"paper": null
+"paper": null,
+"sources": []
 }
 ]
 }
