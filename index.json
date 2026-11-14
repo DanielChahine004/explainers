@@ -1,5 +1,5 @@
 {
-"generated": 1794666004,
+"generated": 1794668894,
 "playlists": [
 {
 "name": "PET reading",
@@ -25,6 +25,870 @@
 }
 ],
 "videos": [
+{
+"id": "semimono_preclinical",
+"title": "Development of a Preclinical PET Scanner With DOI Capabilities Using Semi-Monolithic…",
+"dur": 507.0,
+"v": "b629a7fd0d15",
+"size": 40495221,
+"src": "https://explainers-media.daniel-chahine004.workers.dev/semimono_preclinical/b629a7fd0d15.mp4",
+"thumb": "https://explainers-media.daniel-chahine004.workers.dev/semimono_preclinical/b629a7fd0d15.jpg",
+"small": "https://explainers-media.daniel-chahine004.workers.dev/semimono_preclinical/c6c280d6d670-s.mp4",
+"issue": 62,
+"notes": 0,
+"added": 1794668894,
+"updated": 1794668894,
+"reels": [
+"r0-b629a7fd0d15.jpg",
+"r1-b629a7fd0d15.jpg",
+"r2-b629a7fd0d15.jpg",
+"r3-b629a7fd0d15.jpg",
+"r4-b629a7fd0d15.jpg",
+"r5-b629a7fd0d15.jpg",
+"r6-b629a7fd0d15.jpg",
+"r7-b629a7fd0d15.jpg",
+"r8-b629a7fd0d15.jpg",
+"r9-b629a7fd0d15.jpg",
+"r10-b629a7fd0d15.jpg",
+"r11-b629a7fd0d15.jpg",
+"r12-b629a7fd0d15.jpg",
+"r13-b629a7fd0d15.jpg",
+"av-b629a7fd0d15.jpg"
+],
+"vtt": "https://explainers-media.daniel-chahine004.workers.dev/semimono_preclinical/b629a7fd0d15.vtt",
+"chapters": [
+[
+"Intro",
+0.0
+],
+[
+"Parallax",
+28.7
+],
+[
+"Block",
+67.617
+],
+[
+"Scanner",
+98.567
+],
+[
+"Readout",
+120.951
+],
+[
+"Depth",
+154.535
+],
+[
+"Position",
+197.419
+],
+[
+"Calibrate",
+238.653
+],
+[
+"Resolution",
+278.587
+],
+[
+"Axial",
+311.137
+],
+[
+"Sensitivity",
+332.904
+],
+[
+"Rates",
+359.954
+],
+[
+"Images",
+400.621
+],
+[
+"Recap",
+450.005
+]
+],
+"paper": {
+"cite": "Cucarella et al. · IEEE TRPMS 2026",
+"url": "https://doi.org/10.1109/TRPMS.2025.3648052",
+"store": "https://danielchahine004.github.io/paperstore/?repo=DanielChahine004/thesis-papers#/Cucarella2026"
+},
+"sources": [
+{
+"t": 0.0,
+"e": 17.52,
+"scene": "Intro",
+"cites": [
+[
+1,
+"SEPTEMBER 2026",
+"quote"
+],
+[
+1,
+"Development of a Preclinical PET Scanner With",
+"quote"
+],
+[
+1,
+"we present a preclinical PET prototype",
+"quote"
+]
+]
+},
+{
+"t": 17.52,
+"e": 28.7,
+"scene": "Intro",
+"cites": [
+[
+4,
+"performance of the system was studied following the",
+"quote"
+],
+[
+4,
+"NEMA NU 4-2008",
+"quote"
+]
+]
+},
+{
+"t": 28.7,
+"e": 40.83,
+"scene": "Parallax",
+"cites": [
+[
+1,
+"especially for preclinical systems with very small field of",
+"quote"
+],
+[
+1,
+"inner diameter of 106 mm",
+"quote"
+]
+]
+},
+{
+"t": 40.83,
+"e": 59.37,
+"scene": "Parallax",
+"cites": [
+[
+1,
+"to correct the parallax errors",
+"quote"
+]
+]
+},
+{
+"t": 67.62,
+"e": 77.65,
+"scene": "Block",
+"cites": [
+[
+2,
+"1 × 22 LYSO slabs of 0.97 mm × 25.6 mm × 12 mm each",
+"quote"
+]
+]
+},
+{
+"t": 77.65,
+"e": 87.23,
+"scene": "Block",
+"cites": [
+[
+2,
+"The ESR optically isolates the slabs",
+"quote"
+],
+[
+2,
+"entrance face is covered with a retroreflector",
+"quote"
+]
+]
+},
+{
+"t": 87.23,
+"e": 98.57,
+"scene": "Block",
+"cites": [
+[
+2,
+"8 × 8 SiPMs with a",
+"quote"
+],
+[
+2,
+"3 mm × 3 mm active area, 75-µm cell size, a 3.2-mm pitch",
+"quote"
+]
+]
+},
+{
+"t": 98.57,
+"e": 107.45,
+"scene": "Scanner",
+"cites": [
+[
+1,
+"Each ring contains 14 arrays",
+"quote"
+],
+[
+2,
+"separation between rings in the axial direction is 1.26 mm",
+"quote"
+]
+]
+},
+{
+"t": 107.45,
+"e": 120.95,
+"scene": "Scanner",
+"cites": [
+[
+1,
+"inner diameter of 106 mm",
+"quote"
+],
+[
+1,
+"axial length of 52 mm",
+"quote"
+],
+[
+2,
+"28 semi-monolithic modules",
+"quote"
+],
+[
+7,
+"616 slabs in total",
+"quote"
+],
+[
+2,
+"The system has a total of 1792 channels individually read",
+"quote"
+]
+]
+},
+{
+"t": 120.95,
+"e": 133.92,
+"scene": "Readout",
+"cites": [
+[
+2,
+"A total of 28 ASICs were used, one per module.",
+"quote"
+],
+[
+2,
+"three discriminators",
+"quote"
+],
+[
+2,
+"very low trigger level",
+"quote"
+]
+]
+},
+{
+"t": 133.92,
+"e": 154.53,
+"scene": "Readout",
+"cites": [
+[
+2,
+"to discard dark counts",
+"quote"
+],
+[
+2,
+"serves as an energy threshold and discards low amplitude signals",
+"quote"
+],
+[
+2,
+"the software records the collected",
+"quote"
+],
+[
+2,
+"within a 10-ns time coincidence window",
+"quote"
+]
+]
+},
+{
+"t": 154.53,
+"e": 174.87,
+"scene": "Depth",
+"cites": [
+[
+3,
+"determination, the E/Imax estimator was used",
+"quote"
+],
+[
+2,
+"1 × 22 LYSO slabs of 0.97 mm × 25.6 mm × 12 mm each",
+"quote"
+]
+]
+},
+{
+"t": 174.87,
+"e": 197.42,
+"scene": "Depth",
+"cites": [
+[
+3,
+"being E the total energy of the event and Imax the maximum",
+"quote"
+],
+[
+3,
+"energy of one of the SiPMs fired in said event",
+"quote"
+],
+[
+3,
+"The a and b limits",
+"quote"
+],
+[
+3,
+"were used for the conversion of the E/Imax values into mm.",
+"quote"
+]
+]
+},
+{
+"t": 197.42,
+"e": 210.02,
+"scene": "Position",
+"cites": [
+[
+2,
+"estimated using the center-of-gravity",
+"quote"
+],
+[
+2,
+"A lookup table (LUT) was generated",
+"quote"
+]
+]
+},
+{
+"t": 210.02,
+"e": 225.35,
+"scene": "Position",
+"cites": [
+[
+3,
+"The eight summed signals in the x-monolithic direction were used as the inputs",
+"quote"
+],
+[
+3,
+"translational stage was",
+"quote"
+],
+[
+3,
+"used to obtain the calibration data of different positions along",
+"quote"
+],
+[
+3,
+"the monolithic direction with 0.5 mm steps",
+"quote"
+],
+[
+3,
+"this unique NN was used to predict the events from",
+"quote"
+],
+[
+3,
+"all 28 detectors in the system",
+"quote"
+]
+]
+},
+{
+"t": 225.35,
+"e": 238.65,
+"scene": "Position",
+"cites": [
+[
+7,
+"is the same as the slab size (0.97 mm)",
+"quote"
+],
+[
+7,
+"x-monolithic direction was found to be 1.7 ± 0.2 mm",
+"quote"
+],
+[
+7,
+"3.08 ± 0.13 mm",
+"quote"
+]
+]
+},
+{
+"t": 238.65,
+"e": 256.6,
+"scene": "Calibrate",
+"cites": [
+[
+3,
+"an equalization factor that normalize those energy photopeak",
+"quote"
+],
+[
+3,
+"positions to the mean value",
+"quote"
+],
+[
+3,
+"64 channels × 28",
+"quote"
+],
+[
+3,
+"positions of all 22 slabs × 28 detectors were equalized to the",
+"quote"
+],
+[
+3,
+"is the photopeak value of the slab",
+"quote"
+]
+]
+},
+{
+"t": 256.6,
+"e": 278.58,
+"scene": "Calibrate",
+"cites": [
+[
+3,
+"divided each detector floodmap into 64 regions",
+"quote"
+],
+[
+3,
+"calibrate the energy values to keV",
+"quote"
+],
+[
+5,
+"16.4 ± 0.7%, 13.5 ± 1.6%, and 15.8 ± 1.6%",
+"quote"
+],
+[
+4,
+"FWHM divided by the centroid",
+"quote"
+]
+]
+},
+{
+"t": 278.58,
+"e": 299.75,
+"scene": "Resolution",
+"cites": [
+[
+4,
+"22 Na source of 0.25-mm diameter",
+"quote"
+],
+[
+4,
+"center and at 1/4 of the center of the axial FOV and moved",
+"quote"
+],
+[
+6,
+"Table I shows the measured spatial resolution at the center",
+"quote"
+],
+[
+6,
+"Table I, 1/4 FOV MLEM radial row: 0.70 at 0 mm and 1.34 at 25 mm (read off the page image)",
+"figure"
+]
+]
+},
+{
+"t": 299.75,
+"e": 311.13,
+"scene": "Resolution",
+"cites": [
+[
+6,
+"Fig. 8(b), without-DOI points read off: 0.70 0.84 1.15 1.52 1.72 2.36",
+"figure"
+],
+[
+6,
+"DOI capabilities of detectors",
+"quote"
+],
+[
+6,
+"based on semi-monolithic crystals help improving the spatial",
+"quote"
+]
+]
+},
+{
+"t": 311.13,
+"e": 332.9,
+"scene": "Axial",
+"cites": [
+[
+2,
+"separation between rings in the axial direction is 1.26 mm",
+"quote"
+],
+[
+6,
+"1.2 ± 0.4 mm, 0.95 ± 0.10 mm, and 2.7 ± 0.4 mm",
+"quote"
+],
+[
+6,
+"1.0 ± 0.2 mm,",
+"quote"
+],
+[
+6,
+"0.84 ± 0.12 mm, and 1.35 ± 0.09 mm",
+"quote"
+],
+[
+7,
+"1.61 ± 0.19 mm",
+"quote"
+],
+[
+7,
+"1.0 ± 0.1 mm",
+"quote"
+]
+]
+},
+{
+"t": 332.9,
+"e": 353.28,
+"scene": "Sensitivity",
+"cites": [
+[
+4,
+"sensitivity, a 22 Na source of",
+"quote"
+],
+[
+4,
+"5 mm steps",
+"quote"
+],
+[
+5,
+"30% (358–664 keV)",
+"quote"
+],
+[
+6,
+"3.5%",
+"quote"
+],
+[
+6,
+"Peak sensitivity values at the center of the FOV of 2.7%, 3.5%,",
+"quote"
+]
+]
+},
+{
+"t": 353.28,
+"e": 359.95,
+"scene": "Sensitivity",
+"cites": [
+[
+6,
+"and 4.5% were reached for the 20%, 30%, and 50% EWs",
+"quote"
+],
+[
+5,
+"50% (255–766 keV)",
+"quote"
+],
+[
+5,
+"20% (410–613 keV)",
+"quote"
+],
+[
+6,
+"2.7%, 3.5%,",
+"quote"
+]
+]
+},
+{
+"t": 359.95,
+"e": 376.38,
+"scene": "Rates",
+"cites": [
+[
+4,
+"initial activity of 21 MBq",
+"quote"
+],
+[
+4,
+"Measurements of 30 s every 20 min",
+"quote"
+],
+[
+2,
+"within a 10-ns time coincidence window",
+"quote"
+]
+]
+},
+{
+"t": 376.38,
+"e": 392.17,
+"scene": "Rates",
+"cites": [
+[
+6,
+"A peak NECR of",
+"quote"
+],
+[
+6,
+"106.9 kcps @ 11.7 MBq",
+"quote"
+],
+[
+6,
+"for an EW of 30%",
+"quote"
+]
+]
+},
+{
+"t": 392.17,
+"e": 400.62,
+"scene": "Rates",
+"cites": [
+[
+6,
+"do not seem to have been properly measured",
+"quote"
+],
+[
+6,
+"We do not",
+"quote"
+],
+[
+7,
+"our system saturates at rather",
+"quote"
+]
+]
+},
+{
+"t": 400.62,
+"e": 425.43,
+"scene": "Images",
+"cites": [
+[
+4,
+"5 fillable rods drilled",
+"quote"
+],
+[
+4,
+"with diameters of 1, 2, 3, 4, and 5 mm",
+"quote"
+],
+[
+7,
+"The smallest rods of 1 and 2 mm are clearly",
+"quote"
+],
+[
+1,
+"0.20, 0.62,",
+"quote"
+],
+[
+1,
+"0.75, 0.81, and 0.85 were found for the 1, 2, 3, 4, and 5 mm",
+"quote"
+],
+[
+1,
+"Spill-over-ratio values of 0.10 for air-filled and",
+"quote"
+],
+[
+1,
+"0.23 for water-filled cylinders",
+"quote"
+]
+]
+},
+{
+"t": 425.43,
+"e": 450.0,
+"scene": "Images",
+"cites": [
+[
+4,
+"phantom has fillable rods of six different sizes, from 0.7 mm",
+"quote"
+],
+[
+4,
+"up to 1.5 mm in diameter",
+"quote"
+],
+[
+5,
+"average VPR of all spots of the same size is below 0.735",
+"quote"
+],
+[
+7,
+"The 1.5, 1.2, and 1 mm rods",
+"quote"
+],
+[
+7,
+"reported average VPR values below the Rayleigh criterion",
+"quote"
+],
+[
+7,
+"Table III average VPR: 1.5 mm 0.26, 1.2 mm 0.55, 1 mm 0.65, 0.9 mm 0.85, 0.8 mm 0.90, 0.7 mm 0.93 (read off the page image)",
+"figure"
+]
+]
+},
+{
+"t": 450.0,
+"e": 470.08,
+"scene": "Recap",
+"cites": [
+[
+1,
+"to correct the parallax errors",
+"quote"
+],
+[
+1,
+"1 × 22 LYSO slabs of 0.97 mm × 25.6 mm × 12 mm",
+"quote"
+],
+[
+1,
+"coupled to 8 × 8 silicon",
+"quote"
+]
+]
+},
+{
+"t": 470.08,
+"e": 492.62,
+"scene": "Recap",
+"cites": [
+[
+6,
+"Table I, 1/4 FOV MLEM radial row, 1.34 mm at 25 mm radial position",
+"figure"
+],
+[
+7,
+"1.61 ± 0.19 mm",
+"quote"
+],
+[
+1,
+"peak sensitivity of 3.5% was obtained",
+"quote"
+],
+[
+1,
+"peak",
+"quote"
+],
+[
+1,
+"106.9",
+"quote"
+]
+]
+},
+{
+"t": 492.62,
+"e": 508.74,
+"scene": "Recap",
+"cites": [
+[
+7,
+"our system saturates at rather",
+"quote"
+],
+[
+7,
+"gap between rings also produces a degradation of the spatial",
+"quote"
+],
+[
+7,
+"there is still some degradation for positions far",
+"quote"
+],
+[
+8,
+"time skew correction of the whole scanner",
+"quote"
+],
+[
+8,
+"to construct a Compton-PET system",
+"quote"
+]
+]
+}
+]
+},
 {
 "id": "lu177_dual",
 "title": "A full Monte Carlo reconstruction algorithm for improved precision via dual-photopeak…",
