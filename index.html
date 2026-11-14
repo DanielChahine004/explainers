@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en"><head><script src="config.js?v=9de1dff6"></script><script src="site.js?v=9de1dff6"></script><link rel="alternate" type="application/rss+xml" title="Explainers" href="feed.xml"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<html lang="en"><head><script src="config.js?v=3dc3435a"></script><script src="site.js?v=3dc3435a"></script><link rel="alternate" type="application/rss+xml" title="Explainers" href="feed.xml"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Explainers</title>
 <style>
 :root{--bg:#0e1015;--card:#171a21;--line:#262a33;--text:#e8e6e1;--mute:#9a9ca3;--acc:#e8915a}
@@ -165,7 +165,7 @@ function loadSources(v){srcNow=-1;const s=v.sources||[];sbtn.style.display=s.len
     return d}))}
 function syncSrc(){const s=cur&&cur.sources;if(!s||!s.length)return;const t=vid.currentTime,i=s.findIndex(b=>t>=b.t&&t<b.e);
   sbtn.classList.toggle('on',i>=0);if(i===srcNow)return;srcNow=i;[...slist.children].forEach((d,k)=>d.classList.toggle('now',k===i));
-  if(i>=0&&srcs.classList.contains('on'))slist.children[i].scrollIntoView({block:'nearest',behavior:'smooth'})}
+  if(i>=0&&srcs.classList.contains('on')){const d=slist.children[i];requestAnimationFrame(()=>slist.scrollTo({top:d.offsetTop-slist.offsetTop-8,behavior:'smooth'}))}}
 sbtn.onclick=()=>{srcs.classList.toggle('on');srcNow=-2;syncSrc()};document.getElementById('sclose').onclick=()=>srcs.classList.remove('on');
 vid.addEventListener('timeupdate',syncSrc);vid.addEventListener('seeked',syncSrc);
 const notesEl=document.getElementById('notes'),nform=document.getElementById('nform'),ntext=document.getElementById('ntext');
