@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en"><head><script src="config.js?v=a767f457"></script><script src="site.js?v=a767f457"></script><link rel="alternate" type="application/rss+xml" title="Explainers" href="feed.xml"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<html lang="en"><head><script src="config.js?v=09bcf06b"></script><script src="site.js?v=09bcf06b"></script><link rel="alternate" type="application/rss+xml" title="Explainers" href="feed.xml"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Explainers</title>
 <style>
 :root{--bg:#0e1015;--card:#171a21;--line:#262a33;--text:#e8e6e1;--mute:#9a9ca3;--acc:#e8915a}
@@ -25,7 +25,8 @@ h2{font-size:17px;margin:22px 0 10px;font-weight:600;cursor:pointer;user-select:
 #pbar select{max-width:220px;padding:8px 10px}#pbar .on{border-color:var(--acc);color:var(--acc)}
 #ptitle{flex:1;min-width:120px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .cite{font-style:italic}video::cue{font-size:clamp(14px,2.6vw,28px);background:#000b}
-#pbody{flex:1;display:flex;min-height:0}#pbody video{flex:1;min-width:0}
+#pbody{flex:1;display:flex;min-height:0}
+#capline{display:none;flex:0 0 auto;color:#fff;text-align:center;font-size:17px;line-height:1.35;padding:8px 14px;min-height:calc(2.7em + 16px);white-space:pre-line}#pbody video{flex:1;min-width:0}
 #notes{width:min(340px,40vw);background:#14161c;border-left:1px solid #262a33;display:none;flex-direction:column;min-height:0}
 #notes.on{display:flex}#nlist{flex:1;overflow:auto;padding:8px}
 .note{display:flex;gap:8px;padding:8px;border-bottom:1px solid #222;font-size:14px}
@@ -42,7 +43,7 @@ h2{font-size:17px;margin:22px 0 10px;font-weight:600;cursor:pointer;user-select:
 .nb{position:absolute;right:8px;top:8px;background:#e05d5d;color:#fff;padding:1px 7px;border-radius:4px;font-size:12px;font-weight:600}
 @media (max-width:700px){#pbar{gap:6px;padding:8px 10px}#pbar button,#pbar select,#pbar a{padding:6px 9px;font-size:14px}
   #back{order:-2}#ptitle{order:-1;flex-basis:calc(100% - 90px)}#pbar select{max-width:150px}#pbody{flex-direction:column}
-  #pbody video{flex:0 0 auto;aspect-ratio:16/9;height:auto;margin:auto 0}#notes{width:100%;max-height:45vh;border-left:0;border-top:1px solid #262a33}}
+  #pbody video{flex:0 0 auto;aspect-ratio:16/9;height:auto;margin:auto 0}#pbody.under video{margin-bottom:0}#pbody.under #capline{margin-bottom:auto}#notes{width:100%;max-height:45vh;border-left:0;border-top:1px solid #262a33}}
 </style></head><body>
 <header><h1>Explainers</h1><span id="count"></span><a id="reels" href="/reels">Reels &rsaquo;</a><input id="q" placeholder="Search" aria-label="Search"></header>
 <main id="grid"></main>
@@ -51,7 +52,7 @@ h2{font-size:17px;margin:22px 0 10px;font-weight:600;cursor:pointer;user-select:
 <button id="cc" title="Captions (c)">CC</button><button id="qual"></button>
 <a id="paper" target="_blank" rel="noopener">Paper &#8599;</a>
 <button id="nbtn" title="Note at this moment (n)">Note</button><button id="ntog">Notes</button></div>
-<div id="pbody"><video id="vid" controls playsinline preload="metadata"></video>
+<div id="pbody"><video id="vid" controls playsinline preload="metadata"></video><div id="capline" aria-live="off"></div>
 <div id="notes"><div class="hd"><b>Feedback</b><button id="nclose">Hide</button></div><div id="nlist"></div>
 <div id="nform"><div class="row"><span id="nat"></span></div>
 <textarea id="ntext" placeholder="What should change here? (Enter saves, Shift+Enter for a new line)"></textarea>
@@ -109,14 +110,23 @@ const ls=(k,d)=>{try{const v=localStorage.getItem(k);return v===null?d:v}catch(e
 const RATES=[1,1.25,1.5,1.75,2];let rate=+ls('speed',1)||1,cc=ls('cc','0')==='1',capUrl=null,capFor=null;
 function showRate(){const b=document.getElementById('spd');b.textContent=rate+'×';b.classList.toggle('on',rate!==1);vid.defaultPlaybackRate=vid.playbackRate=rate}
 document.getElementById('spd').onclick=()=>{rate=RATES[(RATES.indexOf(rate)+1)%RATES.length];lset('speed',rate);showRate()};
-function showCC(){const b=document.getElementById('cc');b.classList.toggle('on',cc);for(const t of vid.textTracks)t.mode=cc?'showing':'hidden'}
+// on a phone held upright the captions go in the empty space under the picture, so they never cover it; fullscreen
+// and wide screens keep them on the video
+const capline=document.getElementById('capline'),below=matchMedia('(max-width:700px) and (orientation:portrait)');
+const isFull=()=>!!(document.fullscreenElement||document.webkitFullscreenElement||vid.webkitDisplayingFullscreen);
+function drawCue(){const t=vid.textTracks[0],c=t&&t.activeCues;capline.textContent=c&&c.length?[...c].map(x=>x.text).join('\n'):''}
+function showCC(){const b=document.getElementById('cc'),under=cc&&below.matches&&!isFull();b.classList.toggle('on',cc);
+  for(const t of vid.textTracks)t.mode=cc&&!under?'showing':'hidden';capline.style.display=under?'block':'none';
+  document.getElementById('pbody').classList.toggle('under',under);drawCue()}
+below.addEventListener('change',showCC);['fullscreenchange','webkitfullscreenchange'].forEach(e=>document.addEventListener(e,showCC));
+['webkitbeginfullscreen','webkitendfullscreen'].forEach(e=>vid.addEventListener(e,()=>setTimeout(showCC,0)));
 document.getElementById('cc').onclick=()=>{cc=!cc;lset('cc',cc?'1':'0');showCC()};
 async function loadCaptions(v){vid.querySelectorAll('track').forEach(t=>t.remove());const b=document.getElementById('cc');
   b.style.display=v.vtt?'':'none';if(!v.vtt)return;
   if(capFor!==v.vtt){try{const r=await fetch(v.vtt);if(!r.ok)throw 0;if(capUrl)URL.revokeObjectURL(capUrl);
     capUrl=URL.createObjectURL(new Blob([await r.text()],{type:'text/vtt'}));capFor=v.vtt}catch(e){b.style.display='none';return}}
   if(cur!==v)return;const t=document.createElement('track');Object.assign(t,{kind:'subtitles',srclang:'en',label:'English',src:capUrl});
-  vid.append(t);showCC();t.addEventListener('load',showCC)}
+  vid.append(t);t.track.addEventListener('cuechange',drawCue);showCC();t.addEventListener('load',showCC)}
 function load(t){loadNotes();vid.src=small&&cur.small?cur.small:cur.src;document.getElementById('qual').textContent=small?'Small':'HD';
   loadCaptions(cur);
   vid.addEventListener('loadedmetadata',()=>{showRate();if(t>5&&t<vid.duration-10)vid.currentTime=t;vid.play().catch(()=>{})},{once:true})}
