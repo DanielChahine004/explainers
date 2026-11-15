@@ -1,5 +1,5 @@
 {
-"generated": 1794706495,
+"generated": 1794744320,
 "playlists": [
 {
 "name": "PET reading",
@@ -25,6 +25,734 @@
 }
 ],
 "videos": [
+{
+"id": "plenoptic_scint",
+"title": "Plenoptic imaging of particle interactions in scintillation detectors",
+"dur": 456.7,
+"v": "c5dbc29d2d66",
+"size": 43643982,
+"src": "https://explainers-media.daniel-chahine004.workers.dev/plenoptic_scint/c5dbc29d2d66.mp4",
+"thumb": "https://explainers-media.daniel-chahine004.workers.dev/plenoptic_scint/c5dbc29d2d66.jpg",
+"small": "https://explainers-media.daniel-chahine004.workers.dev/plenoptic_scint/f66f0485c2c8-s.mp4",
+"issue": 63,
+"notes": 0,
+"added": 1794744320,
+"updated": 1794744320,
+"reels": [
+"r0-c5dbc29d2d66.jpg",
+"r1-c5dbc29d2d66.jpg",
+"r2-c5dbc29d2d66.jpg",
+"r3-c5dbc29d2d66.jpg",
+"r4-c5dbc29d2d66.jpg",
+"r5-c5dbc29d2d66.jpg",
+"r6-c5dbc29d2d66.jpg",
+"r7-c5dbc29d2d66.jpg",
+"r8-c5dbc29d2d66.jpg",
+"r9-c5dbc29d2d66.jpg",
+"r10-c5dbc29d2d66.jpg",
+"r11-c5dbc29d2d66.jpg",
+"r12-c5dbc29d2d66.jpg",
+"av-c5dbc29d2d66.jpg"
+],
+"vtt": "https://explainers-media.daniel-chahine004.workers.dev/plenoptic_scint/c5dbc29d2d66.vtt",
+"chapters": [
+[
+"Intro",
+0.0
+],
+[
+"Masks",
+31.517
+],
+[
+"Lens",
+58.834
+],
+[
+"Multifocal",
+94.684
+],
+[
+"Bound",
+137.318
+],
+[
+"Design",
+169.435
+],
+[
+"Build",
+205.419
+],
+[
+"Dictionary",
+240.703
+],
+[
+"Clicks",
+277.77
+],
+[
+"Reconstruct",
+308.004
+],
+[
+"Results",
+335.738
+],
+[
+"Double",
+376.972
+],
+[
+"Recap",
+412.122
+]
+],
+"paper": {
+"cite": "Dai et al. · arXiv 2026",
+"url": "https://arxiv.org/abs/2607.01123"
+},
+"sources": [
+{
+"t": 0.0,
+"e": 13.68,
+"scene": "Intro",
+"cites": [
+[
+1,
+"Dated: July 2, 2026",
+"quote"
+],
+[
+1,
+"O(1) mm 3D localization",
+"quote"
+]
+]
+},
+{
+"t": 13.68,
+"e": 31.52,
+"scene": "Intro",
+"cites": [
+[
+3,
+"5 × 5 × 5 cm",
+"quote"
+],
+[
+1,
+"Scintillation detectors convert energy deposits by",
+"quote"
+],
+[
+1,
+"isotropically emitted photons",
+"quote"
+],
+[
+1,
+"O(100) detected photons",
+"quote"
+]
+]
+},
+{
+"t": 31.52,
+"e": 45.02,
+"scene": "Masks",
+"cites": [
+[
+10,
+"centroiding technique couples a single-volume",
+"quote"
+],
+[
+10,
+"fundamentally weak",
+"quote"
+],
+[
+10,
+"centimeter-scale depth",
+"quote"
+]
+]
+},
+{
+"t": 45.02,
+"e": 58.83,
+"scene": "Masks",
+"cites": [
+[
+10,
+"Coded aperture techniques introduce a thin mask",
+"quote"
+],
+[
+10,
+"requires a fraction of scintilla-",
+"quote"
+],
+[
+10,
+"phase-based optical encoding that redistributes",
+"quote"
+]
+]
+},
+{
+"t": 58.83,
+"e": 74.15,
+"scene": "Lens",
+"cites": [
+[
+3,
+"image may be formed with a single lens when the thin",
+"quote"
+],
+[
+3,
+"light source is encoded in the resulting defocus blur",
+"quote"
+]
+]
+},
+{
+"t": 74.15,
+"e": 94.68,
+"scene": "Lens",
+"cites": [
+[
+3,
+"a small f -number is required",
+"quote"
+],
+[
+3,
+"increasing the",
+"quote"
+],
+[
+3,
+"removing the main lens",
+"quote"
+],
+[
+3,
+"working distance of 5 mm",
+"quote"
+],
+[
+3,
+"of 18.5 mm. The small distances",
+"quote"
+]
+]
+},
+{
+"t": 94.68,
+"e": 108.45,
+"scene": "Multifocal",
+"cites": [
+[
+3,
+"all lenslets share the same focal length and simi-",
+"quote"
+],
+[
+3,
+"restricts the available depth",
+"quote"
+]
+]
+},
+{
+"t": 108.45,
+"e": 122.67,
+"scene": "Multifocal",
+"cites": [
+[
+5,
+"with focal lengths of 3, 4.5, 6,",
+"quote"
+],
+[
+5,
+"7.5, 9.0, 12, and 15 mm",
+"quote"
+],
+[
+3,
+"multiple lenslets with identical diameters",
+"quote"
+],
+[
+5,
+"3 mm-diameter plano-convex mi-",
+"quote"
+],
+[
+5,
+"42 lenses arranged in a hexagonal",
+"quote"
+]
+]
+},
+{
+"t": 122.67,
+"e": 137.82,
+"scene": "Multifocal",
+"cites": [
+[
+3,
+"variation in focal length introduces",
+"quote"
+],
+[
+3,
+"focal diversity in the PSF across the volume",
+"quote"
+]
+]
+},
+{
+"t": 137.82,
+"e": 154.67,
+"scene": "Bound",
+"cites": [
+[
+3,
+"the Cram'er-Rao inequality [34, 35], which lower-bounds",
+"quote"
+],
+[
+3,
+"(CRLB) the uncertainty achievable by any unbiased",
+"quote"
+],
+[
+3,
+"which quantifies how the expected intensity measurement",
+"quote"
+]
+]
+},
+{
+"t": 154.67,
+"e": 169.93,
+"scene": "Bound",
+"cites": [
+[
+4,
+"shot-noise-limited intensity measurements",
+"quote"
+],
+[
+4,
+"where bi (θ) is the measurement intensity at pixel",
+"quote"
+]
+]
+},
+{
+"t": 169.93,
+"e": 185.2,
+"scene": "Design",
+"cites": [
+[
+4,
+"The depth of the isotropic light source ranges from 0 to 50 mm",
+"quote"
+],
+[
+3,
+"f ∈ {3, 9, 15} mm",
+"quote"
+],
+[
+4,
+"restricted to narrow depth-of-field peaks",
+"quote"
+]
+]
+},
+{
+"t": 185.2,
+"e": 205.92,
+"scene": "Design",
+"cites": [
+[
+4,
+"proposed multifocal architecture maintains a consistently",
+"quote"
+],
+[
+4,
+"at z = 3.5 mm, our multifocal de-",
+"quote"
+],
+[
+4,
+"35× lower CRLB than the f = 15 mm",
+"quote"
+],
+[
+4,
+"ranging from 60 to 500 pho-",
+"quote"
+],
+[
+4,
+"distance to the MLA is associated with a larger solid",
+"quote"
+]
+]
+},
+{
+"t": 205.92,
+"e": 220.77,
+"scene": "Build",
+"cites": [
+[
+5,
+"2 × 2 pixel binning was applied, resulting in an effective",
+"quote"
+],
+[
+5,
+"6.9",
+"quote"
+],
+[
+5,
+"2 × 3 cm",
+"quote"
+]
+]
+},
+{
+"t": 220.77,
+"e": 241.2,
+"scene": "Build",
+"cites": [
+[
+5,
+"impractical to gen-",
+"quote"
+],
+[
+5,
+"motorized three-axis",
+"quote"
+],
+[
+5,
+"nal peak emission wavelength of 570 nm was mounted",
+"quote"
+],
+[
+5,
+"approximate the emission spectrum",
+"quote"
+]
+]
+},
+{
+"t": 241.2,
+"e": 260.73,
+"scene": "Dictionary",
+"cites": [
+[
+5,
+"approximate local shift",
+"quote"
+],
+[
+6,
+"using 10 axial planes with a spacing",
+"quote"
+],
+[
+6,
+"11 × 11 lateral grid with a spacing of 5 mm",
+"quote"
+],
+[
+8,
+"set containing 1210 PSFs is downsampled by",
+"quote"
+]
+]
+},
+{
+"t": 260.73,
+"e": 277.77,
+"scene": "Dictionary",
+"cites": [
+[
+6,
+"m = 7 mea-",
+"quote"
+],
+[
+6,
+"we apply a high dynamic range",
+"quote"
+],
+[
+6,
+"HDR PSF estimate is then computed by averaging the",
+"quote"
+]
+]
+},
+{
+"t": 277.77,
+"e": 294.35,
+"scene": "Clicks",
+"cites": [
+[
+1,
+"O(100) detected photons",
+"quote"
+],
+[
+6,
+"images by sampling a specified number",
+"quote"
+],
+[
+6,
+"pixel records whether at least one photon is detected dur-",
+"quote"
+]
+]
+},
+{
+"t": 294.35,
+"e": 308.0,
+"scene": "Clicks",
+"cites": [
+[
+6,
+"eled as a Bernoulli random variable",
+"quote"
+],
+[
+6,
+"scaled by the expected detected photon count",
+"quote"
+]
+]
+},
+{
+"t": 308.0,
+"e": 320.32,
+"scene": "Reconstruct",
+"cites": [
+[
+7,
+"negative log-likelihood (NLL) to evaluate how the prob-",
+"quote"
+],
+[
+7,
+"model from a discrete grid of collected PSFs, denoted",
+"quote"
+]
+]
+},
+{
+"t": 320.32,
+"e": 335.73,
+"scene": "Reconstruct",
+"cites": [
+[
+8,
+"off-",
+"quote"
+],
+[
+7,
+"optimal local translation within this",
+"quote"
+],
+[
+8,
+"the NLL varies smoothly",
+"quote"
+],
+[
+8,
+"parabolic function",
+"quote"
+]
+]
+},
+{
+"t": 335.73,
+"e": 360.68,
+"scene": "Results",
+"cites": [
+[
+8,
+"five representative single-vertex source",
+"quote"
+],
+[
+8,
+"100 expected photons",
+"quote"
+],
+[
+9,
+"3D localization error remains near 1 mm across most of",
+"quote"
+],
+[
+9,
+"the error remains stable over the",
+"quote"
+],
+[
+9,
+"active lens-array aperture is approximately 3 cm × 4 cm",
+"quote"
+],
+[
+9,
+"5 cm × 5 cm scintillator cross",
+"quote"
+]
+]
+},
+{
+"t": 360.68,
+"e": 376.97,
+"scene": "Results",
+"cites": [
+[
+9,
+"as the expected photon count decreases, reflecting the",
+"quote"
+],
+[
+9,
+"At 50 expected photons",
+"quote"
+],
+[
+9,
+"occasional large-error trials occur because the realized",
+"quote"
+],
+[
+9,
+"limited by the system when more than 100",
+"quote"
+]
+]
+},
+{
+"t": 376.97,
+"e": 394.02,
+"scene": "Double",
+"cites": [
+[
+8,
+"K times to find the scattering events that best",
+"quote"
+],
+[
+7,
+"This optimization is implemented using Newton",
+"quote"
+],
+[
+10,
+"the same lateral position, (x, y) = (1, 1) mm, so that",
+"quote"
+]
+]
+},
+{
+"t": 394.02,
+"e": 412.12,
+"scene": "Double",
+"cites": [
+[
+10,
+"each vertex producing an expected photon count of 125",
+"quote"
+],
+[
+10,
+"difficult when the two vertices are close in depth",
+"quote"
+],
+[
+10,
+"responses become more distinguishable, generally reduc-",
+"quote"
+]
+]
+},
+{
+"t": 412.12,
+"e": 456.46,
+"scene": "Recap",
+"cites": [
+[
+1,
+"O(100) detected photons",
+"quote"
+],
+[
+10,
+"phase-based optical encoding that redistributes",
+"quote"
+],
+[
+3,
+"variation in focal length introduces",
+"quote"
+],
+[
+4,
+"proposed multifocal architecture maintains a consistently",
+"quote"
+],
+[
+8,
+"set containing 1210 PSFs is downsampled by",
+"quote"
+],
+[
+1,
+"O(1) mm 3D localization",
+"quote"
+],
+[
+10,
+"difficult when the two vertices are close in depth",
+"quote"
+],
+[
+5,
+"system calibration was performed in air",
+"quote"
+],
+[
+10,
+"ple case when the two light sources share equal expected",
+"quote"
+]
+]
+}
+]
+},
 {
 "id": "semimono_preclinical",
 "title": "Development of a Preclinical PET Scanner With DOI Capabilities Using Semi-Monolithic…",
