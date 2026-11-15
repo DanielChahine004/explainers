@@ -1,5 +1,5 @@
 {
-"generated": 1794703327,
+"generated": 1794706495,
 "playlists": [
 {
 "name": "PET reading",
@@ -28,34 +28,34 @@
 {
 "id": "semimono_preclinical",
 "title": "Development of a Preclinical PET Scanner With DOI Capabilities Using Semi-Monolithic…",
-"dur": 507.4,
-"v": "3c4a6b557cda",
-"size": 40479183,
-"src": "https://explainers-media.daniel-chahine004.workers.dev/semimono_preclinical/3c4a6b557cda.mp4",
-"thumb": "https://explainers-media.daniel-chahine004.workers.dev/semimono_preclinical/3c4a6b557cda.jpg",
-"small": "https://explainers-media.daniel-chahine004.workers.dev/semimono_preclinical/1521ea704a3d-s.mp4",
+"dur": 507.6,
+"v": "cd3cf32d9bd4",
+"size": 41325199,
+"src": "https://explainers-media.daniel-chahine004.workers.dev/semimono_preclinical/cd3cf32d9bd4.mp4",
+"thumb": "https://explainers-media.daniel-chahine004.workers.dev/semimono_preclinical/cd3cf32d9bd4.jpg",
+"small": "https://explainers-media.daniel-chahine004.workers.dev/semimono_preclinical/d2fc932c695c-s.mp4",
 "issue": 62,
 "notes": 0,
 "added": 1794668894,
-"updated": 1794703327,
+"updated": 1794706495,
 "reels": [
-"r0-3c4a6b557cda.jpg",
-"r1-3c4a6b557cda.jpg",
-"r2-3c4a6b557cda.jpg",
-"r3-3c4a6b557cda.jpg",
-"r4-3c4a6b557cda.jpg",
-"r5-3c4a6b557cda.jpg",
-"r6-3c4a6b557cda.jpg",
-"r7-3c4a6b557cda.jpg",
-"r8-3c4a6b557cda.jpg",
-"r9-3c4a6b557cda.jpg",
-"r10-3c4a6b557cda.jpg",
-"r11-3c4a6b557cda.jpg",
-"r12-3c4a6b557cda.jpg",
-"r13-3c4a6b557cda.jpg",
-"av-3c4a6b557cda.jpg"
+"r0-cd3cf32d9bd4.jpg",
+"r1-cd3cf32d9bd4.jpg",
+"r2-cd3cf32d9bd4.jpg",
+"r3-cd3cf32d9bd4.jpg",
+"r4-cd3cf32d9bd4.jpg",
+"r5-cd3cf32d9bd4.jpg",
+"r6-cd3cf32d9bd4.jpg",
+"r7-cd3cf32d9bd4.jpg",
+"r8-cd3cf32d9bd4.jpg",
+"r9-cd3cf32d9bd4.jpg",
+"r10-cd3cf32d9bd4.jpg",
+"r11-cd3cf32d9bd4.jpg",
+"r12-cd3cf32d9bd4.jpg",
+"r13-cd3cf32d9bd4.jpg",
+"av-cd3cf32d9bd4.jpg"
 ],
-"vtt": "https://explainers-media.daniel-chahine004.workers.dev/semimono_preclinical/3c4a6b557cda.vtt",
+"vtt": "https://explainers-media.daniel-chahine004.workers.dev/semimono_preclinical/cd3cf32d9bd4.vtt",
 "chapters": [
 [
 "Intro",
@@ -91,27 +91,27 @@
 ],
 [
 "Resolution",
-278.937
+279.187
 ],
 [
 "Axial",
-311.487
+311.737
 ],
 [
 "Sensitivity",
-333.254
+333.504
 ],
 [
 "Rates",
-360.304
+360.554
 ],
 [
 "Images",
-400.971
+401.221
 ],
 [
 "Recap",
-450.355
+450.605
 ]
 ],
 "paper": {
@@ -454,7 +454,7 @@
 },
 {
 "t": 239.0,
-"e": 256.95,
+"e": 257.2,
 "scene": "Calibrate",
 "cites": [
 [
@@ -485,8 +485,8 @@
 ]
 },
 {
-"t": 256.95,
-"e": 278.93,
+"t": 257.2,
+"e": 279.18,
 "scene": "Calibrate",
 "cites": [
 [
@@ -512,8 +512,8 @@
 ]
 },
 {
-"t": 278.93,
-"e": 300.1,
+"t": 279.18,
+"e": 300.35,
 "scene": "Resolution",
 "cites": [
 [
@@ -539,8 +539,8 @@
 ]
 },
 {
-"t": 300.1,
-"e": 311.48,
+"t": 300.35,
+"e": 311.73,
 "scene": "Resolution",
 "cites": [
 [
@@ -561,8 +561,8 @@
 ]
 },
 {
-"t": 311.48,
-"e": 333.25,
+"t": 311.73,
+"e": 333.5,
 "scene": "Axial",
 "cites": [
 [
@@ -598,8 +598,8 @@
 ]
 },
 {
-"t": 333.25,
-"e": 353.63,
+"t": 333.5,
+"e": 353.88,
 "scene": "Sensitivity",
 "cites": [
 [
@@ -630,8 +630,8 @@
 ]
 },
 {
-"t": 353.63,
-"e": 360.3,
+"t": 353.88,
+"e": 360.55,
 "scene": "Sensitivity",
 "cites": [
 [
@@ -657,8 +657,8 @@
 ]
 },
 {
-"t": 360.3,
-"e": 376.73,
+"t": 360.55,
+"e": 376.98,
 "scene": "Rates",
 "cites": [
 [
@@ -679,8 +679,8 @@
 ]
 },
 {
-"t": 376.73,
-"e": 392.52,
+"t": 376.98,
+"e": 392.77,
 "scene": "Rates",
 "cites": [
 [
@@ -701,8 +701,8 @@
 ]
 },
 {
-"t": 392.52,
-"e": 400.97,
+"t": 392.77,
+"e": 401.22,
 "scene": "Rates",
 "cites": [
 [
@@ -723,8 +723,8 @@
 ]
 },
 {
-"t": 400.97,
-"e": 425.78,
+"t": 401.22,
+"e": 426.03,
 "scene": "Images",
 "cites": [
 [
@@ -765,8 +765,8 @@
 ]
 },
 {
-"t": 425.78,
-"e": 450.35,
+"t": 426.03,
+"e": 450.6,
 "scene": "Images",
 "cites": [
 [
@@ -802,8 +802,8 @@
 ]
 },
 {
-"t": 450.35,
-"e": 470.43,
+"t": 450.6,
+"e": 470.68,
 "scene": "Recap",
 "cites": [
 [
@@ -824,8 +824,8 @@
 ]
 },
 {
-"t": 470.43,
-"e": 492.97,
+"t": 470.68,
+"e": 493.22,
 "scene": "Recap",
 "cites": [
 [
@@ -856,8 +856,8 @@
 ]
 },
 {
-"t": 492.97,
-"e": 509.09,
+"t": 493.22,
+"e": 509.34,
 "scene": "Recap",
 "cites": [
 [
@@ -893,31 +893,31 @@
 "id": "lu177_dual",
 "title": "A full Monte Carlo reconstruction algorithm for improved precision via dual-photopeak…",
 "dur": 451.9,
-"v": "ea4793e3bfcb",
-"size": 28795382,
-"src": "https://explainers-media.daniel-chahine004.workers.dev/lu177_dual/ea4793e3bfcb.mp4",
-"thumb": "https://explainers-media.daniel-chahine004.workers.dev/lu177_dual/ea4793e3bfcb.jpg",
-"small": "https://explainers-media.daniel-chahine004.workers.dev/lu177_dual/e8ef191e4e9e-s.mp4",
+"v": "48aedaf04cb7",
+"size": 28898390,
+"src": "https://explainers-media.daniel-chahine004.workers.dev/lu177_dual/48aedaf04cb7.mp4",
+"thumb": "https://explainers-media.daniel-chahine004.workers.dev/lu177_dual/48aedaf04cb7.jpg",
+"small": "https://explainers-media.daniel-chahine004.workers.dev/lu177_dual/409722a1fa45-s.mp4",
 "issue": 61,
-"notes": 1,
+"notes": 0,
 "added": 1794661165,
-"updated": 1794664388,
+"updated": 1794706495,
 "reels": [
-"r0-ea4793e3bfcb.jpg",
-"r1-ea4793e3bfcb.jpg",
-"r2-ea4793e3bfcb.jpg",
-"r3-ea4793e3bfcb.jpg",
-"r4-ea4793e3bfcb.jpg",
-"r5-ea4793e3bfcb.jpg",
-"r6-ea4793e3bfcb.jpg",
-"r7-ea4793e3bfcb.jpg",
-"r8-ea4793e3bfcb.jpg",
-"r9-ea4793e3bfcb.jpg",
-"r10-ea4793e3bfcb.jpg",
-"r11-ea4793e3bfcb.jpg",
-"av-ea4793e3bfcb.jpg"
+"r0-48aedaf04cb7.jpg",
+"r1-48aedaf04cb7.jpg",
+"r2-48aedaf04cb7.jpg",
+"r3-48aedaf04cb7.jpg",
+"r4-48aedaf04cb7.jpg",
+"r5-48aedaf04cb7.jpg",
+"r6-48aedaf04cb7.jpg",
+"r7-48aedaf04cb7.jpg",
+"r8-48aedaf04cb7.jpg",
+"r9-48aedaf04cb7.jpg",
+"r10-48aedaf04cb7.jpg",
+"r11-48aedaf04cb7.jpg",
+"av-48aedaf04cb7.jpg"
 ],
-"vtt": "https://explainers-media.daniel-chahine004.workers.dev/lu177_dual/ea4793e3bfcb.vtt",
+"vtt": "https://explainers-media.daniel-chahine004.workers.dev/lu177_dual/48aedaf04cb7.vtt",
 "chapters": [
 [
 "Intro",
