@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel><title>Explainers</title><link>https://danielchahine004.github.io/explainers/</link><description>Narrated explainer videos, as they are made and updated</description>
+<item><title>New: Plenoptic imaging of particle interactions in scintillation detectors</title><link>https://danielchahine004.github.io/explainers/#v=plenoptic_scint&amp;t=0</link><guid isPermaLink="false">plenoptic_scint@c5dbc29d2d66</guid><pubDate>Sun, 15 Nov 2026 12:05:20 GMT</pubDate></item>
 <item><title>Updated: Development of a Preclinical PET Scanner With DOI Capabilities Using Semi-Monolithic…</title><link>https://danielchahine004.github.io/explainers/#v=semimono_preclinical&amp;t=0</link><guid isPermaLink="false">semimono_preclinical@cd3cf32d9bd4</guid><pubDate>Sun, 15 Nov 2026 01:34:55 GMT</pubDate></item>
 <item><title>Updated: A full Monte Carlo reconstruction algorithm for improved precision via dual-photopeak…</title><link>https://danielchahine004.github.io/explainers/#v=lu177_dual&amp;t=0</link><guid isPermaLink="false">lu177_dual@48aedaf04cb7</guid><pubDate>Sun, 15 Nov 2026 01:34:55 GMT</pubDate></item>
 <item><title>Updated: Why Monte Carlo simulation still sits outside PET and SPECT image reconstruction, and…</title><link>https://danielchahine004.github.io/explainers/#v=mc_recon&amp;t=0</link><guid isPermaLink="false">mc_recon@b62ac5f05171</guid><pubDate>Sat, 14 Nov 2026 04:23:51 GMT</pubDate></item>
@@ -49,5 +50,4 @@
 <item><title>Updated: How flow matching models work</title><link>https://danielchahine004.github.io/explainers/#v=flow_match&amp;t=0</link><guid isPermaLink="false">flow_match@78432cbec338</guid><pubDate>Mon, 26 Oct 2026 17:23:35 GMT</pubDate></item>
 <item><title>Updated: Liquid Time-constant Networks</title><link>https://danielchahine004.github.io/explainers/#v=liquid_tc&amp;t=0</link><guid isPermaLink="false">liquid_tc@e120ade13208</guid><pubDate>Mon, 26 Oct 2026 17:15:56 GMT</pubDate></item>
 <item><title>Updated: How scintillators make light</title><link>https://danielchahine004.github.io/explainers/#v=scintillation&amp;t=0</link><guid isPermaLink="false">scintillation@ecb91f3922a1</guid><pubDate>Mon, 26 Oct 2026 17:13:18 GMT</pubDate></item>
-<item><title>Updated: Mainly electromagnetism and matter</title><link>https://danielchahine004.github.io/explainers/#v=feynman2&amp;t=0</link><guid isPermaLink="false">feynman2@8d709415cc0c</guid><pubDate>Mon, 26 Oct 2026 17:10:48 GMT</pubDate></item>
 </channel></rss>
