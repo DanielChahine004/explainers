@@ -1,5 +1,5 @@
 {
-"generated": 1794668894,
+"generated": 1794703327,
 "playlists": [
 {
 "name": "PET reading",
@@ -28,34 +28,34 @@
 {
 "id": "semimono_preclinical",
 "title": "Development of a Preclinical PET Scanner With DOI Capabilities Using Semi-Monolithic…",
-"dur": 507.0,
-"v": "b629a7fd0d15",
-"size": 40495221,
-"src": "https://explainers-media.daniel-chahine004.workers.dev/semimono_preclinical/b629a7fd0d15.mp4",
-"thumb": "https://explainers-media.daniel-chahine004.workers.dev/semimono_preclinical/b629a7fd0d15.jpg",
-"small": "https://explainers-media.daniel-chahine004.workers.dev/semimono_preclinical/c6c280d6d670-s.mp4",
+"dur": 507.4,
+"v": "3c4a6b557cda",
+"size": 40479183,
+"src": "https://explainers-media.daniel-chahine004.workers.dev/semimono_preclinical/3c4a6b557cda.mp4",
+"thumb": "https://explainers-media.daniel-chahine004.workers.dev/semimono_preclinical/3c4a6b557cda.jpg",
+"small": "https://explainers-media.daniel-chahine004.workers.dev/semimono_preclinical/1521ea704a3d-s.mp4",
 "issue": 62,
 "notes": 0,
 "added": 1794668894,
-"updated": 1794668894,
+"updated": 1794703327,
 "reels": [
-"r0-b629a7fd0d15.jpg",
-"r1-b629a7fd0d15.jpg",
-"r2-b629a7fd0d15.jpg",
-"r3-b629a7fd0d15.jpg",
-"r4-b629a7fd0d15.jpg",
-"r5-b629a7fd0d15.jpg",
-"r6-b629a7fd0d15.jpg",
-"r7-b629a7fd0d15.jpg",
-"r8-b629a7fd0d15.jpg",
-"r9-b629a7fd0d15.jpg",
-"r10-b629a7fd0d15.jpg",
-"r11-b629a7fd0d15.jpg",
-"r12-b629a7fd0d15.jpg",
-"r13-b629a7fd0d15.jpg",
-"av-b629a7fd0d15.jpg"
+"r0-3c4a6b557cda.jpg",
+"r1-3c4a6b557cda.jpg",
+"r2-3c4a6b557cda.jpg",
+"r3-3c4a6b557cda.jpg",
+"r4-3c4a6b557cda.jpg",
+"r5-3c4a6b557cda.jpg",
+"r6-3c4a6b557cda.jpg",
+"r7-3c4a6b557cda.jpg",
+"r8-3c4a6b557cda.jpg",
+"r9-3c4a6b557cda.jpg",
+"r10-3c4a6b557cda.jpg",
+"r11-3c4a6b557cda.jpg",
+"r12-3c4a6b557cda.jpg",
+"r13-3c4a6b557cda.jpg",
+"av-3c4a6b557cda.jpg"
 ],
-"vtt": "https://explainers-media.daniel-chahine004.workers.dev/semimono_preclinical/b629a7fd0d15.vtt",
+"vtt": "https://explainers-media.daniel-chahine004.workers.dev/semimono_preclinical/3c4a6b557cda.vtt",
 "chapters": [
 [
 "Intro",
@@ -63,55 +63,55 @@
 ],
 [
 "Parallax",
-28.7
+29.05
 ],
 [
 "Block",
-67.617
+67.967
 ],
 [
 "Scanner",
-98.567
+98.917
 ],
 [
 "Readout",
-120.951
+121.301
 ],
 [
 "Depth",
-154.535
+154.885
 ],
 [
 "Position",
-197.419
+197.769
 ],
 [
 "Calibrate",
-238.653
+239.003
 ],
 [
 "Resolution",
-278.587
+278.937
 ],
 [
 "Axial",
-311.137
+311.487
 ],
 [
 "Sensitivity",
-332.904
+333.254
 ],
 [
 "Rates",
-359.954
+360.304
 ],
 [
 "Images",
-400.621
+400.971
 ],
 [
 "Recap",
-450.005
+450.355
 ]
 ],
 "paper": {
@@ -144,7 +144,7 @@
 },
 {
 "t": 17.52,
-"e": 28.7,
+"e": 29.05,
 "scene": "Intro",
 "cites": [
 [
@@ -160,8 +160,8 @@
 ]
 },
 {
-"t": 28.7,
-"e": 40.83,
+"t": 29.05,
+"e": 41.18,
 "scene": "Parallax",
 "cites": [
 [
@@ -177,8 +177,8 @@
 ]
 },
 {
-"t": 40.83,
-"e": 59.37,
+"t": 41.18,
+"e": 59.72,
 "scene": "Parallax",
 "cites": [
 [
@@ -189,8 +189,8 @@
 ]
 },
 {
-"t": 67.62,
-"e": 77.65,
+"t": 67.97,
+"e": 78.0,
 "scene": "Block",
 "cites": [
 [
@@ -201,8 +201,8 @@
 ]
 },
 {
-"t": 77.65,
-"e": 87.23,
+"t": 78.0,
+"e": 87.58,
 "scene": "Block",
 "cites": [
 [
@@ -218,8 +218,8 @@
 ]
 },
 {
-"t": 87.23,
-"e": 98.57,
+"t": 87.58,
+"e": 98.92,
 "scene": "Block",
 "cites": [
 [
@@ -235,8 +235,8 @@
 ]
 },
 {
-"t": 98.57,
-"e": 107.45,
+"t": 98.92,
+"e": 107.8,
 "scene": "Scanner",
 "cites": [
 [
@@ -252,8 +252,8 @@
 ]
 },
 {
-"t": 107.45,
-"e": 120.95,
+"t": 107.8,
+"e": 121.3,
 "scene": "Scanner",
 "cites": [
 [
@@ -284,8 +284,8 @@
 ]
 },
 {
-"t": 120.95,
-"e": 133.92,
+"t": 121.3,
+"e": 134.27,
 "scene": "Readout",
 "cites": [
 [
@@ -306,8 +306,8 @@
 ]
 },
 {
-"t": 133.92,
-"e": 154.53,
+"t": 134.27,
+"e": 154.88,
 "scene": "Readout",
 "cites": [
 [
@@ -333,8 +333,8 @@
 ]
 },
 {
-"t": 154.53,
-"e": 174.87,
+"t": 154.88,
+"e": 175.22,
 "scene": "Depth",
 "cites": [
 [
@@ -350,8 +350,8 @@
 ]
 },
 {
-"t": 174.87,
-"e": 197.42,
+"t": 175.22,
+"e": 197.77,
 "scene": "Depth",
 "cites": [
 [
@@ -377,8 +377,8 @@
 ]
 },
 {
-"t": 197.42,
-"e": 210.02,
+"t": 197.77,
+"e": 210.37,
 "scene": "Position",
 "cites": [
 [
@@ -394,8 +394,8 @@
 ]
 },
 {
-"t": 210.02,
-"e": 225.35,
+"t": 210.37,
+"e": 225.7,
 "scene": "Position",
 "cites": [
 [
@@ -431,8 +431,8 @@
 ]
 },
 {
-"t": 225.35,
-"e": 238.65,
+"t": 225.7,
+"e": 239.0,
 "scene": "Position",
 "cites": [
 [
@@ -453,8 +453,8 @@
 ]
 },
 {
-"t": 238.65,
-"e": 256.6,
+"t": 239.0,
+"e": 256.95,
 "scene": "Calibrate",
 "cites": [
 [
@@ -485,8 +485,8 @@
 ]
 },
 {
-"t": 256.6,
-"e": 278.58,
+"t": 256.95,
+"e": 278.93,
 "scene": "Calibrate",
 "cites": [
 [
@@ -512,8 +512,8 @@
 ]
 },
 {
-"t": 278.58,
-"e": 299.75,
+"t": 278.93,
+"e": 300.1,
 "scene": "Resolution",
 "cites": [
 [
@@ -539,8 +539,8 @@
 ]
 },
 {
-"t": 299.75,
-"e": 311.13,
+"t": 300.1,
+"e": 311.48,
 "scene": "Resolution",
 "cites": [
 [
@@ -561,8 +561,8 @@
 ]
 },
 {
-"t": 311.13,
-"e": 332.9,
+"t": 311.48,
+"e": 333.25,
 "scene": "Axial",
 "cites": [
 [
@@ -598,8 +598,8 @@
 ]
 },
 {
-"t": 332.9,
-"e": 353.28,
+"t": 333.25,
+"e": 353.63,
 "scene": "Sensitivity",
 "cites": [
 [
@@ -630,8 +630,8 @@
 ]
 },
 {
-"t": 353.28,
-"e": 359.95,
+"t": 353.63,
+"e": 360.3,
 "scene": "Sensitivity",
 "cites": [
 [
@@ -657,8 +657,8 @@
 ]
 },
 {
-"t": 359.95,
-"e": 376.38,
+"t": 360.3,
+"e": 376.73,
 "scene": "Rates",
 "cites": [
 [
@@ -679,8 +679,8 @@
 ]
 },
 {
-"t": 376.38,
-"e": 392.17,
+"t": 376.73,
+"e": 392.52,
 "scene": "Rates",
 "cites": [
 [
@@ -701,8 +701,8 @@
 ]
 },
 {
-"t": 392.17,
-"e": 400.62,
+"t": 392.52,
+"e": 400.97,
 "scene": "Rates",
 "cites": [
 [
@@ -723,8 +723,8 @@
 ]
 },
 {
-"t": 400.62,
-"e": 425.43,
+"t": 400.97,
+"e": 425.78,
 "scene": "Images",
 "cites": [
 [
@@ -765,8 +765,8 @@
 ]
 },
 {
-"t": 425.43,
-"e": 450.0,
+"t": 425.78,
+"e": 450.35,
 "scene": "Images",
 "cites": [
 [
@@ -802,8 +802,8 @@
 ]
 },
 {
-"t": 450.0,
-"e": 470.08,
+"t": 450.35,
+"e": 470.43,
 "scene": "Recap",
 "cites": [
 [
@@ -824,8 +824,8 @@
 ]
 },
 {
-"t": 470.08,
-"e": 492.62,
+"t": 470.43,
+"e": 492.97,
 "scene": "Recap",
 "cites": [
 [
@@ -856,8 +856,8 @@
 ]
 },
 {
-"t": 492.62,
-"e": 508.74,
+"t": 492.97,
+"e": 509.09,
 "scene": "Recap",
 "cites": [
 [
