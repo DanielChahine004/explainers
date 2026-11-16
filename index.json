@@ -1,5 +1,5 @@
 {
-"generated": 1794796182,
+"generated": 1794827913,
 "playlists": [
 {
 "name": "PET reading",
@@ -25,6 +25,98 @@
 }
 ],
 "videos": [
+{
+"id": "slab_crlb",
+"title": "Bulk optical scattering as a depth-of-interaction design parameter in monolithic PET…",
+"dur": 462.4,
+"v": "fadd63e85c34",
+"size": 30628812,
+"src": "https://explainers-media.daniel-chahine004.workers.dev/slab_crlb/fadd63e85c34.mp4",
+"thumb": "https://explainers-media.daniel-chahine004.workers.dev/slab_crlb/fadd63e85c34.jpg",
+"small": "https://explainers-media.daniel-chahine004.workers.dev/slab_crlb/b2e4d2bc93b7-s.mp4",
+"issue": 29,
+"notes": 0,
+"added": 1792668460,
+"updated": 1794827913,
+"reels": [
+"r0-fadd63e85c34.jpg",
+"r1-fadd63e85c34.jpg",
+"r2-fadd63e85c34.jpg",
+"r3-fadd63e85c34.jpg",
+"r4-fadd63e85c34.jpg",
+"r5-fadd63e85c34.jpg",
+"r6-fadd63e85c34.jpg",
+"r7-fadd63e85c34.jpg",
+"r8-fadd63e85c34.jpg",
+"r9-fadd63e85c34.jpg",
+"r10-fadd63e85c34.jpg",
+"r11-fadd63e85c34.jpg",
+"r12-fadd63e85c34.jpg",
+"r13-fadd63e85c34.jpg",
+"av-fadd63e85c34.jpg"
+],
+"vtt": "https://explainers-media.daniel-chahine004.workers.dev/slab_crlb/fadd63e85c34.vtt",
+"chapters": [
+[
+"Intro",
+0.0
+],
+[
+"Detector",
+32.417
+],
+[
+"Scatter",
+72.101
+],
+[
+"Bound",
+113.568
+],
+[
+"Sweep",
+157.085
+],
+[
+"Counts",
+198.685
+],
+[
+"Ambiguity",
+233.585
+],
+[
+"Spread",
+257.369
+],
+[
+"Energy",
+285.703
+],
+[
+"Rim",
+307.77
+],
+[
+"Index",
+342.07
+],
+[
+"Rivals",
+369.62
+],
+[
+"Limits",
+397.954
+],
+[
+"Recap",
+423.904
+]
+],
+"paper": null,
+"sources": []
+},
 {
 "id": "pet_photon_ml",
 "title": "Machine learning enables experimental access to photon-by-photon arrival times in…",
@@ -4889,73 +4981,6 @@ null,
 "cite": "Di Giacomo et al. · IEEE TRPMS 2024",
 "url": "https://doi.org/10.1109/trpms.2024.3378421"
 },
-"sources": []
-},
-{
-"id": "slab_crlb",
-"title": "Bulk optical scattering as a depth-of-interaction design parameter in monolithic PET…",
-"dur": 485.3,
-"v": "873cd59a4e27",
-"size": 32299930,
-"src": "https://explainers-media.daniel-chahine004.workers.dev/slab_crlb/873cd59a4e27.mp4",
-"thumb": "https://explainers-media.daniel-chahine004.workers.dev/slab_crlb/873cd59a4e27.jpg",
-"small": "https://explainers-media.daniel-chahine004.workers.dev/slab_crlb/e3f879e6dc63-s.mp4",
-"issue": 29,
-"notes": 0,
-"added": 1792668460,
-"updated": 1793245020,
-"reels": [
-"r0-873cd59a4e27.jpg",
-"r1-873cd59a4e27.jpg",
-"r2-873cd59a4e27.jpg",
-"r3-873cd59a4e27.jpg",
-"r4-873cd59a4e27.jpg",
-"r5-873cd59a4e27.jpg",
-"r6-873cd59a4e27.jpg",
-"r7-873cd59a4e27.jpg",
-"r8-873cd59a4e27.jpg",
-"av-873cd59a4e27.jpg"
-],
-"vtt": "https://explainers-media.daniel-chahine004.workers.dev/slab_crlb/873cd59a4e27.vtt",
-"chapters": [
-[
-"Intro",
-0.0
-],
-[
-"Mechanism",
-47.817
-],
-[
-"Fisher",
-101.217
-],
-[
-"Pipeline",
-155.367
-],
-[
-"Sweep",
-201.417
-],
-[
-"Rim",
-251.317
-],
-[
-"Source",
-285.317
-],
-[
-"Index",
-355.251
-],
-[
-"Outro",
-401.968
-]
-],
-"paper": null,
 "sources": []
 },
 {
