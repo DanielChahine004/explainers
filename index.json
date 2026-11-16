@@ -1,5 +1,5 @@
 {
-"generated": 1794827913,
+"generated": 1794848614,
 "playlists": [
 {
 "name": "PET reading",
@@ -28,92 +28,19 @@
 {
 "id": "slab_crlb",
 "title": "Bulk optical scattering as a depth-of-interaction design parameter in monolithic PET…",
-"dur": 462.4,
-"v": "fadd63e85c34",
-"size": 30628812,
-"src": "https://explainers-media.daniel-chahine004.workers.dev/slab_crlb/fadd63e85c34.mp4",
-"thumb": "https://explainers-media.daniel-chahine004.workers.dev/slab_crlb/fadd63e85c34.jpg",
-"small": "https://explainers-media.daniel-chahine004.workers.dev/slab_crlb/b2e4d2bc93b7-s.mp4",
+"dur": 465.1,
+"v": "831194e7fd5b",
+"size": 30772247,
+"src": "https://explainers-media.daniel-chahine004.workers.dev/slab_crlb/831194e7fd5b.mp4",
+"thumb": "https://explainers-media.daniel-chahine004.workers.dev/slab_crlb/831194e7fd5b.jpg",
+"small": "https://explainers-media.daniel-chahine004.workers.dev/slab_crlb/5552e2be3d1f-s.mp4",
 "issue": 29,
 "notes": 0,
 "added": 1792668460,
-"updated": 1794827913,
-"reels": [
-"r0-fadd63e85c34.jpg",
-"r1-fadd63e85c34.jpg",
-"r2-fadd63e85c34.jpg",
-"r3-fadd63e85c34.jpg",
-"r4-fadd63e85c34.jpg",
-"r5-fadd63e85c34.jpg",
-"r6-fadd63e85c34.jpg",
-"r7-fadd63e85c34.jpg",
-"r8-fadd63e85c34.jpg",
-"r9-fadd63e85c34.jpg",
-"r10-fadd63e85c34.jpg",
-"r11-fadd63e85c34.jpg",
-"r12-fadd63e85c34.jpg",
-"r13-fadd63e85c34.jpg",
-"av-fadd63e85c34.jpg"
-],
-"vtt": "https://explainers-media.daniel-chahine004.workers.dev/slab_crlb/fadd63e85c34.vtt",
-"chapters": [
-[
-"Intro",
-0.0
-],
-[
-"Detector",
-32.417
-],
-[
-"Scatter",
-72.101
-],
-[
-"Bound",
-113.568
-],
-[
-"Sweep",
-157.085
-],
-[
-"Counts",
-198.685
-],
-[
-"Ambiguity",
-233.585
-],
-[
-"Spread",
-257.369
-],
-[
-"Energy",
-285.703
-],
-[
-"Rim",
-307.77
-],
-[
-"Index",
-342.07
-],
-[
-"Rivals",
-369.62
-],
-[
-"Limits",
-397.954
-],
-[
-"Recap",
-423.904
-]
-],
+"updated": 1794848614,
+"reels": [],
+"vtt": "https://explainers-media.daniel-chahine004.workers.dev/slab_crlb/831194e7fd5b.vtt",
+"chapters": [],
 "paper": null,
 "sources": []
 },
@@ -130,67 +57,9 @@
 "notes": 0,
 "added": 1794788472,
 "updated": 1794796182,
-"reels": [
-"r0-11102187ac64.jpg",
-"r1-11102187ac64.jpg",
-"r2-11102187ac64.jpg",
-"r3-11102187ac64.jpg",
-"r4-11102187ac64.jpg",
-"r5-11102187ac64.jpg",
-"r6-11102187ac64.jpg",
-"r7-11102187ac64.jpg",
-"r8-11102187ac64.jpg",
-"r9-11102187ac64.jpg",
-"r10-11102187ac64.jpg",
-"av-11102187ac64.jpg"
-],
+"reels": [],
 "vtt": "https://explainers-media.daniel-chahine004.workers.dev/pet_photon_ml/11102187ac64.vtt",
-"chapters": [
-[
-"Intro",
-0.0
-],
-[
-"Response",
-34.35
-],
-[
-"Product",
-61.767
-],
-[
-"Network",
-98.634
-],
-[
-"Binary",
-143.034
-],
-[
-"Simulation",
-171.668
-],
-[
-"Timing",
-223.352
-],
-[
-"Depth",
-285.286
-],
-[
-"Cherenkov",
-317.586
-],
-[
-"Limits",
-379.436
-],
-[
-"Recap",
-416.836
-]
-],
+"chapters": [],
 "paper": {
 "cite": "Onishi et al. · arXiv 2026",
 "url": "https://arxiv.org/abs/2605.27937"
@@ -819,77 +688,9 @@ null,
 "notes": 1,
 "added": 1794744320,
 "updated": 1794744320,
-"reels": [
-"r0-c5dbc29d2d66.jpg",
-"r1-c5dbc29d2d66.jpg",
-"r2-c5dbc29d2d66.jpg",
-"r3-c5dbc29d2d66.jpg",
-"r4-c5dbc29d2d66.jpg",
-"r5-c5dbc29d2d66.jpg",
-"r6-c5dbc29d2d66.jpg",
-"r7-c5dbc29d2d66.jpg",
-"r8-c5dbc29d2d66.jpg",
-"r9-c5dbc29d2d66.jpg",
-"r10-c5dbc29d2d66.jpg",
-"r11-c5dbc29d2d66.jpg",
-"r12-c5dbc29d2d66.jpg",
-"av-c5dbc29d2d66.jpg"
-],
+"reels": [],
 "vtt": "https://explainers-media.daniel-chahine004.workers.dev/plenoptic_scint/c5dbc29d2d66.vtt",
-"chapters": [
-[
-"Intro",
-0.0
-],
-[
-"Masks",
-31.517
-],
-[
-"Lens",
-58.834
-],
-[
-"Multifocal",
-94.684
-],
-[
-"Bound",
-137.318
-],
-[
-"Design",
-169.435
-],
-[
-"Build",
-205.419
-],
-[
-"Dictionary",
-240.703
-],
-[
-"Clicks",
-277.77
-],
-[
-"Reconstruct",
-308.004
-],
-[
-"Results",
-335.738
-],
-[
-"Double",
-376.972
-],
-[
-"Recap",
-412.122
-]
-],
+"chapters": [],
 "paper": {
 "cite": "Dai et al. · arXiv 2026",
 "url": "https://arxiv.org/abs/2607.01123"
@@ -1547,82 +1348,9 @@ null,
 "notes": 0,
 "added": 1794668894,
 "updated": 1794706495,
-"reels": [
-"r0-cd3cf32d9bd4.jpg",
-"r1-cd3cf32d9bd4.jpg",
-"r2-cd3cf32d9bd4.jpg",
-"r3-cd3cf32d9bd4.jpg",
-"r4-cd3cf32d9bd4.jpg",
-"r5-cd3cf32d9bd4.jpg",
-"r6-cd3cf32d9bd4.jpg",
-"r7-cd3cf32d9bd4.jpg",
-"r8-cd3cf32d9bd4.jpg",
-"r9-cd3cf32d9bd4.jpg",
-"r10-cd3cf32d9bd4.jpg",
-"r11-cd3cf32d9bd4.jpg",
-"r12-cd3cf32d9bd4.jpg",
-"r13-cd3cf32d9bd4.jpg",
-"av-cd3cf32d9bd4.jpg"
-],
+"reels": [],
 "vtt": "https://explainers-media.daniel-chahine004.workers.dev/semimono_preclinical/cd3cf32d9bd4.vtt",
-"chapters": [
-[
-"Intro",
-0.0
-],
-[
-"Parallax",
-29.05
-],
-[
-"Block",
-67.967
-],
-[
-"Scanner",
-98.917
-],
-[
-"Readout",
-121.301
-],
-[
-"Depth",
-154.885
-],
-[
-"Position",
-197.769
-],
-[
-"Calibrate",
-239.003
-],
-[
-"Resolution",
-279.187
-],
-[
-"Axial",
-311.737
-],
-[
-"Sensitivity",
-333.504
-],
-[
-"Rates",
-360.554
-],
-[
-"Images",
-401.221
-],
-[
-"Recap",
-450.605
-]
-],
+"chapters": [],
 "paper": {
 "cite": "Cucarella et al. · IEEE TRPMS 2026",
 "url": "https://doi.org/10.1109/TRPMS.2025.3648052",
@@ -2411,72 +2139,9 @@ null,
 "notes": 0,
 "added": 1794661165,
 "updated": 1794706495,
-"reels": [
-"r0-48aedaf04cb7.jpg",
-"r1-48aedaf04cb7.jpg",
-"r2-48aedaf04cb7.jpg",
-"r3-48aedaf04cb7.jpg",
-"r4-48aedaf04cb7.jpg",
-"r5-48aedaf04cb7.jpg",
-"r6-48aedaf04cb7.jpg",
-"r7-48aedaf04cb7.jpg",
-"r8-48aedaf04cb7.jpg",
-"r9-48aedaf04cb7.jpg",
-"r10-48aedaf04cb7.jpg",
-"r11-48aedaf04cb7.jpg",
-"av-48aedaf04cb7.jpg"
-],
+"reels": [],
 "vtt": "https://explainers-media.daniel-chahine004.workers.dev/lu177_dual/48aedaf04cb7.vtt",
-"chapters": [
-[
-"Intro",
-0.0
-],
-[
-"Spectrum",
-38.4
-],
-[
-"Detect",
-81.75
-],
-[
-"Counts",
-122.8
-],
-[
-"Joint",
-147.3
-],
-[
-"Transport",
-181.517
-],
-[
-"Adjoint",
-224.001
-],
-[
-"Design",
-264.001
-],
-[
-"Metric",
-301.785
-],
-[
-"Phantom",
-337.102
-],
-[
-"Patient",
-376.119
-],
-[
-"Recap",
-414.636
-]
-],
+"chapters": [],
 "paper": {
 "cite": "Polson et al. · EJNMMI Physics 2026",
 "url": "https://doi.org/10.1186/s40658-026-00963-4"
@@ -2726,67 +2391,9 @@ null,
 "notes": 0,
 "added": 1794493650,
 "updated": 1794493650,
-"reels": [
-"r0-ff16df123ea1.jpg",
-"r1-ff16df123ea1.jpg",
-"r2-ff16df123ea1.jpg",
-"r3-ff16df123ea1.jpg",
-"r4-ff16df123ea1.jpg",
-"r5-ff16df123ea1.jpg",
-"r6-ff16df123ea1.jpg",
-"r7-ff16df123ea1.jpg",
-"r8-ff16df123ea1.jpg",
-"r9-ff16df123ea1.jpg",
-"r10-ff16df123ea1.jpg",
-"av-ff16df123ea1.jpg"
-],
+"reels": [],
 "vtt": "https://explainers-media.daniel-chahine004.workers.dev/celeritas_optical/ff16df123ea1.vtt",
-"chapters": [
-[
-"Intro",
-0.0
-],
-[
-"Slab",
-33.534
-],
-[
-"Lattice",
-81.118
-],
-[
-"Compare",
-105.585
-],
-[
-"Unit",
-141.152
-],
-[
-"Arrival",
-175.552
-],
-[
-"Events",
-201.552
-],
-[
-"Speed",
-237.052
-],
-[
-"Trapped",
-263.319
-],
-[
-"Problems",
-291.603
-],
-[
-"Recap",
-327.537
-]
-],
+"chapters": [],
 "paper": null,
 "sources": []
 },
@@ -2803,52 +2410,9 @@ null,
 "notes": 0,
 "added": 1794448462,
 "updated": 1794448462,
-"reels": [
-"r0-d5d881918af3.jpg",
-"r1-d5d881918af3.jpg",
-"r2-d5d881918af3.jpg",
-"r3-d5d881918af3.jpg",
-"r4-d5d881918af3.jpg",
-"r5-d5d881918af3.jpg",
-"r6-d5d881918af3.jpg",
-"r7-d5d881918af3.jpg",
-"av-d5d881918af3.jpg"
-],
+"reels": [],
 "vtt": "https://explainers-media.daniel-chahine004.workers.dev/lxe_tpc/d5d881918af3.vtt",
-"chapters": [
-[
-"Intro",
-0.0
-],
-[
-"Crystal",
-28.65
-],
-[
-"Module",
-58.484
-],
-[
-"Position",
-94.584
-],
-[
-"Stopping",
-126.418
-],
-[
-"Window",
-160.285
-],
-[
-"Image",
-216.019
-],
-[
-"Recap",
-267.569
-]
-],
+"chapters": [],
 "paper": {
 "cite": "Li, Ma & Ni · arXiv 2026",
 "url": "https://arxiv.org/abs/2603.25974"
@@ -2868,62 +2432,9 @@ null,
 "notes": 0,
 "added": 1794445355,
 "updated": 1794445355,
-"reels": [
-"r0-04ac08a87403.jpg",
-"r1-04ac08a87403.jpg",
-"r2-04ac08a87403.jpg",
-"r3-04ac08a87403.jpg",
-"r4-04ac08a87403.jpg",
-"r5-04ac08a87403.jpg",
-"r6-04ac08a87403.jpg",
-"r7-04ac08a87403.jpg",
-"r8-04ac08a87403.jpg",
-"r9-04ac08a87403.jpg",
-"av-04ac08a87403.jpg"
-],
+"reels": [],
 "vtt": "https://explainers-media.daniel-chahine004.workers.dev/bgo_compton/04ac08a87403.vtt",
-"chapters": [
-[
-"Intro",
-0.0
-],
-[
-"Bench",
-33.267
-],
-[
-"Race",
-69.851
-],
-[
-"Classes",
-107.068
-],
-[
-"Hidden",
-151.435
-],
-[
-"Earlier",
-187.535
-],
-[
-"Energy",
-226.719
-],
-[
-"Starved",
-271.453
-],
-[
-"Design",
-305.503
-],
-[
-"Recap",
-343.487
-]
-],
+"chapters": [],
 "paper": {
 "cite": "Yi et al. · arXiv 2025",
 "url": "https://arxiv.org/abs/2511.20864"
@@ -2943,67 +2454,9 @@ null,
 "notes": 0,
 "added": 1794442299,
 "updated": 1794442299,
-"reels": [
-"r0-dfbc97e0ff73.jpg",
-"r1-dfbc97e0ff73.jpg",
-"r2-dfbc97e0ff73.jpg",
-"r3-dfbc97e0ff73.jpg",
-"r4-dfbc97e0ff73.jpg",
-"r5-dfbc97e0ff73.jpg",
-"r6-dfbc97e0ff73.jpg",
-"r7-dfbc97e0ff73.jpg",
-"r8-dfbc97e0ff73.jpg",
-"r9-dfbc97e0ff73.jpg",
-"r10-dfbc97e0ff73.jpg",
-"av-dfbc97e0ff73.jpg"
-],
+"reels": [],
 "vtt": "https://explainers-media.daniel-chahine004.workers.dev/rydberg_radar/dfbc97e0ff73.vtt",
-"chapters": [
-[
-"Intro",
-0.0
-],
-[
-"Bench",
-32.767
-],
-[
-"Atoms",
-71.967
-],
-[
-"Mixer",
-110.301
-],
-[
-"Hop",
-147.835
-],
-[
-"Profile",
-189.252
-],
-[
-"Curve",
-223.536
-],
-[
-"Clean",
-261.453
-],
-[
-"Accuracy",
-297.82
-],
-[
-"Resolve",
-332.97
-],
-[
-"Recap",
-366.337
-]
-],
+"chapters": [],
 "paper": {
 "cite": "Chen et al. · arXiv 2025",
 "url": "https://arxiv.org/abs/2506.11833"
@@ -3023,77 +2476,9 @@ null,
 "notes": 0,
 "added": 1794417311,
 "updated": 1794417311,
-"reels": [
-"r0-f9f25dba32df.jpg",
-"r1-f9f25dba32df.jpg",
-"r2-f9f25dba32df.jpg",
-"r3-f9f25dba32df.jpg",
-"r4-f9f25dba32df.jpg",
-"r5-f9f25dba32df.jpg",
-"r6-f9f25dba32df.jpg",
-"r7-f9f25dba32df.jpg",
-"r8-f9f25dba32df.jpg",
-"r9-f9f25dba32df.jpg",
-"r10-f9f25dba32df.jpg",
-"r11-f9f25dba32df.jpg",
-"r12-f9f25dba32df.jpg",
-"av-f9f25dba32df.jpg"
-],
+"reels": [],
 "vtt": "https://explainers-media.daniel-chahine004.workers.dev/mono_review/f9f25dba32df.vtt",
-"chapters": [
-[
-"Intro",
-0.0
-],
-[
-"Parallax",
-31.4
-],
-[
-"Light",
-57.867
-],
-[
-"Depth",
-104.467
-],
-[
-"Centroid",
-130.717
-],
-[
-"Library",
-159.167
-],
-[
-"Learn",
-199.984
-],
-[
-"Walls",
-227.934
-],
-[
-"Calibrate",
-253.734
-],
-[
-"Timing",
-286.901
-],
-[
-"Beyond",
-335.735
-],
-[
-"Systems",
-354.919
-],
-[
-"Recap",
-375.703
-]
-],
+"chapters": [],
 "paper": {
 "cite": "González-Montoro et al. · IEEE TRPMS 2021",
 "url": "https://doi.org/10.1109/trpms.2021.3059181"
@@ -3113,77 +2498,9 @@ null,
 "notes": 0,
 "added": 1794415598,
 "updated": 1794415598,
-"reels": [
-"r0-d8ddef26896a.jpg",
-"r1-d8ddef26896a.jpg",
-"r2-d8ddef26896a.jpg",
-"r3-d8ddef26896a.jpg",
-"r4-d8ddef26896a.jpg",
-"r5-d8ddef26896a.jpg",
-"r6-d8ddef26896a.jpg",
-"r7-d8ddef26896a.jpg",
-"r8-d8ddef26896a.jpg",
-"r9-d8ddef26896a.jpg",
-"r10-d8ddef26896a.jpg",
-"r11-d8ddef26896a.jpg",
-"r12-d8ddef26896a.jpg",
-"av-d8ddef26896a.jpg"
-],
+"reels": [],
 "vtt": "https://explainers-media.daniel-chahine004.workers.dev/pico40l/d8ddef26896a.vtt",
-"chapters": [
-[
-"Intro",
-0.0
-],
-[
-"Superheat",
-19.55
-],
-[
-"Cycle",
-65.15
-],
-[
-"Inverted",
-96.05
-],
-[
-"Zones",
-134.384
-],
-[
-"Eye",
-159.651
-],
-[
-"Locate",
-178.301
-],
-[
-"Ears",
-207.318
-],
-[
-"Alpha",
-232.018
-],
-[
-"Count",
-259.885
-],
-[
-"Shield",
-277.069
-],
-[
-"Budget",
-299.619
-],
-[
-"Recap",
-322.403
-]
-],
+"chapters": [],
 "paper": {
 "cite": "PICO Collaboration · JINST 2026",
 "url": "https://arxiv.org/abs/2611.09517"
@@ -3203,62 +2520,9 @@ null,
 "notes": 0,
 "added": 1794410585,
 "updated": 1794410585,
-"reels": [
-"r0-753fc32272b4.jpg",
-"r1-753fc32272b4.jpg",
-"r2-753fc32272b4.jpg",
-"r3-753fc32272b4.jpg",
-"r4-753fc32272b4.jpg",
-"r5-753fc32272b4.jpg",
-"r6-753fc32272b4.jpg",
-"r7-753fc32272b4.jpg",
-"r8-753fc32272b4.jpg",
-"r9-753fc32272b4.jpg",
-"av-753fc32272b4.jpg"
-],
+"reels": [],
 "vtt": "https://explainers-media.daniel-chahine004.workers.dev/pet_mrpc/753fc32272b4.vtt",
-"chapters": [
-[
-"Intro",
-0.0
-],
-[
-"Idea",
-35.367
-],
-[
-"Yield",
-66.034
-],
-[
-"Direct",
-104.068
-],
-[
-"Sandwich",
-146.385
-],
-[
-"Stack",
-193.569
-],
-[
-"Body",
-239.969
-],
-[
-"Build",
-278.036
-],
-[
-"Timing",
-305.636
-],
-[
-"Recap",
-329.77
-]
-],
+"chapters": [],
 "paper": {
 "cite": "Georgiev et al. · arXiv 2012",
 "url": "https://arxiv.org/abs/1212.5551"
@@ -3278,77 +2542,9 @@ null,
 "notes": 0,
 "added": 1794405587,
 "updated": 1794405587,
-"reels": [
-"r0-170fccac76ff.jpg",
-"r1-170fccac76ff.jpg",
-"r2-170fccac76ff.jpg",
-"r3-170fccac76ff.jpg",
-"r4-170fccac76ff.jpg",
-"r5-170fccac76ff.jpg",
-"r6-170fccac76ff.jpg",
-"r7-170fccac76ff.jpg",
-"r8-170fccac76ff.jpg",
-"r9-170fccac76ff.jpg",
-"r10-170fccac76ff.jpg",
-"r11-170fccac76ff.jpg",
-"r12-170fccac76ff.jpg",
-"av-170fccac76ff.jpg"
-],
+"reels": [],
 "vtt": "https://explainers-media.daniel-chahine004.workers.dev/pet_entangled/170fccac76ff.vtt",
-"chapters": [
-[
-"Intro",
-0.0
-],
-[
-"Pair",
-30.55
-],
-[
-"Planes",
-55.884
-],
-[
-"Witness",
-83.768
-],
-[
-"Sim",
-118.752
-],
-[
-"Rig",
-144.519
-],
-[
-"Result",
-181.586
-],
-[
-"Loss",
-218.086
-],
-[
-"Idea",
-248.27
-],
-[
-"Scanner",
-276.387
-],
-[
-"Extract",
-304.987
-],
-[
-"Limits",
-338.521
-],
-[
-"Recap",
-365.871
-]
-],
+"chapters": [],
 "paper": {
 "cite": "Watts et al. · Nature Communications 2021",
 "url": "https://doi.org/10.1038/s41467-021-22907-5"
@@ -3368,67 +2564,9 @@ null,
 "notes": 0,
 "added": 1794398201,
 "updated": 1794398201,
-"reels": [
-"r0-4c5f8f6c76a8.jpg",
-"r1-4c5f8f6c76a8.jpg",
-"r2-4c5f8f6c76a8.jpg",
-"r3-4c5f8f6c76a8.jpg",
-"r4-4c5f8f6c76a8.jpg",
-"r5-4c5f8f6c76a8.jpg",
-"r6-4c5f8f6c76a8.jpg",
-"r7-4c5f8f6c76a8.jpg",
-"r8-4c5f8f6c76a8.jpg",
-"r9-4c5f8f6c76a8.jpg",
-"r10-4c5f8f6c76a8.jpg",
-"av-4c5f8f6c76a8.jpg"
-],
+"reels": [],
 "vtt": "https://explainers-media.daniel-chahine004.workers.dev/pet_g4_configs/4c5f8f6c76a8.vtt",
-"chapters": [
-[
-"Intro",
-0.0
-],
-[
-"Scanners",
-34.1
-],
-[
-"Pair",
-74.667
-],
-[
-"Source",
-115.067
-],
-[
-"Gap",
-162.517
-],
-[
-"Position",
-211.284
-],
-[
-"Ctrs",
-250.134
-],
-[
-"Widths",
-292.734
-],
-[
-"Acceptance",
-344.034
-],
-[
-"Limits",
-376.218
-],
-[
-"Recap",
-423.818
-]
-],
+"chapters": [],
 "paper": {
 "cite": "López Toxquia et al. · arXiv 2023",
 "url": "https://arxiv.org/abs/2311.03522"
@@ -3448,102 +2586,9 @@ null,
 "notes": 0,
 "added": 1794387534,
 "updated": 1794387534,
-"reels": [
-"r0-7523050c84ce.jpg",
-"r1-7523050c84ce.jpg",
-"r2-7523050c84ce.jpg",
-"r3-7523050c84ce.jpg",
-"r4-7523050c84ce.jpg",
-"r5-7523050c84ce.jpg",
-"r6-7523050c84ce.jpg",
-"r7-7523050c84ce.jpg",
-"r8-7523050c84ce.jpg",
-"r9-7523050c84ce.jpg",
-"r10-7523050c84ce.jpg",
-"r11-7523050c84ce.jpg",
-"r12-7523050c84ce.jpg",
-"r13-7523050c84ce.jpg",
-"r14-7523050c84ce.jpg",
-"r15-7523050c84ce.jpg",
-"r16-7523050c84ce.jpg",
-"r17-7523050c84ce.jpg",
-"av-7523050c84ce.jpg"
-],
+"reels": [],
 "vtt": "https://explainers-media.daniel-chahine004.workers.dev/g4_setup/7523050c84ce.vtt",
-"chapters": [
-[
-"Intro",
-0.0
-],
-[
-"One file",
-53.8
-],
-[
-"Volume",
-102.334
-],
-[
-"Main",
-135.068
-],
-[
-"Calls",
-169.202
-],
-[
-"Tools",
-218.386
-],
-[
-"Build",
-270.77
-],
-[
-"C make",
-321.32
-],
-[
-"Split",
-357.67
-],
-[
-"Threads",
-406.554
-],
-[
-"Rows",
-452.721
-],
-[
-"Macro",
-491.405
-],
-[
-"Light files",
-531.972
-],
-[
-"Light",
-575.922
-],
-[
-"Slab",
-621.089
-],
-[
-"Slab calls",
-673.823
-],
-[
-"Wrong",
-722.39
-],
-[
-"Recap",
-768.957
-]
-],
+"chapters": [],
 "paper": null,
 "sources": []
 },
@@ -3560,102 +2605,9 @@ null,
 "notes": 0,
 "added": 1794377630,
 "updated": 1794377630,
-"reels": [
-"r0-4a71f74120e4.jpg",
-"r1-4a71f74120e4.jpg",
-"r2-4a71f74120e4.jpg",
-"r3-4a71f74120e4.jpg",
-"r4-4a71f74120e4.jpg",
-"r5-4a71f74120e4.jpg",
-"r6-4a71f74120e4.jpg",
-"r7-4a71f74120e4.jpg",
-"r8-4a71f74120e4.jpg",
-"r9-4a71f74120e4.jpg",
-"r10-4a71f74120e4.jpg",
-"r11-4a71f74120e4.jpg",
-"r12-4a71f74120e4.jpg",
-"r13-4a71f74120e4.jpg",
-"r14-4a71f74120e4.jpg",
-"r15-4a71f74120e4.jpg",
-"r16-4a71f74120e4.jpg",
-"r17-4a71f74120e4.jpg",
-"av-4a71f74120e4.jpg"
-],
+"reels": [],
 "vtt": "https://explainers-media.daniel-chahine004.workers.dev/g4_inside/4a71f74120e4.vtt",
-"chapters": [
-[
-"Hook",
-0.0
-],
-[
-"Moves",
-54.034
-],
-[
-"Pieces",
-104.968
-],
-[
-"Loops",
-177.502
-],
-[
-"Stack",
-225.552
-],
-[
-"Suspend",
-264.402
-],
-[
-"Ask",
-319.719
-],
-[
-"Act",
-379.303
-],
-[
-"Budget",
-435.053
-],
-[
-"Limit",
-482.137
-],
-[
-"Forced",
-529.587
-],
-[
-"Interface",
-577.937
-],
-[
-"Deposit",
-643.037
-],
-[
-"Arrival",
-693.087
-],
-[
-"Keep",
-743.854
-],
-[
-"Pair",
-785.454
-],
-[
-"Readout",
-841.304
-],
-[
-"Recap",
-889.288
-]
-],
+"chapters": [],
 "paper": null,
 "sources": []
 },
@@ -3672,72 +2624,9 @@ null,
 "notes": 0,
 "added": 1794367310,
 "updated": 1794367310,
-"reels": [
-"r0-97d44e92059b.jpg",
-"r1-97d44e92059b.jpg",
-"r2-97d44e92059b.jpg",
-"r3-97d44e92059b.jpg",
-"r4-97d44e92059b.jpg",
-"r5-97d44e92059b.jpg",
-"r6-97d44e92059b.jpg",
-"r7-97d44e92059b.jpg",
-"r8-97d44e92059b.jpg",
-"r9-97d44e92059b.jpg",
-"r10-97d44e92059b.jpg",
-"r11-97d44e92059b.jpg",
-"av-97d44e92059b.jpg"
-],
+"reels": [],
 "vtt": "https://explainers-media.daniel-chahine004.workers.dev/g4_tutorial/97d44e92059b.vtt",
-"chapters": [
-[
-"Opening",
-0.0
-],
-[
-"Toolkit",
-38.317
-],
-[
-"Loops",
-72.867
-],
-[
-"Stack",
-117.634
-],
-[
-"Provide",
-167.118
-],
-[
-"Hooks",
-244.068
-],
-[
-"Race",
-283.135
-],
-[
-"Sample",
-328.319
-],
-[
-"Gamma",
-357.069
-],
-[
-"Light",
-403.969
-],
-[
-"Row",
-455.503
-],
-[
-"Recap",
-489.437
-]
-],
+"chapters": [],
 "paper": null,
 "sources": []
 },
@@ -3754,62 +2643,9 @@ null,
 "notes": 0,
 "added": 1794307974,
 "updated": 1794307974,
-"reels": [
-"r0-d42867cf2abf.jpg",
-"r1-d42867cf2abf.jpg",
-"r2-d42867cf2abf.jpg",
-"r3-d42867cf2abf.jpg",
-"r4-d42867cf2abf.jpg",
-"r5-d42867cf2abf.jpg",
-"r6-d42867cf2abf.jpg",
-"r7-d42867cf2abf.jpg",
-"r8-d42867cf2abf.jpg",
-"r9-d42867cf2abf.jpg",
-"av-d42867cf2abf.jpg"
-],
+"reels": [],
 "vtt": "https://explainers-media.daniel-chahine004.workers.dev/si_psf/d42867cf2abf.vtt",
-"chapters": [
-[
-"Open",
-0.0
-],
-[
-"Blob",
-34.467
-],
-[
-"Crystal",
-72.334
-],
-[
-"Mirror",
-112.934
-],
-[
-"Dipoles",
-153.551
-],
-[
-"Shapes",
-194.468
-],
-[
-"Features",
-235.302
-],
-[
-"Stairs",
-272.769
-],
-[
-"Track",
-318.936
-],
-[
-"Close",
-362.253
-]
-],
+"chapters": [],
 "paper": {
 "cite": "Liu, Zhou, Wang et al. · Nature Communications 2021",
 "url": "https://doi.org/10.1038/s41467-021-22283-0"
@@ -3829,87 +2665,9 @@ null,
 "notes": 0,
 "added": 1794302630,
 "updated": 1794302630,
-"reels": [
-"r0-f84fc45d5ad5.jpg",
-"r1-f84fc45d5ad5.jpg",
-"r2-f84fc45d5ad5.jpg",
-"r3-f84fc45d5ad5.jpg",
-"r4-f84fc45d5ad5.jpg",
-"r5-f84fc45d5ad5.jpg",
-"r6-f84fc45d5ad5.jpg",
-"r7-f84fc45d5ad5.jpg",
-"r8-f84fc45d5ad5.jpg",
-"r9-f84fc45d5ad5.jpg",
-"r10-f84fc45d5ad5.jpg",
-"r11-f84fc45d5ad5.jpg",
-"r12-f84fc45d5ad5.jpg",
-"r13-f84fc45d5ad5.jpg",
-"r14-f84fc45d5ad5.jpg",
-"av-f84fc45d5ad5.jpg"
-],
+"reels": [],
 "vtt": "https://explainers-media.daniel-chahine004.workers.dev/geant4/f84fc45d5ad5.vtt",
-"chapters": [
-[
-"Open",
-0.0
-],
-[
-"Cited",
-30.45
-],
-[
-"Spread",
-58.984
-],
-[
-"Toolkit",
-88.134
-],
-[
-"Fortran",
-122.984
-],
-[
-"Blind",
-156.234
-],
-[
-"Layers",
-188.968
-],
-[
-"Voxels",
-223.535
-],
-[
-"Cuts",
-252.902
-],
-[
-"Threads",
-285.119
-],
-[
-"Language",
-307.253
-],
-[
-"Team",
-341.653
-],
-[
-"Telescope",
-376.103
-],
-[
-"Pyramid",
-409.703
-],
-[
-"Close",
-432.403
-]
-],
+"chapters": [],
 "paper": {
 "cite": "Basaglia et al. · arXiv 2024",
 "url": "https://arxiv.org/abs/2405.12159"
@@ -3929,82 +2687,9 @@ null,
 "notes": 0,
 "added": 1793859877,
 "updated": 1794272010,
-"reels": [
-"r0-01ff96919388.jpg",
-"r1-01ff96919388.jpg",
-"r2-01ff96919388.jpg",
-"r3-01ff96919388.jpg",
-"r4-01ff96919388.jpg",
-"r5-01ff96919388.jpg",
-"r6-01ff96919388.jpg",
-"r7-01ff96919388.jpg",
-"r8-01ff96919388.jpg",
-"r9-01ff96919388.jpg",
-"r10-01ff96919388.jpg",
-"r11-01ff96919388.jpg",
-"r12-01ff96919388.jpg",
-"r13-01ff96919388.jpg",
-"av-01ff96919388.jpg"
-],
+"reels": [],
 "vtt": "https://explainers-media.daniel-chahine004.workers.dev/capstone/01ff96919388.vtt",
-"chapters": [
-[
-"Front",
-0.0
-],
-[
-"Unreliable",
-31.534
-],
-[
-"Entangled",
-67.468
-],
-[
-"Fields",
-100.402
-],
-[
-"Modes",
-131.136
-],
-[
-"Fit",
-160.753
-],
-[
-"Sources",
-190.337
-],
-[
-"Ladder",
-223.871
-],
-[
-"Separation",
-254.688
-],
-[
-"Fidelity",
-306.522
-],
-[
-"Recovery",
-340.556
-],
-[
-"Confounds",
-376.573
-],
-[
-"Subjects",
-410.64
-],
-[
-"Map",
-443.99
-]
-],
+"chapters": [],
 "paper": null,
 "sources": []
 },
@@ -4021,62 +2706,9 @@ null,
 "notes": 0,
 "added": 1794193704,
 "updated": 1794630231,
-"reels": [
-"r0-b62ac5f05171.jpg",
-"r1-b62ac5f05171.jpg",
-"r2-b62ac5f05171.jpg",
-"r3-b62ac5f05171.jpg",
-"r4-b62ac5f05171.jpg",
-"r5-b62ac5f05171.jpg",
-"r6-b62ac5f05171.jpg",
-"r7-b62ac5f05171.jpg",
-"r8-b62ac5f05171.jpg",
-"r9-b62ac5f05171.jpg",
-"av-b62ac5f05171.jpg"
-],
+"reels": [],
 "vtt": "https://explainers-media.daniel-chahine004.workers.dev/mc_recon/b62ac5f05171.vtt",
-"chapters": [
-[
-"Intro",
-0.0
-],
-[
-"Loop",
-56.6
-],
-[
-"Mismatch",
-97.267
-],
-[
-"Faster",
-146.534
-],
-[
-"Scatter",
-191.784
-],
-[
-"Range",
-241.484
-],
-[
-"Signal",
-283.784
-],
-[
-"Inside",
-329.118
-],
-[
-"Hardware",
-388.435
-],
-[
-"Takeaway",
-430.469
-]
-],
+"chapters": [],
 "paper": {
 "cite": "Schramm et al. · arXiv 2026",
 "url": "https://arxiv.org/abs/2610.41583"
@@ -4096,77 +2728,9 @@ null,
 "notes": 0,
 "added": 1794062352,
 "updated": 1794192613,
-"reels": [
-"r0-34719e6f6899.jpg",
-"r1-34719e6f6899.jpg",
-"r2-34719e6f6899.jpg",
-"r3-34719e6f6899.jpg",
-"r4-34719e6f6899.jpg",
-"r5-34719e6f6899.jpg",
-"r6-34719e6f6899.jpg",
-"r7-34719e6f6899.jpg",
-"r8-34719e6f6899.jpg",
-"r9-34719e6f6899.jpg",
-"r10-34719e6f6899.jpg",
-"r11-34719e6f6899.jpg",
-"r12-34719e6f6899.jpg",
-"av-34719e6f6899.jpg"
-],
+"reels": [],
 "vtt": "https://explainers-media.daniel-chahine004.workers.dev/lnp_comet/34719e6f6899.vtt",
-"chapters": [
-[
-"Intro",
-0.0
-],
-[
-"Recipe",
-43.317
-],
-[
-"Lance",
-86.001
-],
-[
-"Reads",
-135.885
-],
-[
-"Tokens",
-187.235
-],
-[
-"Attention",
-222.135
-],
-[
-"Ranking",
-258.069
-],
-[
-"Scores",
-294.719
-],
-[
-"Learned",
-353.553
-],
-[
-"Screen",
-390.92
-],
-[
-"Bench",
-433.97
-],
-[
-"Reach",
-472.97
-],
-[
-"Takeaway",
-514.954
-]
-],
+"chapters": [],
 "paper": {
 "cite": "Chan, Kirtane et al. · Nature Nanotechnology 2025",
 "url": "https://doi.org/10.1038/s41565-025-01975-4"
@@ -4186,62 +2750,9 @@ null,
 "notes": 0,
 "added": 1793857620,
 "updated": 1794090623,
-"reels": [
-"r0-3312bbde110e.jpg",
-"r1-3312bbde110e.jpg",
-"r2-3312bbde110e.jpg",
-"r3-3312bbde110e.jpg",
-"r4-3312bbde110e.jpg",
-"r5-3312bbde110e.jpg",
-"r6-3312bbde110e.jpg",
-"r7-3312bbde110e.jpg",
-"r8-3312bbde110e.jpg",
-"r9-3312bbde110e.jpg",
-"av-3312bbde110e.jpg"
-],
+"reels": [],
 "vtt": "https://explainers-media.daniel-chahine004.workers.dev/bone_putty/3312bbde110e.vtt",
-"chapters": [
-[
-"Intro",
-0.0
-],
-[
-"Problem",
-37.45
-],
-[
-"Idea",
-104.617
-],
-[
-"Recipe",
-143.717
-],
-[
-"Cells",
-197.501
-],
-[
-"Putty",
-254.868
-],
-[
-"Rats",
-308.485
-],
-[
-"Slices",
-384.735
-],
-[
-"Trust",
-438.952
-],
-[
-"Takeaway",
-470.902
-]
-],
+"chapters": [],
 "paper": {
 "cite": "Zhang et al. · Cell and Tissue Banking 2018",
 "url": "https://doi.org/10.1007/s10561-018-9708-z"
@@ -4261,57 +2772,9 @@ null,
 "notes": 0,
 "added": 1792678140,
 "updated": 1794090256,
-"reels": [
-"r0-0065e52f56b2.jpg",
-"r1-0065e52f56b2.jpg",
-"r2-0065e52f56b2.jpg",
-"r3-0065e52f56b2.jpg",
-"r4-0065e52f56b2.jpg",
-"r5-0065e52f56b2.jpg",
-"r6-0065e52f56b2.jpg",
-"r7-0065e52f56b2.jpg",
-"r8-0065e52f56b2.jpg",
-"av-0065e52f56b2.jpg"
-],
+"reels": [],
 "vtt": "https://explainers-media.daniel-chahine004.workers.dev/brain_swin/0065e52f56b2.vtt",
-"chapters": [
-[
-"Front",
-0.0
-],
-[
-"Opening",
-11.367
-],
-[
-"Intro",
-21.617
-],
-[
-"Data",
-50.601
-],
-[
-"Model",
-82.185
-],
-[
-"Loss",
-140.469
-],
-[
-"Results",
-168.686
-],
-[
-"Regions",
-217.636
-],
-[
-"Outro",
-248.253
-]
-],
+"chapters": [],
 "paper": {
 "cite": "Sun, Chahine et al. · IEEE JBHI 2025",
 "url": "https://doi.org/10.1109/jbhi.2025.3613793"
@@ -4331,77 +2794,9 @@ null,
 "notes": 0,
 "added": 1793073406,
 "updated": 1793247739,
-"reels": [
-"r0-dfba045dd11b.jpg",
-"r1-dfba045dd11b.jpg",
-"r2-dfba045dd11b.jpg",
-"r3-dfba045dd11b.jpg",
-"r4-dfba045dd11b.jpg",
-"r5-dfba045dd11b.jpg",
-"r6-dfba045dd11b.jpg",
-"r7-dfba045dd11b.jpg",
-"r8-dfba045dd11b.jpg",
-"r9-dfba045dd11b.jpg",
-"r10-dfba045dd11b.jpg",
-"r11-dfba045dd11b.jpg",
-"r12-dfba045dd11b.jpg",
-"av-dfba045dd11b.jpg"
-],
+"reels": [],
 "vtt": "https://explainers-media.daniel-chahine004.workers.dev/pet_semimono_nn/dfba045dd11b.vtt",
-"chapters": [
-[
-"Intro",
-0.0
-],
-[
-"Why",
-71.534
-],
-[
-"Before",
-139.901
-],
-[
-"Coatings",
-175.368
-],
-[
-"Bench",
-237.118
-],
-[
-"Signals",
-273.252
-],
-[
-"Network",
-325.686
-],
-[
-"Energy",
-388.97
-],
-[
-"Maps",
-449.037
-],
-[
-"Averages",
-486.504
-],
-[
-"Discussion",
-521.488
-],
-[
-"Close",
-601.222
-],
-[
-"Takeaway",
-644.589
-]
-],
+"chapters": [],
 "paper": {
 "cite": "Freire et al. · Phys Med Biol 2022",
 "url": "https://doi.org/10.1088/1361-6560/aca389"
@@ -4421,67 +2816,9 @@ null,
 "notes": 0,
 "added": 1793014851,
 "updated": 1793247460,
-"reels": [
-"r0-b8f254d1493c.jpg",
-"r1-b8f254d1493c.jpg",
-"r2-b8f254d1493c.jpg",
-"r3-b8f254d1493c.jpg",
-"r4-b8f254d1493c.jpg",
-"r5-b8f254d1493c.jpg",
-"r6-b8f254d1493c.jpg",
-"r7-b8f254d1493c.jpg",
-"r8-b8f254d1493c.jpg",
-"r9-b8f254d1493c.jpg",
-"r10-b8f254d1493c.jpg",
-"av-b8f254d1493c.jpg"
-],
+"reels": [],
 "vtt": "https://explainers-media.daniel-chahine004.workers.dev/pet_perovskite/b8f254d1493c.vtt",
-"chapters": [
-[
-"Intro",
-0.0
-],
-[
-"Timing",
-47.4
-],
-[
-"Problem",
-109.85
-],
-[
-"Decay",
-161.3
-],
-[
-"X ray",
-191.934
-],
-[
-"Light",
-276.234
-],
-[
-"Gamma",
-310.584
-],
-[
-"Conclusion",
-376.951
-],
-[
-"Methods",
-420.218
-],
-[
-"References",
-499.968
-],
-[
-"Takeaway",
-520.402
-]
-],
+"chapters": [],
 "paper": {
 "cite": "Pagano et al. · Adv Mater Interfaces 2024",
 "url": "https://doi.org/10.1002/admi.202300659"
@@ -4501,77 +2838,9 @@ null,
 "notes": 0,
 "added": 1793023992,
 "updated": 1793247178,
-"reels": [
-"r0-f193b3a3804b.jpg",
-"r1-f193b3a3804b.jpg",
-"r2-f193b3a3804b.jpg",
-"r3-f193b3a3804b.jpg",
-"r4-f193b3a3804b.jpg",
-"r5-f193b3a3804b.jpg",
-"r6-f193b3a3804b.jpg",
-"r7-f193b3a3804b.jpg",
-"r8-f193b3a3804b.jpg",
-"r9-f193b3a3804b.jpg",
-"r10-f193b3a3804b.jpg",
-"r11-f193b3a3804b.jpg",
-"r12-f193b3a3804b.jpg",
-"av-f193b3a3804b.jpg"
-],
+"reels": [],
 "vtt": "https://explainers-media.daniel-chahine004.workers.dev/pet_nn_timestamp/f193b3a3804b.vtt",
-"chapters": [
-[
-"Intro",
-0.0
-],
-[
-"Clock",
-71.0
-],
-[
-"Simulation",
-168.417
-],
-[
-"Position",
-234.734
-],
-[
-"Stamps",
-314.451
-],
-[
-"Bench",
-391.751
-],
-[
-"Placing",
-465.101
-],
-[
-"Timing",
-531.218
-],
-[
-"Joint",
-579.518
-],
-[
-"Real",
-632.952
-],
-[
-"Discussion",
-726.302
-],
-[
-"Close",
-788.552
-],
-[
-"Takeaway",
-847.736
-]
-],
+"chapters": [],
 "paper": {
 "cite": "Carra et al. · Phys Med Biol 2022",
 "url": "https://doi.org/10.1088/1361-6560/ac72f2"
@@ -4591,62 +2860,9 @@ null,
 "notes": 0,
 "added": 1793020489,
 "updated": 1793246869,
-"reels": [
-"r0-641a6d80839c.jpg",
-"r1-641a6d80839c.jpg",
-"r2-641a6d80839c.jpg",
-"r3-641a6d80839c.jpg",
-"r4-641a6d80839c.jpg",
-"r5-641a6d80839c.jpg",
-"r6-641a6d80839c.jpg",
-"r7-641a6d80839c.jpg",
-"r8-641a6d80839c.jpg",
-"r9-641a6d80839c.jpg",
-"av-641a6d80839c.jpg"
-],
+"reels": [],
 "vtt": "https://explainers-media.daniel-chahine004.workers.dev/pet_nn_monolithic/641a6d80839c.vtt",
-"chapters": [
-[
-"Intro",
-0.0
-],
-[
-"Monolithic",
-63.5
-],
-[
-"Data",
-131.9
-],
-[
-"Pitfall",
-203.684
-],
-[
-"Size",
-252.484
-],
-[
-"Results",
-322.468
-],
-[
-"Scatter",
-377.935
-],
-[
-"Discussion",
-424.985
-],
-[
-"Close",
-493.535
-],
-[
-"Takeaway",
-526.069
-]
-],
+"chapters": [],
 "paper": {
 "cite": "Decuyper et al. · Phys Med Biol 2021",
 "url": "https://doi.org/10.1088/1361-6560/abebfc"
@@ -4666,57 +2882,9 @@ null,
 "notes": 0,
 "added": 1793017499,
 "updated": 1793246546,
-"reels": [
-"r0-96ac343067ec.jpg",
-"r1-96ac343067ec.jpg",
-"r2-96ac343067ec.jpg",
-"r3-96ac343067ec.jpg",
-"r4-96ac343067ec.jpg",
-"r5-96ac343067ec.jpg",
-"r6-96ac343067ec.jpg",
-"r7-96ac343067ec.jpg",
-"r8-96ac343067ec.jpg",
-"av-96ac343067ec.jpg"
-],
+"reels": [],
 "vtt": "https://explainers-media.daniel-chahine004.workers.dev/pet_hetero_nn/96ac343067ec.vtt",
-"chapters": [
-[
-"Intro",
-0.0
-],
-[
-"Sharing",
-47.834
-],
-[
-"Readout",
-107.551
-],
-[
-"Measure",
-138.768
-],
-[
-"Networks",
-211.768
-],
-[
-"Results",
-255.952
-],
-[
-"Why",
-333.169
-],
-[
-"References",
-378.903
-],
-[
-"Takeaway",
-395.703
-]
-],
+"chapters": [],
 "paper": {
 "cite": "Lowis et al. · IEEE TRPMS 2025",
 "url": "https://doi.org/10.1109/trpms.2025.3540559"
@@ -4736,77 +2904,9 @@ null,
 "notes": 0,
 "added": 1793008100,
 "updated": 1793246272,
-"reels": [
-"r0-ef938a730494.jpg",
-"r1-ef938a730494.jpg",
-"r2-ef938a730494.jpg",
-"r3-ef938a730494.jpg",
-"r4-ef938a730494.jpg",
-"r5-ef938a730494.jpg",
-"r6-ef938a730494.jpg",
-"r7-ef938a730494.jpg",
-"r8-ef938a730494.jpg",
-"r9-ef938a730494.jpg",
-"r10-ef938a730494.jpg",
-"r11-ef938a730494.jpg",
-"r12-ef938a730494.jpg",
-"av-ef938a730494.jpg"
-],
+"reels": [],
 "vtt": "https://explainers-media.daniel-chahine004.workers.dev/pet_hetero_nanocomposites/ef938a730494.vtt",
-"chapters": [
-[
-"Intro",
-0.0
-],
-[
-"Timing",
-43.234
-],
-[
-"Strategy",
-80.318
-],
-[
-"Mechanism",
-111.218
-],
-[
-"Ingredients",
-164.435
-],
-[
-"Particles",
-209.302
-],
-[
-"Brighter",
-243.636
-],
-[
-"Device",
-296.053
-],
-[
-"Model",
-331.57
-],
-[
-"Result",
-375.654
-],
-[
-"Roadmap",
-411.688
-],
-[
-"Methods",
-449.772
-],
-[
-"Takeaway",
-500.356
-]
-],
+"chapters": [],
 "paper": {
 "cite": "Sala et al. · Adv Funct Mater 2025",
 "url": "https://doi.org/10.1002/adfm.202421434"
@@ -4826,72 +2926,9 @@ null,
 "notes": 0,
 "added": 1793077437,
 "updated": 1793245928,
-"reels": [
-"r0-3904ed77c936.jpg",
-"r1-3904ed77c936.jpg",
-"r2-3904ed77c936.jpg",
-"r3-3904ed77c936.jpg",
-"r4-3904ed77c936.jpg",
-"r5-3904ed77c936.jpg",
-"r6-3904ed77c936.jpg",
-"r7-3904ed77c936.jpg",
-"r8-3904ed77c936.jpg",
-"r9-3904ed77c936.jpg",
-"r10-3904ed77c936.jpg",
-"r11-3904ed77c936.jpg",
-"av-3904ed77c936.jpg"
-],
+"reels": [],
 "vtt": "https://explainers-media.daniel-chahine004.workers.dev/pet_3dcnn_tof/3904ed77c936.vtt",
-"chapters": [
-[
-"Intro",
-0.0
-],
-[
-"Flight",
-69.267
-],
-[
-"Simulation",
-172.034
-],
-[
-"Sipm",
-238.851
-],
-[
-"Network",
-287.001
-],
-[
-"Results",
-386.718
-],
-[
-"Angles",
-459.618
-],
-[
-"Uniform",
-480.902
-],
-[
-"Why",
-528.302
-],
-[
-"Limits",
-577.269
-],
-[
-"Close",
-637.436
-],
-[
-"Takeaway",
-678.336
-]
-],
+"chapters": [],
 "paper": {
 "cite": "Maebe & Vandenberghe · Phys Med Biol 2022",
 "url": "https://doi.org/10.1088/1361-6560/ac73d3"
@@ -4911,72 +2948,9 @@ null,
 "notes": 0,
 "added": 1793083754,
 "updated": 1793245358,
-"reels": [
-"r0-41ecdc688d9a.jpg",
-"r1-41ecdc688d9a.jpg",
-"r2-41ecdc688d9a.jpg",
-"r3-41ecdc688d9a.jpg",
-"r4-41ecdc688d9a.jpg",
-"r5-41ecdc688d9a.jpg",
-"r6-41ecdc688d9a.jpg",
-"r7-41ecdc688d9a.jpg",
-"r8-41ecdc688d9a.jpg",
-"r9-41ecdc688d9a.jpg",
-"r10-41ecdc688d9a.jpg",
-"r11-41ecdc688d9a.jpg",
-"av-41ecdc688d9a.jpg"
-],
+"reels": [],
 "vtt": "https://explainers-media.daniel-chahine004.workers.dev/pet_realtime_nn/41ecdc688d9a.vtt",
-"chapters": [
-[
-"Intro",
-0.0
-],
-[
-"Why",
-82.9
-],
-[
-"Memory",
-173.917
-],
-[
-"Network",
-231.284
-],
-[
-"Neuron",
-302.951
-],
-[
-"Simulated",
-378.585
-],
-[
-"Measured",
-445.035
-],
-[
-"Circuit",
-515.069
-],
-[
-"Chip",
-580.119
-],
-[
-"Compare",
-642.986
-],
-[
-"Close",
-709.153
-],
-[
-"Takeaway",
-742.603
-]
-],
+"chapters": [],
 "paper": {
 "cite": "Di Giacomo et al. · IEEE TRPMS 2024",
 "url": "https://doi.org/10.1109/trpms.2024.3378421"
@@ -4996,132 +2970,9 @@ null,
 "notes": 0,
 "added": 1792887413,
 "updated": 1793244639,
-"reels": [
-"r0-2619f4c19492.jpg",
-"r1-2619f4c19492.jpg",
-"r2-2619f4c19492.jpg",
-"r3-2619f4c19492.jpg",
-"r4-2619f4c19492.jpg",
-"r5-2619f4c19492.jpg",
-"r6-2619f4c19492.jpg",
-"r7-2619f4c19492.jpg",
-"r8-2619f4c19492.jpg",
-"r9-2619f4c19492.jpg",
-"r10-2619f4c19492.jpg",
-"r11-2619f4c19492.jpg",
-"r12-2619f4c19492.jpg",
-"r13-2619f4c19492.jpg",
-"r14-2619f4c19492.jpg",
-"r15-2619f4c19492.jpg",
-"r16-2619f4c19492.jpg",
-"r17-2619f4c19492.jpg",
-"r18-2619f4c19492.jpg",
-"r19-2619f4c19492.jpg",
-"r20-2619f4c19492.jpg",
-"r21-2619f4c19492.jpg",
-"r22-2619f4c19492.jpg",
-"r23-2619f4c19492.jpg",
-"av-2619f4c19492.jpg"
-],
+"reels": [],
 "vtt": "https://explainers-media.daniel-chahine004.workers.dev/guitar_theory/2619f4c19492.vtt",
-"chapters": [
-[
-"Octave",
-0.0
-],
-[
-"Twelve",
-42.617
-],
-[
-"Helix",
-135.851
-],
-[
-"Letters",
-179.851
-],
-[
-"Major",
-215.818
-],
-[
-"Neck3 d",
-248.135
-],
-[
-"Tuning",
-287.769
-],
-[
-"Notes",
-330.819
-],
-[
-"Intervals",
-360.853
-],
-[
-"Power",
-432.52
-],
-[
-"Maj min",
-469.754
-],
-[
-"Triads",
-514.771
-],
-[
-"Shapes",
-558.021
-],
-[
-"Key",
-591.988
-],
-[
-"Progress",
-625.338
-],
-[
-"Pull",
-684.805
-],
-[
-"Scale neck",
-709.755
-],
-[
-"Modes",
-760.589
-],
-[
-"Mode shapes",
-798.723
-],
-[
-"Penta",
-854.323
-],
-[
-"Boxes",
-888.357
-],
-[
-"Blues",
-944.974
-],
-[
-"Jam",
-1006.191
-],
-[
-"Map",
-1078.675
-]
-],
+"chapters": [],
 "paper": null,
 "sources": []
 },
@@ -5138,62 +2989,9 @@ null,
 "notes": 0,
 "added": 1792983050,
 "updated": 1793243318,
-"reels": [
-"r0-831afecf66f9.jpg",
-"r1-831afecf66f9.jpg",
-"r2-831afecf66f9.jpg",
-"r3-831afecf66f9.jpg",
-"r4-831afecf66f9.jpg",
-"r5-831afecf66f9.jpg",
-"r6-831afecf66f9.jpg",
-"r7-831afecf66f9.jpg",
-"r8-831afecf66f9.jpg",
-"r9-831afecf66f9.jpg",
-"av-831afecf66f9.jpg"
-],
+"reels": [],
 "vtt": "https://explainers-media.daniel-chahine004.workers.dev/subseasonal_pbc/831afecf66f9.vtt",
-"chapters": [
-[
-"Intro",
-0.0
-],
-[
-"Score",
-33.467
-],
-[
-"Pipeline",
-96.367
-],
-[
-"Debias",
-127.601
-],
-[
-"Persist",
-169.535
-],
-[
-"Project",
-221.085
-],
-[
-"Ecmwf",
-272.169
-],
-[
-"Quest",
-315.969
-],
-[
-"Extremes",
-377.619
-],
-[
-"Limits",
-422.703
-]
-],
+"chapters": [],
 "paper": {
 "cite": "Guan, Mouatadid et al. · Nature 2026"
 },
@@ -5212,62 +3010,9 @@ null,
 "notes": 0,
 "added": 1793108220,
 "updated": 1793243151,
-"reels": [
-"r0-06c6c46e11ca.jpg",
-"r1-06c6c46e11ca.jpg",
-"r2-06c6c46e11ca.jpg",
-"r3-06c6c46e11ca.jpg",
-"r4-06c6c46e11ca.jpg",
-"r5-06c6c46e11ca.jpg",
-"r6-06c6c46e11ca.jpg",
-"r7-06c6c46e11ca.jpg",
-"r8-06c6c46e11ca.jpg",
-"r9-06c6c46e11ca.jpg",
-"av-06c6c46e11ca.jpg"
-],
+"reels": [],
 "vtt": "https://explainers-media.daniel-chahine004.workers.dev/pet_fbsem/06c6c46e11ca.vtt",
-"chapters": [
-[
-"Intro",
-0.0
-],
-[
-"Background",
-81.617
-],
-[
-"Split",
-146.117
-],
-[
-"Network",
-229.651
-],
-[
-"Data",
-284.651
-],
-[
-"Training",
-353.368
-],
-[
-"Sim results",
-405.268
-],
-[
-"Patients",
-456.968
-],
-[
-"Discussion",
-521.618
-],
-[
-"Takeaway",
-587.502
-]
-],
+"chapters": [],
 "paper": {
 "cite": "Mehranian & Reader · IEEE TRPMS 2021",
 "url": "https://doi.org/10.1109/trpms.2020.3004408"
@@ -5287,72 +3032,9 @@ null,
 "notes": 0,
 "added": 1793104223,
 "updated": 1793242753,
-"reels": [
-"r0-f7c0f6246268.jpg",
-"r1-f7c0f6246268.jpg",
-"r2-f7c0f6246268.jpg",
-"r3-f7c0f6246268.jpg",
-"r4-f7c0f6246268.jpg",
-"r5-f7c0f6246268.jpg",
-"r6-f7c0f6246268.jpg",
-"r7-f7c0f6246268.jpg",
-"r8-f7c0f6246268.jpg",
-"r9-f7c0f6246268.jpg",
-"r10-f7c0f6246268.jpg",
-"r11-f7c0f6246268.jpg",
-"av-f7c0f6246268.jpg"
-],
+"reels": [],
 "vtt": "https://explainers-media.daniel-chahine004.workers.dev/pet_dl_recon/f7c0f6246268.vtt",
-"chapters": [
-[
-"Intro",
-0.0
-],
-[
-"Model",
-57.15
-],
-[
-"Synthesis",
-132.95
-],
-[
-"Shift",
-190.65
-],
-[
-"Layers",
-238.717
-],
-[
-"Deep",
-323.051
-],
-[
-"Four ways",
-398.485
-],
-[
-"Direct",
-444.269
-],
-[
-"Prior",
-512.886
-],
-[
-"Unrolled",
-589.47
-],
-[
-"Outlook",
-683.787
-],
-[
-"Takeaway",
-733.754
-]
-],
+"chapters": [],
 "paper": {
 "cite": "Reader et al. · IEEE TRPMS 2021",
 "url": "https://doi.org/10.1109/trpms.2020.3014786"
@@ -5372,62 +3054,9 @@ null,
 "notes": 0,
 "added": 1793155014,
 "updated": 1793242290,
-"reels": [
-"r0-34a3eee1d296.jpg",
-"r1-34a3eee1d296.jpg",
-"r2-34a3eee1d296.jpg",
-"r3-34a3eee1d296.jpg",
-"r4-34a3eee1d296.jpg",
-"r5-34a3eee1d296.jpg",
-"r6-34a3eee1d296.jpg",
-"r7-34a3eee1d296.jpg",
-"r8-34a3eee1d296.jpg",
-"r9-34a3eee1d296.jpg",
-"av-34a3eee1d296.jpg"
-],
+"reels": [],
 "vtt": "https://explainers-media.daniel-chahine004.workers.dev/pet_dl_review/34a3eee1d296.vtt",
-"chapters": [
-[
-"Intro",
-0.0
-],
-[
-"Classical",
-71.7
-],
-[
-"Overview",
-190.567
-],
-[
-"Denoise",
-214.401
-],
-[
-"Self sup",
-295.635
-],
-[
-"Emerging",
-361.835
-],
-[
-"Direct",
-390.919
-],
-[
-"Iterative",
-544.786
-],
-[
-"Outlook",
-643.92
-],
-[
-"Takeaway",
-677.204
-]
-],
+"chapters": [],
 "paper": {
 "cite": "Hashimoto et al. · Radiol Phys Technol 2024",
 "url": "https://doi.org/10.1007/s12194-024-00780-3"
@@ -5447,62 +3076,9 @@ null,
 "notes": 0,
 "added": 1793164915,
 "updated": 1793164915,
-"reels": [
-"r0-ec0ac5a8902e.jpg",
-"r1-ec0ac5a8902e.jpg",
-"r2-ec0ac5a8902e.jpg",
-"r3-ec0ac5a8902e.jpg",
-"r4-ec0ac5a8902e.jpg",
-"r5-ec0ac5a8902e.jpg",
-"r6-ec0ac5a8902e.jpg",
-"r7-ec0ac5a8902e.jpg",
-"r8-ec0ac5a8902e.jpg",
-"r9-ec0ac5a8902e.jpg",
-"av-ec0ac5a8902e.jpg"
-],
+"reels": [],
 "vtt": "https://explainers-media.daniel-chahine004.workers.dev/pet_diffusion/ec0ac5a8902e.vtt",
-"chapters": [
-[
-"Intro",
-0.0
-],
-[
-"Paradigms",
-69.434
-],
-[
-"Noising",
-134.418
-],
-[
-"Score",
-203.902
-],
-[
-"Recon",
-286.169
-],
-[
-"Practical",
-375.269
-],
-[
-"Modalities",
-427.503
-],
-[
-"Directions",
-551.57
-],
-[
-"Outlook",
-642.254
-],
-[
-"Takeaway",
-702.221
-]
-],
+"chapters": [],
 "paper": {
 "cite": "Webber & Reader · BJR|AI 2024",
 "url": "https://doi.org/10.1093/bjrai/ubae013"
@@ -5522,72 +3098,9 @@ null,
 "notes": 0,
 "added": 1792731097,
 "updated": 1793161851,
-"reels": [
-"r0-7f83e43d41af.jpg",
-"r1-7f83e43d41af.jpg",
-"r2-7f83e43d41af.jpg",
-"r3-7f83e43d41af.jpg",
-"r4-7f83e43d41af.jpg",
-"r5-7f83e43d41af.jpg",
-"r6-7f83e43d41af.jpg",
-"r7-7f83e43d41af.jpg",
-"r8-7f83e43d41af.jpg",
-"r9-7f83e43d41af.jpg",
-"r10-7f83e43d41af.jpg",
-"r11-7f83e43d41af.jpg",
-"av-7f83e43d41af.jpg"
-],
+"reels": [],
 "vtt": "https://explainers-media.daniel-chahine004.workers.dev/wt_pet/7f83e43d41af.vtt",
-"chapters": [
-[
-"Opening",
-0.0
-],
-[
-"Sizing",
-25.284
-],
-[
-"Throughput",
-74.368
-],
-[
-"Block",
-111.002
-],
-[
-"Recon",
-164.802
-],
-[
-"Coverage",
-208.736
-],
-[
-"Timing",
-246.17
-],
-[
-"Ring",
-282.304
-],
-[
-"Sparse",
-319.871
-],
-[
-"Slide through",
-355.821
-],
-[
-"Motions",
-372.905
-],
-[
-"Takeaway",
-428.755
-]
-],
+"chapters": [],
 "paper": null,
 "sources": []
 },
@@ -5604,82 +3117,9 @@ null,
 "notes": 0,
 "added": 1793086061,
 "updated": 1793086061,
-"reels": [
-"r0-07513d0f1482.jpg",
-"r1-07513d0f1482.jpg",
-"r2-07513d0f1482.jpg",
-"r3-07513d0f1482.jpg",
-"r4-07513d0f1482.jpg",
-"r5-07513d0f1482.jpg",
-"r6-07513d0f1482.jpg",
-"r7-07513d0f1482.jpg",
-"r8-07513d0f1482.jpg",
-"r9-07513d0f1482.jpg",
-"r10-07513d0f1482.jpg",
-"r11-07513d0f1482.jpg",
-"r12-07513d0f1482.jpg",
-"r13-07513d0f1482.jpg",
-"av-07513d0f1482.jpg"
-],
+"reels": [],
 "vtt": "https://explainers-media.daniel-chahine004.workers.dev/relativity/07513d0f1482.vtt",
-"chapters": [
-[
-"Maxwell",
-0.0
-],
-[
-"Aether",
-46.967
-],
-[
-"Patch",
-81.551
-],
-[
-"Einstein",
-119.101
-],
-[
-"Puzzle",
-166.035
-],
-[
-"Naive",
-202.519
-],
-[
-"Simultaneity",
-256.353
-],
-[
-"Lorentz",
-307.57
-],
-[
-"Proof",
-375.837
-],
-[
-"Block",
-404.987
-],
-[
-"Diagram",
-446.687
-],
-[
-"Shadows",
-514.904
-],
-[
-"Tests",
-564.654
-],
-[
-"Takeaway",
-600.671
-]
-],
+"chapters": [],
 "paper": null,
 "sources": []
 },
@@ -5696,82 +3136,9 @@ null,
 "notes": 0,
 "added": 1792825695,
 "updated": 1793160858,
-"reels": [
-"r0-6e83df126eaa.jpg",
-"r1-6e83df126eaa.jpg",
-"r2-6e83df126eaa.jpg",
-"r3-6e83df126eaa.jpg",
-"r4-6e83df126eaa.jpg",
-"r5-6e83df126eaa.jpg",
-"r6-6e83df126eaa.jpg",
-"r7-6e83df126eaa.jpg",
-"r8-6e83df126eaa.jpg",
-"r9-6e83df126eaa.jpg",
-"r10-6e83df126eaa.jpg",
-"r11-6e83df126eaa.jpg",
-"r12-6e83df126eaa.jpg",
-"r13-6e83df126eaa.jpg",
-"av-6e83df126eaa.jpg"
-],
+"reels": [],
 "vtt": "https://explainers-media.daniel-chahine004.workers.dev/recon/6e83df126eaa.vtt",
-"chapters": [
-[
-"Opening",
-0.0
-],
-[
-"Sinogram",
-35.034
-],
-[
-"Backproject",
-71.718
-],
-[
-"Fbp",
-116.335
-],
-[
-"Mlem",
-169.219
-],
-[
-"Noise growth",
-213.519
-],
-[
-"Osem",
-244.769
-],
-[
-"Penalised",
-283.886
-],
-[
-"Deep families",
-333.803
-],
-[
-"Unrolled",
-380.753
-],
-[
-"Image prior",
-441.27
-],
-[
-"Deep compare",
-474.687
-],
-[
-"Products",
-521.154
-],
-[
-"Takeaway",
-579.921
-]
-],
+"chapters": [],
 "paper": null,
 "sources": []
 },
@@ -5788,52 +3155,9 @@ null,
 "notes": 0,
 "added": 1793000841,
 "updated": 1793159690,
-"reels": [
-"r0-ea7da16fb6b4.jpg",
-"r1-ea7da16fb6b4.jpg",
-"r2-ea7da16fb6b4.jpg",
-"r3-ea7da16fb6b4.jpg",
-"r4-ea7da16fb6b4.jpg",
-"r5-ea7da16fb6b4.jpg",
-"r6-ea7da16fb6b4.jpg",
-"r7-ea7da16fb6b4.jpg",
-"av-ea7da16fb6b4.jpg"
-],
+"reels": [],
 "vtt": "https://explainers-media.daniel-chahine004.workers.dev/pet_recon_free/ea7da16fb6b4.vtt",
-"chapters": [
-[
-"Intro",
-0.0
-],
-[
-"Lines",
-19.45
-],
-[
-"Detector",
-90.484
-],
-[
-"Timing",
-150.551
-],
-[
-"Scan",
-210.885
-],
-[
-"Images",
-253.469
-],
-[
-"Outlook",
-291.169
-],
-[
-"Takeaway",
-333.703
-]
-],
+"chapters": [],
 "paper": {
 "cite": "Kwon et al. · Nature Photonics 2021",
 "url": "https://doi.org/10.1038/s41566-021-00871-2"
@@ -5853,62 +3177,9 @@ null,
 "notes": 0,
 "added": 1793002414,
 "updated": 1793157747,
-"reels": [
-"r0-3b28b11f25ea.jpg",
-"r1-3b28b11f25ea.jpg",
-"r2-3b28b11f25ea.jpg",
-"r3-3b28b11f25ea.jpg",
-"r4-3b28b11f25ea.jpg",
-"r5-3b28b11f25ea.jpg",
-"r6-3b28b11f25ea.jpg",
-"r7-3b28b11f25ea.jpg",
-"r8-3b28b11f25ea.jpg",
-"r9-3b28b11f25ea.jpg",
-"av-3b28b11f25ea.jpg"
-],
+"reels": [],
 "vtt": "https://explainers-media.daniel-chahine004.workers.dev/pet_nanocomposites/3b28b11f25ea.vtt",
-"chapters": [
-[
-"Intro",
-0.0
-],
-[
-"Timing",
-21.5
-],
-[
-"Tradeoff",
-84.067
-],
-[
-"Layers",
-112.451
-],
-[
-"Composite",
-160.201
-],
-[
-"Yield",
-188.001
-],
-[
-"Device",
-218.701
-],
-[
-"Result",
-255.551
-],
-[
-"Limits",
-283.101
-],
-[
-"Takeaway",
-326.418
-]
-],
+"chapters": [],
 "paper": {
 "cite": "Orfano et al. · Adv Mater Technol 2024",
 "url": "https://doi.org/10.1002/admt.202302075"
@@ -5928,102 +3199,9 @@ null,
 "notes": 0,
 "added": 1792765171,
 "updated": 1793156134,
-"reels": [
-"r0-b43d167edeff.jpg",
-"r1-b43d167edeff.jpg",
-"r2-b43d167edeff.jpg",
-"r3-b43d167edeff.jpg",
-"r4-b43d167edeff.jpg",
-"r5-b43d167edeff.jpg",
-"r6-b43d167edeff.jpg",
-"r7-b43d167edeff.jpg",
-"r8-b43d167edeff.jpg",
-"r9-b43d167edeff.jpg",
-"r10-b43d167edeff.jpg",
-"r11-b43d167edeff.jpg",
-"r12-b43d167edeff.jpg",
-"r13-b43d167edeff.jpg",
-"r14-b43d167edeff.jpg",
-"r15-b43d167edeff.jpg",
-"r16-b43d167edeff.jpg",
-"r17-b43d167edeff.jpg",
-"av-b43d167edeff.jpg"
-],
+"reels": [],
 "vtt": "https://explainers-media.daniel-chahine004.workers.dev/laser_rt/b43d167edeff.vtt",
-"chapters": [
-[
-"Opening",
-0.0
-],
-[
-"Why particles",
-34.084
-],
-[
-"Accelerators",
-84.268
-],
-[
-"Overview",
-129.585
-],
-[
-"LWFA",
-159.752
-],
-[
-"TNSA",
-202.702
-],
-[
-"RPA",
-248.052
-],
-[
-"Compare",
-298.952
-],
-[
-"Beam time",
-368.186
-],
-[
-"Beam yield",
-400.786
-],
-[
-"UHDR",
-424.203
-],
-[
-"Transport",
-473.337
-],
-[
-"SOBP",
-516.904
-],
-[
-"Biology",
-544.738
-],
-[
-"Challenges",
-598.422
-],
-[
-"Future",
-650.039
-],
-[
-"Takeaway",
-702.306
-],
-[
-"Field map",
-728.123
-]
-],
+"chapters": [],
 "paper": {
 "cite": "Alabd & Franklin · Phys Med Biol 2026",
 "url": "https://doi.org/10.1088/1361-6560/ae97af"
@@ -6043,72 +3221,9 @@ null,
 "notes": 0,
 "added": 1792749557,
 "updated": 1793155607,
-"reels": [
-"r0-a2387c707f63.jpg",
-"r1-a2387c707f63.jpg",
-"r2-a2387c707f63.jpg",
-"r3-a2387c707f63.jpg",
-"r4-a2387c707f63.jpg",
-"r5-a2387c707f63.jpg",
-"r6-a2387c707f63.jpg",
-"r7-a2387c707f63.jpg",
-"r8-a2387c707f63.jpg",
-"r9-a2387c707f63.jpg",
-"r10-a2387c707f63.jpg",
-"r11-a2387c707f63.jpg",
-"av-a2387c707f63.jpg"
-],
+"reels": [],
 "vtt": "https://explainers-media.daniel-chahine004.workers.dev/i3m_pet/a2387c707f63.vtt",
-"chapters": [
-[
-"Opening",
-0.0
-],
-[
-"Light",
-29.7
-],
-[
-"Mammi",
-76.134
-],
-[
-"Preclinical",
-125.501
-],
-[
-"Tube idea",
-159.501
-],
-[
-"Tube",
-194.168
-],
-[
-"Semi mono",
-236.285
-],
-[
-"Deep breast",
-272.385
-],
-[
-"Positioning",
-315.835
-],
-[
-"Breast results",
-347.452
-],
-[
-"Compton",
-387.702
-],
-[
-"Takeaway",
-426.119
-]
-],
+"chapters": [],
 "paper": null,
 "sources": []
 },
@@ -6125,117 +3240,9 @@ null,
 "notes": 0,
 "added": 1792759159,
 "updated": 1793155323,
-"reels": [
-"r0-fd8e818edcdb.jpg",
-"r1-fd8e818edcdb.jpg",
-"r2-fd8e818edcdb.jpg",
-"r3-fd8e818edcdb.jpg",
-"r4-fd8e818edcdb.jpg",
-"r5-fd8e818edcdb.jpg",
-"r6-fd8e818edcdb.jpg",
-"r7-fd8e818edcdb.jpg",
-"r8-fd8e818edcdb.jpg",
-"r9-fd8e818edcdb.jpg",
-"r10-fd8e818edcdb.jpg",
-"r11-fd8e818edcdb.jpg",
-"r12-fd8e818edcdb.jpg",
-"r13-fd8e818edcdb.jpg",
-"r14-fd8e818edcdb.jpg",
-"r15-fd8e818edcdb.jpg",
-"r16-fd8e818edcdb.jpg",
-"r17-fd8e818edcdb.jpg",
-"r18-fd8e818edcdb.jpg",
-"r19-fd8e818edcdb.jpg",
-"r20-fd8e818edcdb.jpg",
-"av-fd8e818edcdb.jpg"
-],
+"reels": [],
 "vtt": "https://explainers-media.daniel-chahine004.workers.dev/calib/fd8e818edcdb.vtt",
-"chapters": [
-[
-"Opening",
-0.0
-],
-[
-"Block",
-25.684
-],
-[
-"Flood setup",
-61.868
-],
-[
-"Flood",
-87.152
-],
-[
-"Energy why",
-119.936
-],
-[
-"Energy how",
-164.286
-],
-[
-"Drift",
-190.153
-],
-[
-"Timing why",
-232.72
-],
-[
-"Timing how",
-281.137
-],
-[
-"Norm why",
-322.771
-],
-[
-"Norm how",
-349.321
-],
-[
-"No peaks",
-395.088
-],
-[
-"Pencil scan",
-418.355
-],
-[
-"KNN",
-456.272
-],
-[
-"Cheaper",
-483.906
-],
-[
-"Fan scan",
-520.723
-],
-[
-"Flood DOI",
-547.04
-],
-[
-"Mono energy time",
-587.307
-],
-[
-"Semi",
-624.541
-],
-[
-"Upkeep",
-665.891
-],
-[
-"Takeaway",
-710.441
-]
-],
+"chapters": [],
 "paper": null,
 "sources": []
 },
@@ -6252,17 +3259,9 @@ null,
 "notes": 0,
 "added": 1793093931,
 "updated": 1793093931,
-"reels": [
-"r0-20759bc9a907.jpg",
-"av-20759bc9a907.jpg"
-],
+"reels": [],
 "vtt": "https://explainers-media.daniel-chahine004.workers.dev/simultaneity/20759bc9a907.vtt",
-"chapters": [
-[
-"Diagram",
-0.0
-]
-],
+"chapters": [],
 "paper": null,
 "sources": []
 },
@@ -6279,52 +3278,9 @@ null,
 "notes": 0,
 "added": 1793090840,
 "updated": 1793090840,
-"reels": [
-"r0-b8cca55a2ff3.jpg",
-"r1-b8cca55a2ff3.jpg",
-"r2-b8cca55a2ff3.jpg",
-"r3-b8cca55a2ff3.jpg",
-"r4-b8cca55a2ff3.jpg",
-"r5-b8cca55a2ff3.jpg",
-"r6-b8cca55a2ff3.jpg",
-"r7-b8cca55a2ff3.jpg",
-"av-b8cca55a2ff3.jpg"
-],
+"reels": [],
 "vtt": "https://explainers-media.daniel-chahine004.workers.dev/einstein1905/b8cca55a2ff3.vtt",
-"chapters": [
-[
-"Intro",
-0.0
-],
-[
-"Sync",
-60.734
-],
-[
-"Rod",
-103.634
-],
-[
-"Lorentz",
-145.484
-],
-[
-"Meaning",
-200.984
-],
-[
-"Velocities",
-253.134
-],
-[
-"Part two",
-272.068
-],
-[
-"Map",
-318.785
-]
-],
+"chapters": [],
 "paper": {
 "cite": "Einstein · Annalen der Physik 1905",
 "url": "https://doi.org/10.1002/andp.19053221004"
@@ -6344,67 +3300,9 @@ null,
 "notes": 0,
 "added": 1792995124,
 "updated": 1792995124,
-"reels": [
-"r0-03f472817d68.jpg",
-"r1-03f472817d68.jpg",
-"r2-03f472817d68.jpg",
-"r3-03f472817d68.jpg",
-"r4-03f472817d68.jpg",
-"r5-03f472817d68.jpg",
-"r6-03f472817d68.jpg",
-"r7-03f472817d68.jpg",
-"r8-03f472817d68.jpg",
-"r9-03f472817d68.jpg",
-"r10-03f472817d68.jpg",
-"av-03f472817d68.jpg"
-],
+"reels": [],
 "vtt": "https://explainers-media.daniel-chahine004.workers.dev/pet_neuroexplorer/03f472817d68.vtt",
-"chapters": [
-[
-"Intro",
-0.0
-],
-[
-"Need",
-28.65
-],
-[
-"Scanner",
-65.117
-],
-[
-"Parallax",
-95.651
-],
-[
-"Depth",
-148.285
-],
-[
-"Timing",
-193.435
-],
-[
-"Resolution",
-222.869
-],
-[
-"Sensitivity",
-263.836
-],
-[
-"Phantoms",
-309.703
-],
-[
-"Human",
-343.003
-],
-[
-"Takeaway",
-383.087
-]
-],
+"chapters": [],
 "paper": {
 "cite": "Li et al. · J Nucl Med 2024",
 "url": "https://doi.org/10.2967/jnumed.124.267767"
@@ -6424,62 +3322,9 @@ null,
 "notes": 0,
 "added": 1792921267,
 "updated": 1793035415,
-"reels": [
-"r0-78432cbec338.jpg",
-"r1-78432cbec338.jpg",
-"r2-78432cbec338.jpg",
-"r3-78432cbec338.jpg",
-"r4-78432cbec338.jpg",
-"r5-78432cbec338.jpg",
-"r6-78432cbec338.jpg",
-"r7-78432cbec338.jpg",
-"r8-78432cbec338.jpg",
-"r9-78432cbec338.jpg",
-"av-78432cbec338.jpg"
-],
+"reels": [],
 "vtt": "https://explainers-media.daniel-chahine004.workers.dev/flow_match/78432cbec338.vtt",
-"chapters": [
-[
-"Intro",
-0.0
-],
-[
-"Field",
-27.784
-],
-[
-"Space time",
-63.834
-],
-[
-"Likelihood",
-81.801
-],
-[
-"Pairs",
-115.685
-],
-[
-"Loss",
-153.219
-],
-[
-"Average",
-194.886
-],
-[
-"Sample",
-232.836
-],
-[
-"Reflow",
-271.403
-],
-[
-"Recipe",
-308.653
-]
-],
+"chapters": [],
 "paper": {
 "cite": "Lipman et al. · ICLR 2023",
 "url": "https://arxiv.org/abs/2210.02747"
@@ -6499,62 +3344,9 @@ null,
 "notes": 0,
 "added": 1792998661,
 "updated": 1792998661,
-"reels": [
-"r0-68cfbc0bc29b.jpg",
-"r1-68cfbc0bc29b.jpg",
-"r2-68cfbc0bc29b.jpg",
-"r3-68cfbc0bc29b.jpg",
-"r4-68cfbc0bc29b.jpg",
-"r5-68cfbc0bc29b.jpg",
-"r6-68cfbc0bc29b.jpg",
-"r7-68cfbc0bc29b.jpg",
-"r8-68cfbc0bc29b.jpg",
-"r9-68cfbc0bc29b.jpg",
-"av-68cfbc0bc29b.jpg"
-],
+"reels": [],
 "vtt": "https://explainers-media.daniel-chahine004.workers.dev/pet_10ps/68cfbc0bc29b.vtt",
-"chapters": [
-[
-"Intro",
-0.0
-],
-[
-"Flight",
-37.084
-],
-[
-"Gain",
-95.984
-],
-[
-"Status",
-136.451
-],
-[
-"Crystal",
-166.801
-],
-[
-"Prompt",
-219.635
-],
-[
-"Sensor",
-282.585
-],
-[
-"Electronics",
-342.785
-],
-[
-"Image",
-384.269
-],
-[
-"Takeaway",
-432.119
-]
-],
+"chapters": [],
 "paper": {
 "cite": "Lecoq et al. · Phys Med Biol 2020",
 "url": "https://doi.org/10.1088/1361-6560/ab9500"
@@ -6574,57 +3366,9 @@ null,
 "notes": 0,
 "added": 1792719882,
 "updated": 1793034956,
-"reels": [
-"r0-e120ade13208.jpg",
-"r1-e120ade13208.jpg",
-"r2-e120ade13208.jpg",
-"r3-e120ade13208.jpg",
-"r4-e120ade13208.jpg",
-"r5-e120ade13208.jpg",
-"r6-e120ade13208.jpg",
-"r7-e120ade13208.jpg",
-"r8-e120ade13208.jpg",
-"av-e120ade13208.jpg"
-],
+"reels": [],
 "vtt": "https://explainers-media.daniel-chahine004.workers.dev/liquid_tc/e120ade13208.vtt",
-"chapters": [
-[
-"Opening",
-0.0
-],
-[
-"Background",
-20.867
-],
-[
-"Neuron",
-45.201
-],
-[
-"Liquid",
-83.618
-],
-[
-"Bounded",
-118.818
-],
-[
-"Solver",
-150.385
-],
-[
-"Expressive",
-246.435
-],
-[
-"Results",
-292.419
-],
-[
-"Outro",
-339.219
-]
-],
+"chapters": [],
 "paper": {
 "cite": "Hasani et al. · AAAI 2021",
 "url": "https://arxiv.org/abs/2006.04439"
@@ -6644,42 +3388,9 @@ null,
 "notes": 0,
 "added": 1792672428,
 "updated": 1793034798,
-"reels": [
-"r0-ecb91f3922a1.jpg",
-"r1-ecb91f3922a1.jpg",
-"r2-ecb91f3922a1.jpg",
-"r3-ecb91f3922a1.jpg",
-"r4-ecb91f3922a1.jpg",
-"r5-ecb91f3922a1.jpg",
-"av-ecb91f3922a1.jpg"
-],
+"reels": [],
 "vtt": "https://explainers-media.daniel-chahine004.workers.dev/scintillation/ecb91f3922a1.vtt",
-"chapters": [
-[
-"Intro",
-0.0
-],
-[
-"Inorganic",
-50.3
-],
-[
-"Centres",
-117.8
-],
-[
-"Organic",
-200.1
-],
-[
-"Excimer",
-278.0
-],
-[
-"Summary",
-350.784
-]
-],
+"chapters": [],
 "paper": null,
 "sources": []
 },
@@ -6696,72 +3407,9 @@ null,
 "notes": 0,
 "added": 1792823687,
 "updated": 1793034648,
-"reels": [
-"r0-8d709415cc0c.jpg",
-"r1-8d709415cc0c.jpg",
-"r2-8d709415cc0c.jpg",
-"r3-8d709415cc0c.jpg",
-"r4-8d709415cc0c.jpg",
-"r5-8d709415cc0c.jpg",
-"r6-8d709415cc0c.jpg",
-"r7-8d709415cc0c.jpg",
-"r8-8d709415cc0c.jpg",
-"r9-8d709415cc0c.jpg",
-"r10-8d709415cc0c.jpg",
-"r11-8d709415cc0c.jpg",
-"av-8d709415cc0c.jpg"
-],
+"reels": [],
 "vtt": "https://explainers-media.daniel-chahine004.workers.dev/feynman2/8d709415cc0c.vtt",
-"chapters": [
-[
-"Opening",
-0.0
-],
-[
-"Hook",
-37.25
-],
-[
-"Language",
-65.684
-],
-[
-"Electrostatics",
-105.284
-],
-[
-"Unity",
-145.518
-],
-[
-"Magnetism",
-180.402
-],
-[
-"Maxwell",
-226.436
-],
-[
-"Waves",
-270.32
-],
-[
-"Relativity",
-302.987
-],
-[
-"Matter",
-337.137
-],
-[
-"Beyond",
-368.504
-],
-[
-"Book map",
-406.754
-]
-],
+"chapters": [],
 "paper": {
 "cite": "Feynman, Leighton & Sands · The Feynman Lectures, Vol. II",
 "url": "https://www.feynmanlectures.caltech.edu/II_toc.html"
@@ -6781,47 +3429,9 @@ null,
 "notes": 0,
 "added": 1792668793,
 "updated": 1793033971,
-"reels": [
-"r0-6c803e5813eb.jpg",
-"r1-6c803e5813eb.jpg",
-"r2-6c803e5813eb.jpg",
-"r3-6c803e5813eb.jpg",
-"r4-6c803e5813eb.jpg",
-"r5-6c803e5813eb.jpg",
-"r6-6c803e5813eb.jpg",
-"av-6c803e5813eb.jpg"
-],
+"reels": [],
 "vtt": "https://explainers-media.daniel-chahine004.workers.dev/slab_timing/6c803e5813eb.vtt",
-"chapters": [
-[
-"Intro",
-0.0
-],
-[
-"Timing",
-46.65
-],
-[
-"Sweep",
-94.934
-],
-[
-"Energy",
-140.851
-],
-[
-"Trade",
-191.718
-],
-[
-"Index",
-231.585
-],
-[
-"Outro",
-278.935
-]
-],
+"chapters": [],
 "paper": null,
 "sources": []
 },
@@ -6838,67 +3448,9 @@ null,
 "notes": 0,
 "added": 1792723777,
 "updated": 1793033865,
-"reels": [
-"r0-087c357675f3.jpg",
-"r1-087c357675f3.jpg",
-"r2-087c357675f3.jpg",
-"r3-087c357675f3.jpg",
-"r4-087c357675f3.jpg",
-"r5-087c357675f3.jpg",
-"r6-087c357675f3.jpg",
-"r7-087c357675f3.jpg",
-"r8-087c357675f3.jpg",
-"r9-087c357675f3.jpg",
-"r10-087c357675f3.jpg",
-"av-087c357675f3.jpg"
-],
+"reels": [],
 "vtt": "https://explainers-media.daniel-chahine004.workers.dev/shell_pet/087c357675f3.vtt",
-"chapters": [
-[
-"Opening",
-0.0
-],
-[
-"PET basics",
-18.084
-],
-[
-"Conventional",
-48.584
-],
-[
-"Idea",
-78.201
-],
-[
-"Locate",
-114.351
-],
-[
-"Thickness",
-160.951
-],
-[
-"Materials",
-200.301
-],
-[
-"Scanner",
-226.768
-],
-[
-"Coincidence",
-284.502
-],
-[
-"Images",
-361.452
-],
-[
-"Outro",
-404.402
-]
-],
+"chapters": [],
 "paper": null,
 "sources": []
 },
@@ -6915,77 +3467,9 @@ null,
 "notes": 0,
 "added": 1792742223,
 "updated": 1793033342,
-"reels": [
-"r0-c22554e1c03b.jpg",
-"r1-c22554e1c03b.jpg",
-"r2-c22554e1c03b.jpg",
-"r3-c22554e1c03b.jpg",
-"r4-c22554e1c03b.jpg",
-"r5-c22554e1c03b.jpg",
-"r6-c22554e1c03b.jpg",
-"r7-c22554e1c03b.jpg",
-"r8-c22554e1c03b.jpg",
-"r9-c22554e1c03b.jpg",
-"r10-c22554e1c03b.jpg",
-"r11-c22554e1c03b.jpg",
-"r12-c22554e1c03b.jpg",
-"av-c22554e1c03b.jpg"
-],
+"reels": [],
 "vtt": "https://explainers-media.daniel-chahine004.workers.dev/prism_loc/c22554e1c03b.vtt",
-"chapters": [
-[
-"Opening",
-0.0
-],
-[
-"Problem",
-37.234
-],
-[
-"Unroll",
-73.234
-],
-[
-"Burst",
-103.184
-],
-[
-"Depth ratio",
-142.101
-],
-[
-"Circular",
-174.218
-],
-[
-"Network",
-203.535
-],
-[
-"Perm",
-266.102
-],
-[
-"Geometry",
-298.836
-],
-[
-"Results",
-329.136
-],
-[
-"Components",
-364.57
-],
-[
-"Depth",
-399.97
-],
-[
-"Takeaway",
-438.42
-]
-],
+"chapters": [],
 "paper": null,
 "sources": []
 },
@@ -7002,87 +3486,9 @@ null,
 "notes": 0,
 "added": 1792854274,
 "updated": 1793033087,
-"reels": [
-"r0-b884a8ebcde4.jpg",
-"r1-b884a8ebcde4.jpg",
-"r2-b884a8ebcde4.jpg",
-"r3-b884a8ebcde4.jpg",
-"r4-b884a8ebcde4.jpg",
-"r5-b884a8ebcde4.jpg",
-"r6-b884a8ebcde4.jpg",
-"r7-b884a8ebcde4.jpg",
-"r8-b884a8ebcde4.jpg",
-"r9-b884a8ebcde4.jpg",
-"r10-b884a8ebcde4.jpg",
-"r11-b884a8ebcde4.jpg",
-"r12-b884a8ebcde4.jpg",
-"r13-b884a8ebcde4.jpg",
-"r14-b884a8ebcde4.jpg",
-"av-b884a8ebcde4.jpg"
-],
+"reels": [],
 "vtt": "https://explainers-media.daniel-chahine004.workers.dev/metamono/b884a8ebcde4.vtt",
-"chapters": [
-[
-"Opening",
-0.0
-],
-[
-"TOF gain",
-40.167
-],
-[
-"Trade off",
-83.534
-],
-[
-"Meta idea",
-131.068
-],
-[
-"Sharing",
-175.135
-],
-[
-"Pulse",
-221.385
-],
-[
-"Bound",
-249.902
-],
-[
-"Beyond",
-294.986
-],
-[
-"Mono idea",
-334.853
-],
-[
-"Depth",
-376.687
-],
-[
-"Positioning",
-411.687
-],
-[
-"Algorithms",
-440.971
-],
-[
-"Thickness",
-489.588
-],
-[
-"Mono timing",
-522.255
-],
-[
-"Gaps",
-569.922
-]
-],
+"chapters": [],
 "paper": {
 "cite": "Konstantinou et al. · IEEE TRPMS 2022, and a second review",
 "url": "https://doi.org/10.1109/trpms.2021.3069624"
@@ -7102,52 +3508,9 @@ null,
 "notes": 0,
 "added": 1792729810,
 "updated": 1793032880,
-"reels": [
-"r0-d6d888a8afcb.jpg",
-"r1-d6d888a8afcb.jpg",
-"r2-d6d888a8afcb.jpg",
-"r3-d6d888a8afcb.jpg",
-"r4-d6d888a8afcb.jpg",
-"r5-d6d888a8afcb.jpg",
-"r6-d6d888a8afcb.jpg",
-"r7-d6d888a8afcb.jpg",
-"av-d6d888a8afcb.jpg"
-],
+"reels": [],
 "vtt": "https://explainers-media.daniel-chahine004.workers.dev/mouse_pet/d6d888a8afcb.vtt",
-"chapters": [
-[
-"Opening",
-0.0
-],
-[
-"Concept",
-26.284
-],
-[
-"Motion",
-54.534
-],
-[
-"Detector",
-89.218
-],
-[
-"Calibration",
-135.235
-],
-[
-"Virtual",
-174.202
-],
-[
-"Scatter",
-216.869
-],
-[
-"Outlook",
-261.536
-]
-],
+"chapters": [],
 "paper": null,
 "sources": []
 },
@@ -7164,57 +3527,9 @@ null,
 "notes": 0,
 "added": 1792728055,
 "updated": 1793032788,
-"reels": [
-"r0-17e4d8a47fef.jpg",
-"r1-17e4d8a47fef.jpg",
-"r2-17e4d8a47fef.jpg",
-"r3-17e4d8a47fef.jpg",
-"r4-17e4d8a47fef.jpg",
-"r5-17e4d8a47fef.jpg",
-"r6-17e4d8a47fef.jpg",
-"r7-17e4d8a47fef.jpg",
-"r8-17e4d8a47fef.jpg",
-"av-17e4d8a47fef.jpg"
-],
+"reels": [],
 "vtt": "https://explainers-media.daniel-chahine004.workers.dev/prism_pet/17e4d8a47fef.vtt",
-"chapters": [
-[
-"Opening",
-0.0
-],
-[
-"Parallax",
-22.617
-],
-[
-"Light guide",
-59.217
-],
-[
-"Prism idea",
-89.201
-],
-[
-"Module",
-149.101
-],
-[
-"Scanner",
-194.918
-],
-[
-"Tapered",
-227.768
-],
-[
-"Scatter",
-277.485
-],
-[
-"Outlook",
-315.035
-]
-],
+"chapters": [],
 "paper": null,
 "sources": []
 },
@@ -7231,62 +3546,9 @@ null,
 "notes": 0,
 "added": 1792987655,
 "updated": 1792987655,
-"reels": [
-"r0-447ef096a2c7.jpg",
-"r1-447ef096a2c7.jpg",
-"r2-447ef096a2c7.jpg",
-"r3-447ef096a2c7.jpg",
-"r4-447ef096a2c7.jpg",
-"r5-447ef096a2c7.jpg",
-"r6-447ef096a2c7.jpg",
-"r7-447ef096a2c7.jpg",
-"r8-447ef096a2c7.jpg",
-"r9-447ef096a2c7.jpg",
-"av-447ef096a2c7.jpg"
-],
+"reels": [],
 "vtt": "https://explainers-media.daniel-chahine004.workers.dev/pet_explorer/447ef096a2c7.vtt",
-"chapters": [
-[
-"Intro",
-0.0
-],
-[
-"Acceptance",
-39.434
-],
-[
-"Coverage",
-86.401
-],
-[
-"Scanner",
-126.118
-],
-[
-"Specs",
-156.302
-],
-[
-"Budget",
-201.502
-],
-[
-"Images",
-254.686
-],
-[
-"Activity",
-293.17
-],
-[
-"Dynamic",
-339.104
-],
-[
-"Takeaway",
-391.721
-]
-],
+"chapters": [],
 "paper": {
 "cite": "Badawi et al. · J Nucl Med 2019",
 "url": "https://doi.org/10.2967/jnumed.119.226498"
@@ -7306,87 +3568,9 @@ null,
 "notes": 0,
 "added": 1792925058,
 "updated": 1793032486,
-"reels": [
-"r0-b2a83e68d328.jpg",
-"r1-b2a83e68d328.jpg",
-"r2-b2a83e68d328.jpg",
-"r3-b2a83e68d328.jpg",
-"r4-b2a83e68d328.jpg",
-"r5-b2a83e68d328.jpg",
-"r6-b2a83e68d328.jpg",
-"r7-b2a83e68d328.jpg",
-"r8-b2a83e68d328.jpg",
-"r9-b2a83e68d328.jpg",
-"r10-b2a83e68d328.jpg",
-"r11-b2a83e68d328.jpg",
-"r12-b2a83e68d328.jpg",
-"r13-b2a83e68d328.jpg",
-"r14-b2a83e68d328.jpg",
-"av-b2a83e68d328.jpg"
-],
+"reels": [],
 "vtt": "https://explainers-media.daniel-chahine004.workers.dev/zzb_slab/b2a83e68d328.vtt",
-"chapters": [
-[
-"Intro",
-0.0
-],
-[
-"Model",
-42.6
-],
-[
-"Clouds",
-93.067
-],
-[
-"Distance",
-143.667
-],
-[
-"Space",
-194.167
-],
-[
-"Sum",
-266.017
-],
-[
-"Jacobian",
-323.734
-],
-[
-"Path",
-393.668
-],
-[
-"Threshold",
-467.885
-],
-[
-"One or two",
-520.202
-],
-[
-"Off surface",
-559.936
-],
-[
-"Close sites",
-606.52
-],
-[
-"Separation",
-675.454
-],
-[
-"Scattering",
-727.371
-],
-[
-"Outro",
-783.255
-]
-],
+"chapters": [],
 "paper": null,
 "sources": []
 },
@@ -7403,37 +3587,9 @@ null,
 "notes": 0,
 "added": 1792863387,
 "updated": 1792863387,
-"reels": [
-"r0-f75f4e29a639.jpg",
-"r1-f75f4e29a639.jpg",
-"r2-f75f4e29a639.jpg",
-"r3-f75f4e29a639.jpg",
-"r4-f75f4e29a639.jpg",
-"av-f75f4e29a639.jpg"
-],
+"reels": [],
 "vtt": "https://explainers-media.daniel-chahine004.workers.dev/fourier/f75f4e29a639.vtt",
-"chapters": [
-[
-"Sum",
-0.0
-],
-[
-"Coil",
-17.0
-],
-[
-"Wind",
-42.017
-],
-[
-"Mix",
-64.301
-],
-[
-"Spectrum",
-88.385
-]
-],
+"chapters": [],
 "paper": null,
 "sources": []
 }
