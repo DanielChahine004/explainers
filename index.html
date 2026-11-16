@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en"><head><script src="config.js?v=a9d47e44"></script><script src="site.js?v=a9d47e44"></script><link rel="alternate" type="application/rss+xml" title="Explainers" href="feed.xml"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<html lang="en"><head><script src="config.js?v=b2b96f8d"></script><script src="site.js?v=b2b96f8d"></script><script src="live.js?v=b2b96f8d" defer></script><link rel="alternate" type="application/rss+xml" title="Explainers" href="feed.xml"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Explainers</title>
 <style>
 :root{--bg:#0e1015;--card:#171a21;--line:#262a33;--text:#e8e6e1;--mute:#9a9ca3;--acc:#e8915a}
@@ -223,5 +223,5 @@ async function refresh(){try{const [n,p]=SITE?await SITE.videos():await Promise.
   const m=location.hash.match(/^#v=([^&]+)&t=(\d+)/);   // from a reel's Full button: open that video at that moment
   if(m){const v=list.find(x=>x.id===decodeURIComponent(m[1]));history.replaceState(null,'',location.pathname);
     if(v){save(v.id,+m[2]);play(v)}}}
-refresh();setInterval(refresh,20000);window.addEventListener('hashchange',refresh);
+refresh();setInterval(()=>{refresh();if(cur&&!document.hidden&&document.activeElement!==ntext)loadNotes()},20000);window.addEventListener('hashchange',refresh);   // notes others leave appear within 20 s
 </script></body></html>
