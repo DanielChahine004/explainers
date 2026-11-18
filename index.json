@@ -1,5 +1,5 @@
 {
-"generated": 1794848819,
+"generated": 1794984996,
 "playlists": [
 {
 "name": "PET reading",
@@ -25,6 +25,165 @@
 }
 ],
 "videos": [
+{
+"id": "sbs_theory",
+"title": "Mathematical Theory of Stimulated Brillouin Scattering",
+"dur": 417.8,
+"v": "9dd6cc75e13e",
+"size": 55232540,
+"src": "https://explainers-media.daniel-chahine004.workers.dev/sbs_theory/9dd6cc75e13e.mp4",
+"thumb": "https://explainers-media.daniel-chahine004.workers.dev/sbs_theory/9dd6cc75e13e.jpg",
+"small": "https://explainers-media.daniel-chahine004.workers.dev/sbs_theory/b97172737488-s.mp4",
+"issue": 65,
+"notes": 0,
+"added": 1794984996,
+"updated": 1794984996,
+"reels": [
+"r0-9dd6cc75e13e.jpg",
+"r1-9dd6cc75e13e.jpg",
+"r2-9dd6cc75e13e.jpg",
+"r3-9dd6cc75e13e.jpg",
+"r4-9dd6cc75e13e.jpg",
+"r5-9dd6cc75e13e.jpg",
+"r6-9dd6cc75e13e.jpg",
+"r7-9dd6cc75e13e.jpg",
+"r8-9dd6cc75e13e.jpg",
+"r9-9dd6cc75e13e.jpg",
+"r10-9dd6cc75e13e.jpg",
+"r11-9dd6cc75e13e.jpg",
+"av-9dd6cc75e13e.jpg"
+],
+"vtt": "https://explainers-media.daniel-chahine004.workers.dev/sbs_theory/9dd6cc75e13e.vtt",
+"chapters": [
+[
+"Intro",
+0.0
+],
+[
+"Grating",
+39.184
+],
+[
+"Envelope",
+72.401
+],
+[
+"Optical eq",
+106.785
+],
+[
+"Electro",
+140.235
+],
+[
+"Coupling",
+172.519
+],
+[
+"Steady",
+204.486
+],
+[
+"Slices",
+242.003
+],
+[
+"Stats",
+280.37
+],
+[
+"Phase noise",
+310.22
+],
+[
+"Phase check",
+339.12
+],
+[
+"Takeaway",
+372.454
+]
+],
+"paper": null,
+"sources": []
+},
+{
+"id": "leaky_waveguide",
+"title": "Transfer-matrix analysis of elastic leakage in multilayer cylindrical anti-resonant…",
+"dur": 376.1,
+"v": "6669de5d157f",
+"size": 45509233,
+"src": "https://explainers-media.daniel-chahine004.workers.dev/leaky_waveguide/6669de5d157f.mp4",
+"thumb": "https://explainers-media.daniel-chahine004.workers.dev/leaky_waveguide/6669de5d157f.jpg",
+"small": "https://explainers-media.daniel-chahine004.workers.dev/leaky_waveguide/478ee73d161d-s.mp4",
+"issue": 66,
+"notes": 0,
+"added": 1794984996,
+"updated": 1794984996,
+"reels": [
+"r0-6669de5d157f.jpg",
+"r1-6669de5d157f.jpg",
+"r2-6669de5d157f.jpg",
+"r3-6669de5d157f.jpg",
+"r4-6669de5d157f.jpg",
+"r5-6669de5d157f.jpg",
+"r6-6669de5d157f.jpg",
+"r7-6669de5d157f.jpg",
+"r8-6669de5d157f.jpg",
+"r9-6669de5d157f.jpg",
+"r10-6669de5d157f.jpg",
+"av-6669de5d157f.jpg"
+],
+"vtt": "https://explainers-media.daniel-chahine004.workers.dev/leaky_waveguide/6669de5d157f.vtt",
+"chapters": [
+[
+"Intro",
+0.0
+],
+[
+"Layered",
+24.267
+],
+[
+"Regimes",
+61.417
+],
+[
+"Leaky",
+103.317
+],
+[
+"Transfer",
+141.184
+],
+[
+"Brewster",
+181.668
+],
+[
+"More layers",
+227.902
+],
+[
+"Bragg",
+253.536
+],
+[
+"Layers",
+273.87
+],
+[
+"Radius",
+304.437
+],
+[
+"Recap",
+331.154
+]
+],
+"paper": null,
+"sources": []
+},
 {
 "id": "slab_crlb",
 "title": "Bulk optical scattering as a depth-of-interaction design parameter in monolithic PET…",
