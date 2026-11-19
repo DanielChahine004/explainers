@@ -1,5 +1,5 @@
 {
-"generated": 1794984996,
+"generated": 1795072129,
 "playlists": [
 {
 "name": "PET reading",
@@ -25,6 +25,875 @@
 }
 ],
 "videos": [
+{
+"id": "c12_pet_dose",
+"title": "An inception network for positron emission tomography based dose estimation in carbon…",
+"dur": 460.0,
+"v": "58ce1054d072",
+"size": 30441726,
+"src": "https://explainers-media.daniel-chahine004.workers.dev/c12_pet_dose/58ce1054d072.mp4",
+"thumb": "https://explainers-media.daniel-chahine004.workers.dev/c12_pet_dose/58ce1054d072.jpg",
+"small": "https://explainers-media.daniel-chahine004.workers.dev/c12_pet_dose/4f5d96512b01-s.mp4",
+"issue": 67,
+"notes": 0,
+"added": 1795072129,
+"updated": 1795072129,
+"reels": [
+"r0-58ce1054d072.jpg",
+"r1-58ce1054d072.jpg",
+"r2-58ce1054d072.jpg",
+"r3-58ce1054d072.jpg",
+"r4-58ce1054d072.jpg",
+"r5-58ce1054d072.jpg",
+"r6-58ce1054d072.jpg",
+"r7-58ce1054d072.jpg",
+"r8-58ce1054d072.jpg",
+"r9-58ce1054d072.jpg",
+"r10-58ce1054d072.jpg",
+"r11-58ce1054d072.jpg",
+"r12-58ce1054d072.jpg",
+"r13-58ce1054d072.jpg",
+"av-58ce1054d072.jpg"
+],
+"vtt": "https://explainers-media.daniel-chahine004.workers.dev/c12_pet_dose/58ce1054d072.vtt",
+"chapters": [
+[
+"Intro",
+0.0
+],
+[
+"Beam",
+29.05
+],
+[
+"Library",
+66.634
+],
+[
+"Mix",
+92.551
+],
+[
+"Dataset",
+124.618
+],
+[
+"Network",
+147.468
+],
+[
+"Windows",
+190.302
+],
+[
+"Training",
+224.719
+],
+[
+"Simulated",
+257.936
+],
+[
+"Edge",
+307.403
+],
+[
+"Setup",
+335.337
+],
+[
+"Measured",
+374.237
+],
+[
+"Speed",
+411.571
+],
+[
+"Recap",
+420.638
+]
+],
+"paper": {
+"cite": "Rutherford, Saha Turai et al. · Phys Med Biol 2022",
+"url": "https://doi.org/10.1088/1361-6560/ac88b2"
+},
+"sources": [
+{
+"t": 0.0,
+"e": 15.22,
+"scene": "Intro",
+"cites": [
+[
+2,
+"Phys. Med. Biol. 67 (2022) 194001",
+"quote"
+],
+[
+2,
+"Harley Rutherford",
+"quote"
+],
+[
+2,
+"ANSTO, Lucas Heights, Australia",
+"quote"
+],
+[
+2,
+"Chiba, Japan",
+"quote"
+],
+[
+2,
+"Garching b. Munich, Germany",
+"quote"
+],
+[
+2,
+"estimating 1D physical dose deposition proﬁles in carbon",
+"quote"
+]
+]
+},
+{
+"t": 15.22,
+"e": 29.05,
+"scene": "Intro",
+"cites": [
+[
+2,
+"Post-treatment positron emission tomography (PET) scans have been proposed as a treatment",
+"quote"
+],
+[
+2,
+"non-unique relationship between charged particle energy deposition and the distribution",
+"quote"
+]
+]
+},
+{
+"t": 29.05,
+"e": 50.37,
+"scene": "Beam",
+"cites": [
+[
+4,
+"100 × 100 × 300 mm3. PMMA was chosen as the target material, since it yields a similar range of",
+"quote"
+],
+[
+3,
+"nuclear fragmentation of particles in both the beam and target can produce positron-emitting",
+"quote"
+],
+[
+4,
+"monoenergetic 12C ion pencil beams in a homogeneous",
+"quote"
+],
+[
+6,
+"dose profile, which is compared to the ground truth",
+"quote"
+]
+]
+},
+{
+"t": 50.37,
+"e": 66.63,
+"scene": "Beam",
+"cites": [
+[
+2,
+"non-unique relationship between charged particle energy deposition and the distribution",
+"quote"
+],
+[
+2,
+"of nuclear inelastic collisions which create positron-emitting fragments",
+"quote"
+]
+]
+},
+{
+"t": 66.63,
+"e": 92.55,
+"scene": "Library",
+"cites": [
+[
+4,
+"from 200 to 350 MeV u−1 in steps of 15 MeV",
+"quote"
+],
+[
+4,
+"Once the 11 selected beam energies were simulated and their dose and positron annihilation",
+"quote"
+],
+[
+4,
+"binned into 432 5 s temporal frames9",
+"quote"
+],
+[
+4,
+"recorded for 36 min post-irradiation with a scoring mesh of 1 mm3 and 1.5 mm3 isotropic voxels, respectively,",
+"quote"
+],
+[
+4,
+"complete library of dose and annihilation proﬁles with Bragg peak depths from 74 mm",
+"quote"
+],
+[
+4,
+"to 186 mm, in increments of 1 mm",
+"quote"
+]
+]
+},
+{
+"t": 92.55,
+"e": 112.18,
+"scene": "Mix",
+"cites": [
+[
+5,
+"which then distributes the monoenergetic weights to deliver a speciﬁc dose distribution: Set 1 delivers a ﬂat",
+"quote"
+],
+[
+5,
+"generated using a constrained random linear combination of monoenergetic dose and corresponding yield",
+"quote"
+],
+[
+5,
+"of 10 980 SOBP proﬁles, where each SOBP proﬁle was",
+"quote"
+]
+]
+},
+{
+"t": 112.18,
+"e": 124.62,
+"scene": "Mix",
+"cites": [
+[
+5,
+"between 15 and 75 mm, rounded to the nearest millimetre;",
+"quote"
+],
+[
+5,
+"The dose and positron-annihilation proﬁles for each synthesised SOBP are randomly scaled in magnitude",
+"quote"
+],
+[
+5,
+"(both by the same factor) by setting the effective total number of primary particles to a uniformly distributed",
+"quote"
+]
+]
+},
+{
+"t": 124.62,
+"e": 147.47,
+"scene": "Dataset",
+"cites": [
+[
+5,
+"biological dose in the SOBP region; Set 2 delivers a ﬂat physical dose in the SOBP region; Set 3 assigns each",
+"quote"
+],
+[
+5,
+"which then distributes the monoenergetic weights to deliver a speciﬁc dose distribution: Set 1 delivers a ﬂat",
+"quote"
+],
+[
+5,
+"The training database consisted of three distinct sets of 3660 SOBP proﬁles using these constraints, each",
+"quote"
+],
+[
+5,
+"The 10 980 one-dimensional synthesised SOBPs in the training database were divided into 8784 proﬁles",
+"quote"
+],
+[
+5,
+"(80%) for training the neural network, 1098 proﬁles (10%) for validation of the training process every 50",
+"quote"
+],
+[
+5,
+"iterations to detect over-training, and 1098 proﬁles (10%) for testing the accuracy of the neural network as the",
+"quote"
+]
+]
+},
+{
+"t": 147.47,
+"e": 161.35,
+"scene": "Network",
+"cites": [
+[
+5,
+"samples of a spatio-temporal positron-annihilation proﬁle consisting of 432",
+"quote"
+],
+[
+5,
+"temporal frames and 240 spatial voxels, which is reshaped into a 1 × 240 × 432 matrix, such that each temporal",
+"quote"
+]
+]
+},
+{
+"t": 161.35,
+"e": 190.3,
+"scene": "Network",
+"cites": [
+[
+5,
+"The data is passed through four sequentially connected residual blocks. Each of the residual blocks contains a 2D",
+"quote"
+],
+[
+5,
+"convolution layer (known as a bottleneck layer) with 128 ﬁlters of size 1 × 1 and a",
+"quote"
+],
+[
+6,
+"of the residual block. Each of the four blocks has 3 sets of 128 ﬁlters with a different kernel size: block 1 has kernel",
+"quote"
+],
+[
+6,
+"transfers the output of the ﬁrst block for addition to the input of the fourth block, which mitigates the vanishing",
+"quote"
+],
+[
+6,
+"residual blocks, a max pooling layer with a kernel size of 1 × 3 and a stride of 1 × 3 is used to calculate the",
+"quote"
+],
+[
+6,
+"output voxels resolves the data into an estimated dose proﬁle, which is compared to the ground truth dose",
+"quote"
+]
+]
+},
+{
+"t": 190.3,
+"e": 212.73,
+"scene": "Windows",
+"cites": [
+[
+5,
+"convolution layer reduces the input proﬁle",
+"quote"
+],
+[
+6,
+"dimensions to 1 × 240 × 128, signiﬁcantly reducing the dimensionality of the proﬁles. Each leaky ReLu layer",
+"quote"
+],
+[
+6,
+"extract features at multiple resolutions. Finally, the output of each parallel pair of",
+"quote"
+],
+[
+6,
+"sizes of 10, 20 and 40, while blocks 2, 3 and 4 have kernel sizes of 20, 40 and 80. A shortcut residual connection",
+"quote"
+]
+]
+},
+{
+"t": 212.73,
+"e": 224.72,
+"scene": "Windows",
+"cites": [
+[
+6,
+"performs a thresholding operation, where negative inputs are scaled down by a linear factor, and positive inputs",
+"quote"
+]
+]
+},
+{
+"t": 224.72,
+"e": 244.52,
+"scene": "Training",
+"cites": [
+[
+6,
+"Training was performed for 500 epochs, with 137 000 iterations, using a mini-batch size of 32. Training",
+"quote"
+],
+[
+7,
+"an L2 regularisation parameter r = 0.000175. The regularisation parameter is included in the cost function to",
+"quote"
+],
+[
+7,
+"root-mean-square error (RMSE) was used as the optimisation cost metric, combined with",
+"quote"
+]
+]
+},
+{
+"t": 244.52,
+"e": 257.93,
+"scene": "Training",
+"cites": [
+[
+6,
+"beyond 500 epochs began to show signs of overﬁtting, as the validation loss began to rise above the training loss.",
+"quote"
+],
+[
+6,
+"Training was performed for 500 epochs, with 137 000 iterations, using a mini-batch size of 32. Training",
+"quote"
+],
+[
+12,
+"required 15 h of training, but was",
+"quote"
+]
+]
+},
+{
+"t": 257.93,
+"e": 280.8,
+"scene": "Simulated",
+"cites": [
+[
+7,
+"decomposed into spatial proﬁles of the most dominant positron-emitting fragments. Factor",
+"quote"
+],
+[
+7,
+"contribution of each monoenergetic component within the 12C ion SOBP. Finally, the estimated monoenergetic",
+"quote"
+],
+[
+7,
+"weights are applied to the corresponding monoenergetic 12C ion dose proﬁles to produce an estimate of the",
+"quote"
+],
+[
+2,
+"with a mean relative error (MRE) of 0.7%",
+"quote"
+],
+[
+7,
+"deposited dose. For this work, dose estimation is performed using the distribution of 11C ions, since this isotope",
+"quote"
+],
+[
+7,
+"(SOBP116) with energies between 200 and 350 MeV u−1, with energy separations of 2 MeV u−1, and ten 12C ion 60 mm",
+"quote"
+],
+[
+8,
+"relative to the maximum of the ground truth dose",
+"quote"
+]
+]
+},
+{
+"t": 280.8,
+"e": 307.4,
+"scene": "Simulated",
+"cites": [
+[
+9,
+"Overall MRE (%)   0.7   1.0   2.1",
+"quote"
+],
+[
+9,
+"Overall MRE (%)   2.3   1.4   3.8",
+"quote"
+],
+[
+9,
+"SOBP MRE (%)   1.7   1.4   3.8",
+"quote"
+],
+[
+9,
+"SOBP MRE (%)   4.0   2.4   6.5",
+"quote"
+],
+[
+9,
+"Tail MRE (%)   1.7   0.8   2.6",
+"quote"
+],
+[
+9,
+"Tail MRE (%)   10.4   7.8   16.8",
+"quote"
+],
+[
+9,
+"except for the SOBP116, where the Inception network and iterative methods estimate the dose with an error of",
+"quote"
+],
+[
+9,
+"2.1% and 1.3% respectively (see ﬁgure 3(a)).",
+"quote"
+],
+[
+9,
+"training dataset including SOBPs of up to a maximum size of 75 mm.",
+"quote"
+]
+]
+},
+{
+"t": 307.4,
+"e": 335.33,
+"scene": "Edge",
+"cites": [
+[
+8,
+"The position of the distal edge was also calculated for each estimated dose proﬁle, and compared to the",
+"quote"
+],
+[
+8,
+"ground truth distal edge position of the delivered 12C ion SOBP, by selecting a region ±10 mm around the point",
+"quote"
+],
+[
+8,
+"at which the dose proﬁle falls below 20% of the maximum value (the ‘D20’ point), and using a least-squares error",
+"quote"
+],
+[
+8,
+"minimisation process to ﬁnd the depth required to shift the estimated dose proﬁle to minimise the MRE between",
+"quote"
+],
+[
+8,
+"hereafter referred to as the ‘Forward-Zero-Padding’ (FZP) method",
+"quote"
+],
+[
+8,
+"using linear interpolation for dose values between voxels.",
+"quote"
+],
+[
+9,
+"FZP deviation (mm)   0.1   0.2   0.3",
+"quote"
+],
+[
+9,
+"FZP deviation (mm)   0.7   0.2   0.8",
+"quote"
+]
+]
+},
+{
+"t": 335.33,
+"e": 354.22,
+"scene": "Setup",
+"cites": [
+[
+7,
+"Next, one 60 mm SOBP 12C ion beam was delivered to a 40 × 40 × 300 mm3 PMMA phantom in a series of",
+"quote"
+],
+[
+7,
+"3.3 s spills, during which the beam is on for 1.9 s and off for 1.4 s.",
+"quote"
+],
+[
+7,
+"beam PET scanner prototype, OpenPET, was used to acquire list mode coincidence data for 30 min (Tashima",
+"quote"
+],
+[
+7,
+"beam was collimated to produce a 20 × 20 mm2 square beam proﬁle.",
+"quote"
+]
+]
+},
+{
+"t": 354.22,
+"e": 374.23,
+"scene": "Setup",
+"cites": [
+[
+7,
+"axial ﬁeld of view (FOV) of 102 mm. The PMMA phantom was positioned such that the SOBP",
+"quote"
+],
+[
+8,
+"valid data are present for depths ranging from 72 to 170 mm. To emulate",
+"quote"
+],
+[
+8,
+"Additionally, the ﬁrst 10 × 5 s frames of the PET image failed to fully acquire data due to a mechanical error, so",
+"quote"
+],
+[
+8,
+"experimental data as a prediction of positron-annihilation yield outside of the axial FOV of the scanner.",
+"quote"
+],
+[
+8,
+"The resulting positron-annihilation proﬁles are thus semi-experimental",
+"quote"
+]
+]
+},
+{
+"t": 374.23,
+"e": 394.48,
+"scene": "Measured",
+"cites": [
+[
+10,
+"there is a pronounced discontinuity in the input positron-annihilation proﬁle at 170 mm,",
+"quote"
+],
+[
+10,
+"where the experimental data ends. Despite this discontinuity, the deposited dose was still estimated with a MRE",
+"quote"
+],
+[
+10,
+"of 3.7% using the Inception network, and 1.8% with the iterative method. Additionally, the distal edge location",
+"quote"
+],
+[
+10,
+"was estimated with an error of 1.7 mm using the Inception network, and 0.8 mm using the iterative approach.",
+"quote"
+],
+[
+10,
+"dataset did not include proﬁles with discontinuities.",
+"quote"
+]
+]
+},
+{
+"t": 394.48,
+"e": 411.57,
+"scene": "Measured",
+"cites": [
+[
+10,
+"This could be because the iterative ﬁtting process used by",
+"quote"
+],
+[
+10,
+"this method only ﬁts to the SOBP region, and does not include the discontinuity.",
+"quote"
+],
+[
+9,
+"Inception net.   1.8   5.9     17.4   3.7   1.7",
+"quote"
+],
+[
+9,
+"Iterative method   4.2   4.2     47.3   3.5   0.8",
+"quote"
+]
+]
+},
+{
+"t": 411.57,
+"e": 420.63,
+"scene": "Speed",
+"cites": [
+[
+12,
+"The iterative method was able to estimate the deposited dose distributions from observed positron",
+"quote"
+],
+[
+12,
+"annihilation proﬁles in under one minute. The deep learning-based method required 15 h of training, but was",
+"quote"
+],
+[
+12,
+"able to perform dose estimations within one second; further performance improvements may be achieved with a",
+"quote"
+],
+[
+null,
+"60 = 1 min / 1 s",
+"computed"
+]
+]
+},
+{
+"t": 420.63,
+"e": 463.95,
+"scene": "Recap",
+"cites": [
+[
+9,
+"Overall MRE (%)   0.7   1.0   2.1",
+"quote"
+],
+[
+9,
+"FZP deviation (mm)   0.1   0.2   0.3",
+"quote"
+],
+[
+9,
+"Inception net.   1.8   5.9     17.4   3.7   1.7",
+"quote"
+],
+[
+5,
+"The 10 980 one-dimensional synthesised SOBPs in the training database were divided into 8784 proﬁles",
+"quote"
+],
+[
+12,
+"The ultimate objective of this work is to obtain fast and accurate dose estimates from clinical PET",
+"quote"
+],
+[
+12,
+"Inception network outperformed the iterative approach for all simulated beam deliveries, in addition to",
+"quote"
+],
+[
+12,
+"network estimated the dose deposited by the experimental beam with an overall MRE of 3.7%.",
+"quote"
+],
+[
+12,
+"Finally, this method will be evaluated for other primary charged particle species such as protons, which would greatly",
+"quote"
+],
+[
+12,
+"it is necessary to extend this work to include heterogeneous targets.",
+"quote"
+],
+[
+11,
+"performance as well as the generality of this result.",
+"quote"
+]
+]
+}
+]
+},
+{
+"id": "leaky_waveguide",
+"title": "Transfer-matrix analysis of elastic leakage in multilayer cylindrical anti-resonant…",
+"dur": 381.4,
+"v": "27a06c4edda3",
+"size": 46023556,
+"src": "https://explainers-media.daniel-chahine004.workers.dev/leaky_waveguide/27a06c4edda3.mp4",
+"thumb": "https://explainers-media.daniel-chahine004.workers.dev/leaky_waveguide/27a06c4edda3.jpg",
+"small": "https://explainers-media.daniel-chahine004.workers.dev/leaky_waveguide/06f3d9baba1b-s.mp4",
+"issue": 66,
+"notes": 0,
+"added": 1794984996,
+"updated": 1795072129,
+"reels": [
+"r0-27a06c4edda3.jpg",
+"r1-27a06c4edda3.jpg",
+"r2-27a06c4edda3.jpg",
+"r3-27a06c4edda3.jpg",
+"r4-27a06c4edda3.jpg",
+"r5-27a06c4edda3.jpg",
+"r6-27a06c4edda3.jpg",
+"r7-27a06c4edda3.jpg",
+"r8-27a06c4edda3.jpg",
+"r9-27a06c4edda3.jpg",
+"r10-27a06c4edda3.jpg",
+"av-27a06c4edda3.jpg"
+],
+"vtt": "https://explainers-media.daniel-chahine004.workers.dev/leaky_waveguide/27a06c4edda3.vtt",
+"chapters": [
+[
+"Intro",
+0.0
+],
+[
+"Layered",
+24.267
+],
+[
+"Regimes",
+61.417
+],
+[
+"Leaky",
+109.134
+],
+[
+"Transfer",
+147.068
+],
+[
+"Brewster",
+187.552
+],
+[
+"More layers",
+233.786
+],
+[
+"Bragg",
+259.42
+],
+[
+"Layers",
+279.754
+],
+[
+"Radius",
+310.321
+],
+[
+"Recap",
+337.038
+]
+],
+"paper": null,
+"sources": []
+},
 {
 "id": "sbs_theory",
 "title": "Mathematical Theory of Stimulated Brillouin Scattering",
@@ -102,83 +971,6 @@
 [
 "Takeaway",
 372.454
-]
-],
-"paper": null,
-"sources": []
-},
-{
-"id": "leaky_waveguide",
-"title": "Transfer-matrix analysis of elastic leakage in multilayer cylindrical anti-resonant…",
-"dur": 376.1,
-"v": "6669de5d157f",
-"size": 45509233,
-"src": "https://explainers-media.daniel-chahine004.workers.dev/leaky_waveguide/6669de5d157f.mp4",
-"thumb": "https://explainers-media.daniel-chahine004.workers.dev/leaky_waveguide/6669de5d157f.jpg",
-"small": "https://explainers-media.daniel-chahine004.workers.dev/leaky_waveguide/478ee73d161d-s.mp4",
-"issue": 66,
-"notes": 0,
-"added": 1794984996,
-"updated": 1794984996,
-"reels": [
-"r0-6669de5d157f.jpg",
-"r1-6669de5d157f.jpg",
-"r2-6669de5d157f.jpg",
-"r3-6669de5d157f.jpg",
-"r4-6669de5d157f.jpg",
-"r5-6669de5d157f.jpg",
-"r6-6669de5d157f.jpg",
-"r7-6669de5d157f.jpg",
-"r8-6669de5d157f.jpg",
-"r9-6669de5d157f.jpg",
-"r10-6669de5d157f.jpg",
-"av-6669de5d157f.jpg"
-],
-"vtt": "https://explainers-media.daniel-chahine004.workers.dev/leaky_waveguide/6669de5d157f.vtt",
-"chapters": [
-[
-"Intro",
-0.0
-],
-[
-"Layered",
-24.267
-],
-[
-"Regimes",
-61.417
-],
-[
-"Leaky",
-103.317
-],
-[
-"Transfer",
-141.184
-],
-[
-"Brewster",
-181.668
-],
-[
-"More layers",
-227.902
-],
-[
-"Bragg",
-253.536
-],
-[
-"Layers",
-273.87
-],
-[
-"Radius",
-304.437
-],
-[
-"Recap",
-331.154
 ]
 ],
 "paper": null,
