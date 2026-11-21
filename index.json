@@ -1,5 +1,5 @@
 {
-"generated": 1795272686,
+"generated": 1795275398,
 "playlists": [
 {
 "name": "PET reading",
@@ -25,6 +25,624 @@
 }
 ],
 "videos": [
+{
+"id": "hofmann_emitters",
+"title": "Prediction of positron emitter distributions for range monitoring in carbon ion…",
+"dur": 435.1,
+"v": "b79e709ba196",
+"size": 40962650,
+"src": "https://explainers-media.daniel-chahine004.workers.dev/hofmann_emitters/b79e709ba196.mp4",
+"thumb": "https://explainers-media.daniel-chahine004.workers.dev/hofmann_emitters/b79e709ba196.jpg",
+"small": "https://explainers-media.daniel-chahine004.workers.dev/hofmann_emitters/338f03983b78-s.mp4",
+"issue": 71,
+"notes": 0,
+"added": 1795275398,
+"updated": 1795275398,
+"reels": [
+"r0-b79e709ba196.jpg",
+"r1-b79e709ba196.jpg",
+"r2-b79e709ba196.jpg",
+"r3-b79e709ba196.jpg",
+"r4-b79e709ba196.jpg",
+"r5-b79e709ba196.jpg",
+"r6-b79e709ba196.jpg",
+"r7-b79e709ba196.jpg",
+"r8-b79e709ba196.jpg",
+"r9-b79e709ba196.jpg",
+"r10-b79e709ba196.jpg",
+"r11-b79e709ba196.jpg",
+"r12-b79e709ba196.jpg",
+"r13-b79e709ba196.jpg",
+"r14-b79e709ba196.jpg",
+"av-b79e709ba196.jpg"
+],
+"vtt": "https://explainers-media.daniel-chahine004.workers.dev/hofmann_emitters/b79e709ba196.vtt",
+"chapters": [
+[
+"Intro",
+0.0
+],
+[
+"Beam",
+37.734
+],
+[
+"Origins",
+65.418
+],
+[
+"Shape",
+96.852
+],
+[
+"Convolution",
+117.619
+],
+[
+"Fragment",
+148.469
+],
+[
+"Window",
+174.086
+],
+[
+"Height",
+202.003
+],
+[
+"Target",
+228.72
+],
+[
+"Sum",
+255.254
+],
+[
+"Slab",
+279.504
+],
+[
+"Mono",
+311.838
+],
+[
+"Sobp",
+341.455
+],
+[
+"Limits",
+368.605
+],
+[
+"Recap",
+395.322
+]
+],
+"paper": {
+"cite": "Hofmann et al. · Phys Med Biol 2019",
+"url": "https://doi.org/10.1088/1361-6560/ab17f9"
+},
+"sources": [
+{
+"t": 0.02,
+"e": 13.05,
+"scene": "Intro",
+"cites": [
+[
+2,
+"T Hofmann, A Fochi, K Parodi and M Pinto",
+"quote"
+],
+[
+9,
+"within less than a second and shown in figure 5",
+"quote"
+],
+[
+2,
+"Prediction of positron emitter distributions for range monitoring in",
+"quote"
+]
+]
+},
+{
+"t": 13.05,
+"e": 37.76,
+"scene": "Intro",
+"cites": [
+[
+2,
+"the positron emitter activity profile is not directly proportional to the dose",
+"quote"
+],
+[
+2,
+"only its comparison to a prediction of the PET profile allows for treatment verification",
+"quote"
+],
+[
+13,
+"while ions require hours or even days, depending on the uncertainty level",
+"quote"
+],
+[
+2,
+"Usually, this prediction is obtained from time-consuming Monte Carlo",
+"quote"
+]
+]
+},
+{
+"t": 37.76,
+"e": 65.44,
+"scene": "Beam",
+"cites": [
+[
+2,
+"nuclear reactions in tissue and create positron emitters like",
+"quote"
+],
+[
+2,
+"11C (T1/2 = 20.39 min) and 15O (T1/2 = 2.03 min)",
+"quote"
+],
+[
+3,
+"since 11C and 15O are the most relevant positron emitters in carbon ion therapy",
+"quote"
+]
+]
+},
+{
+"t": 65.44,
+"e": 96.87,
+"scene": "Origins",
+"cites": [
+[
+4,
+"11C for example can be produced as a fragment of the projectile 12C as well as a fragment of a",
+"quote"
+],
+[
+5,
+"nuclei that stay at their site of production",
+"quote"
+],
+[
+5,
+"70% threshold of the incident kinetic energy of the particle is selected",
+"quote"
+],
+[
+5,
+"reveals two groups of 11C fragments",
+"quote"
+]
+]
+},
+{
+"t": 96.87,
+"e": 117.64,
+"scene": "Shape",
+"cites": [
+[
+5,
+"positron emitters created mainly from target",
+"quote"
+],
+[
+6,
+"is an order of magnitude larger than the one in",
+"quote"
+],
+[
+5,
+"an activity peak close to the Bragg peak position",
+"quote"
+]
+]
+},
+{
+"t": 117.64,
+"e": 148.49,
+"scene": "Convolution",
+"cites": [
+[
+2,
+"Parodi and Bortfeld showed for proton therapy that there must exist a function whose convolution with",
+"quote"
+],
+[
+3,
+"the one-dimensional positron emitter activity distri",
+"quote"
+],
+[
+5,
+"The calculated filter is strongly energy-dependent and does not reproduce the positron emitter",
+"quote"
+],
+[
+5,
+"activity distribution (especially the peak height and width) when it is applied to other energies. This is",
+"quote"
+],
+[
+5,
+"illustrated in figure 1 where the filter developed for carbon ions impinging on the reference material",
+"quote"
+],
+[
+5,
+"distal-fall off position which is predicted with deviations below 1 mm",
+"quote"
+],
+[
+5,
+"with an energy of 200 MeV n−1 is applied to the distributions of the same carbon ion beam at different",
+"quote"
+]
+]
+},
+{
+"t": 148.49,
+"e": 174.1,
+"scene": "Fragment",
+"cites": [
+[
+6,
+"11C isotopes in 12C therapy, this formula reduces to",
+"quote"
+],
+[
+6,
+"tron emitting fragment comes to rest can be estimated via a sum of the depth of interaction and the remaining",
+"quote"
+],
+[
+7,
+"occurs at the very beginning of the phantom",
+"quote"
+]
+]
+},
+{
+"t": 174.1,
+"e": 202.02,
+"scene": "Window",
+"cites": [
+[
+6,
+"= 92%",
+"quote"
+],
+[
+7,
+"range of 12.3 cm is determined via the convolution",
+"quote"
+],
+[
+7,
+"for 300 MeV n−1 12C ions in the reference material with a",
+"quote"
+],
+[
+7,
+"12.3 cm = 0.08",
+"quote"
+],
+[
+7,
+"squeezed into 0.04 mm",
+"quote"
+],
+[
+7,
+"Since the binning in depth for the",
+"quote"
+],
+[
+null,
+"11.3 cm = 11/12 x 12.3 cm",
+"computed"
+],
+[
+null,
+"1.0 cm = 12.3 cm - 11.3 cm",
+"computed"
+]
+]
+},
+{
+"t": 202.02,
+"e": 228.74,
+"scene": "Height",
+"cites": [
+[
+7,
+"Regarding the fluence loss correction for 12C, it shows an exponentially decreasing behaviour in depth",
+"quote"
+],
+[
+7,
+"it was found to have a cubic dependency on the energy",
+"quote"
+],
+[
+7,
+"determined width σG = 1.2",
+"quote"
+],
+[
+7,
+"The first factor is the g-factor",
+"quote"
+]
+]
+},
+{
+"t": 228.74,
+"e": 255.27,
+"scene": "Target",
+"cites": [
+[
+8,
+"described best by analytical functions",
+"quote"
+],
+[
+8,
+"that approaches the theoretical maximum number",
+"quote"
+],
+[
+8,
+"In this case, a hyperbola function was found to yield a",
+"quote"
+],
+[
+9,
+"is interpolated linearly",
+"quote"
+],
+[
+8,
+"this function is fitted",
+"quote"
+],
+[
+8,
+"to simulated data and characterized by the three different coefficients",
+"quote"
+]
+]
+},
+{
+"t": 255.27,
+"e": 279.52,
+"scene": "Sum",
+"cites": [
+[
+9,
+"hydrogen, carbon, nitrogen, oxygen, phosphorus, and calcium",
+"quote"
+],
+[
+12,
+"only six filter functions (i.e. to",
+"quote"
+],
+[
+9,
+"within less than a second and shown in figure 5",
+"quote"
+],
+[
+2,
+"and 15O (T1/2 = 2.03 min)",
+"quote"
+]
+]
+},
+{
+"t": 279.52,
+"e": 311.86,
+"scene": "Slab",
+"cites": [
+[
+4,
+"ρel (z )",
+"quote"
+],
+[
+4,
+"Electron density (1020 cm−3)  4.71  3.87  5.91  3.34  3.23",
+"quote"
+],
+[
+9,
+"consisting of four layers of different materials: water (10 cm), bone (2 cm), polymethyl metacrylate (PMMA,",
+"quote"
+],
+[
+9,
+"10 cm), and reference material (10 cm)",
+"quote"
+],
+[
+4,
+"Resulting distributions are transformed back to real space with",
+"quote"
+],
+[
+4,
+"where wi (z)/wi,ref is the fraction by weight of the target nucleus involved in the reaction channel at depth z of",
+"quote"
+],
+[
+null,
+"0.71 = 3.34/4.71; 1.25 = 5.91/4.71; 0.82 = 3.87/4.71; 7.1 = 10 x 0.71; 2.5 = 2 x 1.25; 8.2 = 10 x 0.82",
+"computed"
+]
+]
+},
+{
+"t": 311.86,
+"e": 341.47,
+"scene": "Mono",
+"cites": [
+[
+9,
+"The MRE from the analytical description and MC simulation to the maximum of each MC simulated dis",
+"quote"
+],
+[
+9,
+"tribution is below 1% for the 11C projectile contribution and below 3% for the 11C and 15O target contributions",
+"quote"
+],
+[
+9,
+"The distal fall-off positions are predicted with a maximum deviation of 0.6 mm",
+"quote"
+],
+[
+10,
+"100 0.3 2.0 1.7 0.6 0.6",
+"quote"
+],
+[
+10,
+"200 0.4 2.8 2.5 0.8 0.4",
+"quote"
+],
+[
+10,
+"300 0.2 2.2 2.2 0.8 0.3",
+"quote"
+],
+[
+10,
+"400 0.4 1.6 1.9 0.8 0.0",
+"quote"
+],
+[
+9,
+"carbon ion beam irradiation at 100 MeV n−1, 200 MeV n−1, 300 MeV n−1 and 400 MeV n−1 of a homogeneous",
+"quote"
+]
+]
+},
+{
+"t": 341.47,
+"e": 368.62,
+"scene": "Sobp",
+"cites": [
+[
+9,
+"overlaying 25 monoenergetic carbon ion beams of small energetic difference (∆E = 2 MeV n−1)",
+"quote"
+],
+[
+9,
+"Since SOBPs are clinically more",
+"quote"
+],
+[
+9,
+"giving rise to a MRE of 1.2% for the total 11C distribution",
+"quote"
+],
+[
+10,
+"The MRE amounts to 1.8% in this case",
+"quote"
+],
+[
+10,
+"small deviations that exist for each single energy distribution that pile-up when combined to form a SOBP",
+"quote"
+],
+[
+12,
+"1.3 mm for inhomogeneous phantoms",
+"quote"
+]
+]
+},
+{
+"t": 368.62,
+"e": 395.34,
+"scene": "Limits",
+"cites": [
+[
+12,
+"the analytical method",
+"quote"
+],
+[
+12,
+"is limited by the simulation accuracy of the MC simulation platform",
+"quote"
+],
+[
+13,
+"In the next steps, this method will need to be fully extended to three dimensions",
+"quote"
+],
+[
+13,
+"as extensive tests",
+"quote"
+],
+[
+13,
+"biological wash",
+"quote"
+],
+[
+13,
+"while ions require hours or even days, depending on the uncertainty level",
+"quote"
+],
+[
+12,
+"providing results within a few seconds",
+"quote"
+]
+]
+},
+{
+"t": 395.34,
+"e": 438.22,
+"scene": "Recap",
+"cites": [
+[
+12,
+"Mean relative errors to the maximum of the dis",
+"quote"
+],
+[
+12,
+"tributions were below 4% in all tested cases",
+"quote"
+],
+[
+12,
+"1.3 mm for inhomogeneous phantoms",
+"quote"
+],
+[
+12,
+"is limited by the simulation accuracy of the MC simulation platform",
+"quote"
+]
+]
+}
+]
+},
 {
 "id": "prototwin_pet",
 "title": "PROTOTWIN-PET: A Deep Learning and GPU-Based Workflow for Dose Verification in Proton…",
