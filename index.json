@@ -1,5 +1,5 @@
 {
-"generated": 1795239028,
+"generated": 1795263214,
 "playlists": [
 {
 "name": "PET reading",
@@ -25,6 +25,644 @@
 }
 ],
 "videos": [
+{
+"id": "pet_proton_dose_dl",
+"title": "Direct mapping from PET coincidence data to proton-dose and positron activity using a…",
+"dur": 450.1,
+"v": "d7d0b32124b5",
+"size": 47351944,
+"src": "https://explainers-media.daniel-chahine004.workers.dev/pet_proton_dose_dl/d7d0b32124b5.mp4",
+"thumb": "https://explainers-media.daniel-chahine004.workers.dev/pet_proton_dose_dl/d7d0b32124b5.jpg",
+"small": "https://explainers-media.daniel-chahine004.workers.dev/pet_proton_dose_dl/d260a2cc6fb3-s.mp4",
+"issue": 69,
+"notes": 0,
+"added": 1795263214,
+"updated": 1795263214,
+"reels": [
+"r0-d7d0b32124b5.jpg",
+"r1-d7d0b32124b5.jpg",
+"r2-d7d0b32124b5.jpg",
+"r3-d7d0b32124b5.jpg",
+"r4-d7d0b32124b5.jpg",
+"r5-d7d0b32124b5.jpg",
+"r6-d7d0b32124b5.jpg",
+"r7-d7d0b32124b5.jpg",
+"r8-d7d0b32124b5.jpg",
+"r9-d7d0b32124b5.jpg",
+"r10-d7d0b32124b5.jpg",
+"r11-d7d0b32124b5.jpg",
+"r12-d7d0b32124b5.jpg",
+"av-d7d0b32124b5.jpg"
+],
+"vtt": "https://explainers-media.daniel-chahine004.workers.dev/pet_proton_dose_dl/d7d0b32124b5.vtt",
+"chapters": [
+[
+"Intro",
+0.0
+],
+[
+"Route",
+41.35
+],
+[
+"Beam",
+70.217
+],
+[
+"Panel",
+97.334
+],
+[
+"Library",
+132.151
+],
+[
+"Generator",
+170.618
+],
+[
+"Training",
+196.035
+],
+[
+"Result",
+231.019
+],
+[
+"Counts",
+275.419
+],
+[
+"Sensitivity",
+309.253
+],
+[
+"Windows",
+335.053
+],
+[
+"Limits",
+365.637
+],
+[
+"Recap",
+406.887
+]
+],
+"paper": {
+"cite": "Rahman et al. · Phys Med Biol 2022",
+"url": "https://doi.org/10.1088/1361-6560/ac8af5"
+},
+"sources": [
+{
+"t": 0.02,
+"e": 18.47,
+"scene": "Intro",
+"cites": [
+[
+2,
+"Fast, precise and physically optimized in vivo monitoring for dose and range",
+"quote"
+],
+[
+2,
+"Institute of Physics, Academia Sinica, Taipei 11529, Taiwan",
+"quote"
+],
+[
+5,
+"A palm-sized dual-head PET has 8 modules.",
+"quote"
+],
+[
+2,
+"work, we investigate the utility of deep learning methods for achieving direct mapping from detector",
+"quote"
+]
+]
+},
+{
+"t": 18.47,
+"e": 41.37,
+"scene": "Intro",
+"cites": [
+[
+3,
+"This results in a systematic gap from the Bragg peak",
+"quote"
+],
+[
+2,
+"closely and ceases to exist when the proton energy drops below the threshold value",
+"quote"
+],
+[
+2,
+"Positron emitting isotopes are a category of daughter nuclei, referred to as secondary particles,",
+"quote"
+]
+]
+},
+{
+"t": 41.37,
+"e": 63.47,
+"scene": "Route",
+"cites": [
+[
+3,
+"Subsequent to PET activity reconstruction, mapping the reconstructed activity",
+"quote"
+],
+[
+3,
+"accurate and fast estimation of the system response matrix (SRM), which should include factors such as",
+"quote"
+],
+[
+6,
+"where Y is the measurement data, H is the probability matrix, and X is the sought-after image. The nature of our",
+"quote"
+],
+[
+3,
+"complicated in actual patient treatment because of the different physical",
+"quote"
+]
+]
+},
+{
+"t": 63.47,
+"e": 70.24,
+"scene": "Route",
+"cites": [
+[
+3,
+"propose a deep learning framework to directly map the detector data into the corresponding dose distribution",
+"quote"
+]
+]
+},
+{
+"t": 70.24,
+"e": 97.36,
+"scene": "Beam",
+"cites": [
+[
+4,
+"Irradiation of a pencil beam source on an abdominal CT phantom was used",
+"quote"
+],
+[
+4,
+"C, 11C, 13N, and 15O have large production cross-sections.",
+"quote"
+],
+[
+2,
+"and imaged with compact in-beam PET",
+"quote"
+],
+[
+6,
+"The coincidence data were recorded for 300 seconds, during",
+"quote"
+],
+[
+9,
+"annihilation position of the positron can be estimated by detecting two back-to-back gammas, called a",
+"quote"
+],
+[
+5,
+"accommodate the imaged object between the two ﬂat-panel PET modules.",
+"quote"
+],
+[
+5,
+"52 × 104 mm plane. The spacing between the dual-head PET modules is maintained at 302 mm apart to",
+"quote"
+]
+]
+},
+{
+"t": 97.36,
+"e": 113.0,
+"scene": "Panel",
+"cites": [
+[
+5,
+"A palm-sized dual-head PET has 8 modules. Each module has 64 monolithic LYSO crystals with a size of",
+"quote"
+],
+[
+5,
+"3.2 mm × 3.2 mm × 20 mm, and the spacing between each module is 0.2 mm, resulting in a detector size in yz of",
+"quote"
+],
+[
+9,
+"A unique crystal index is generated for each module channel from 0 to 511.",
+"quote"
+]
+]
+},
+{
+"t": 113.0,
+"e": 132.17,
+"scene": "Panel",
+"cites": [
+[
+9,
+"correspondence channel map for two heads of PET",
+"quote"
+],
+[
+9,
+"512 × 512 is populated by counting the number of coincidence pairs detected along the column for each crystal",
+"quote"
+],
+[
+2,
+"ﬁve minutes after irradiation.",
+"quote"
+]
+]
+},
+{
+"t": 132.17,
+"e": 152.15,
+"scene": "Library",
+"cites": [
+[
+4,
+"We used the Geant4-based simulation framework GATE (Jan et al 2011, Grevillot et al 2011) to generate Monte",
+"quote"
+],
+[
+4,
+"positions on the CT phantom along the y axis with a mono-energetic proton beam with energies ranging from 50",
+"quote"
+],
+[
+5,
+"represent the training positions, whereas the blue positions are used for testing.",
+"quote"
+]
+]
+},
+{
+"t": 152.15,
+"e": 170.64,
+"scene": "Library",
+"cites": [
+[
+4,
+"to 122 MeV in 4 MeV intervals. Each irradiation position is spatially 2 cm apart from the other. A visual",
+"quote"
+],
+[
+9,
+"marked red in ﬁgure 1(a) are reserved for training, and the three upper positions",
+"quote"
+],
+[
+4,
+"positions on the CT phantom along the y axis with a mono-energetic proton beam with energies ranging from 50",
+"quote"
+]
+]
+},
+{
+"t": 170.64,
+"e": 196.06,
+"scene": "Generator",
+"cites": [
+[
+7,
+"shown in ﬁgure 3(a), the encoder part downsamples the input image until the bottleneck, while the decoder part",
+"quote"
+],
+[
+7,
+"performs upsampling. Each encoder and decoder section consists of four blocks. Each normalization block has",
+"quote"
+],
+[
+7,
+"convolution, pooling, batch normalization, dropout, and activation functions. Feature information may be lost",
+"quote"
+],
+[
+7,
+"during downsampling and passed to upsampling using connected layers. Connections are represented by",
+"quote"
+],
+[
+7,
+"assigning the same color codes to layers in ﬁgure 3(a). The upsampled ﬁnal image has the same size as the",
+"quote"
+]
+]
+},
+{
+"t": 196.06,
+"e": 231.04,
+"scene": "Training",
+"cites": [
+[
+7,
+"of producing random images in the target domain. The GAN image translation model encourages keeping the",
+"quote"
+],
+[
+7,
+"It selects a typical size (70 × 70) pixels and sweeps over the image to",
+"quote"
+],
+[
+7,
+"calculate the patch-based probability map of real or fake images instead of computing the whole image at once.",
+"quote"
+],
+[
+7,
+"To improve accuracy, L1 loss-based regularization RL1(Mukherjee et al 2021) is employed in the cGAN model. λ",
+"quote"
+],
+[
+9,
+"Loss weight (w2) 100 (MAE)",
+"quote"
+],
+[
+7,
+"Training with adversarial loss improves image quality, but cannot guarantee similarity to the target image.",
+"quote"
+]
+]
+},
+{
+"t": 231.04,
+"e": 245.8,
+"scene": "Result",
+"cites": [
+[
+10,
+"energy in the test dataset. In each plot, the horizontal axis represents the longitudinal depth (z-axis) along the",
+"quote"
+],
+[
+10,
+"prediction and true values at 110 MeV",
+"quote"
+],
+[
+10,
+"predicted profile in ﬁgure 5(a) agrees well with the ground truth in ﬁgure 5(b). To gain more",
+"quote"
+]
+]
+},
+{
+"t": 245.8,
+"e": 258.5,
+"scene": "Result",
+"cites": [
+[
+10,
+"values of the pixels along the y-axis are summed to obtain the 1D dose distribution as a function of",
+"quote"
+],
+[
+10,
+"longitudinal depth. Figure 5(h) shows that the discrepancy between the true and predicted BP locations is about",
+"quote"
+],
+[
+10,
+"0.35 mm, less than 1% of the BP peak position, and an absolute dose uncertainty of less than 2%.",
+"quote"
+]
+]
+},
+{
+"t": 258.5,
+"e": 275.44,
+"scene": "Result",
+"cites": [
+[
+10,
+"The dose difference between real and",
+"quote"
+],
+[
+12,
+"ROI1 0.0162 ± 0.0010 0.0218 ± 0.0034 0.66 ± 0.12",
+"quote"
+],
+[
+12,
+"ROI1 0.0187 ± 0.0016 0.0226 ± 0.0012 0.78 ± 0.053",
+"quote"
+],
+[
+4,
+"total range R0 and the maximum beam energy E0 simulated using weighted superposition of mono-energetic",
+"quote"
+]
+]
+},
+{
+"t": 275.44,
+"e": 294.25,
+"scene": "Counts",
+"cites": [
+[
+14,
+"δD 4% 23387 23 387",
+"quote"
+],
+[
+14,
+"3% 49098 57 749",
+"quote"
+],
+[
+14,
+"2% 98997 101 770",
+"quote"
+],
+[
+14,
+"δR 4% 4749 4749",
+"quote"
+],
+[
+14,
+"2% 11238 11 238",
+"quote"
+]
+]
+},
+{
+"t": 294.25,
+"e": 309.27,
+"scene": "Counts",
+"cites": [
+[
+16,
+"data to converge faster than the data required for the dose to converge to the same level of accuracy. Using our",
+"quote"
+],
+[
+16,
+"according to table 5, approximately 23 000 coincidences are required to obtain absolute dose uncertainty below 4% for",
+"quote"
+],
+[
+16,
+"ROI1, which is obtained with 2.2 × 1010 incident protons. This number is close to the single treatment fraction",
+"quote"
+]
+]
+},
+{
+"t": 309.27,
+"e": 335.07,
+"scene": "Sensitivity",
+"cites": [
+[
+15,
+"0.91%. The off-center sensitivity is normalized to the maximum sensitivity position, which experiences a steep",
+"quote"
+],
+[
+15,
+"coincidence by a factor of approximately 3. By increasing the area by a factor of 4, the number of detected counts",
+"quote"
+],
+[
+15,
+"can be increased by a factor of 12. To achieve the most stable prediction stage using the EW3 training method,",
+"quote"
+],
+[
+15,
+"about 105 coincidences are required, as shown in ﬁgure 9(d). To achieve the 105 coincidence, a fourfold increase",
+"quote"
+]
+]
+},
+{
+"t": 335.07,
+"e": 365.65,
+"scene": "Windows",
+"cites": [
+[
+9,
+"window (EW3) dataset. The energy windows are: (a) 150–250 keV, (b) 250–475 keV and (c) >474 keV. We",
+"quote"
+],
+[
+9,
+"have three channels. Three-channel 2D coincidence maps were prepared by ﬁltering coincidences in the three",
+"quote"
+],
+[
+17,
+"distribution improves from 2.6% to 1.6% by providing the additional condition corresponding to the photon",
+"quote"
+]
+]
+},
+{
+"t": 365.65,
+"e": 381.65,
+"scene": "Limits",
+"cites": [
+[
+4,
+"used only 1024 detector crystal elements and raw coincidence detector data without using image reconstruction",
+"quote"
+],
+[
+16,
+"recommend training the model",
+"quote"
+],
+[
+17,
+"It is presently recommended that the model be trained for each patient speciﬁcally geared to the planned",
+"quote"
+]
+]
+},
+{
+"t": 381.65,
+"e": 406.9,
+"scene": "Limits",
+"cites": [
+[
+14,
+"The variation in the composition of the CT material was implemented by systematically changing the HU",
+"quote"
+],
+[
+14,
+"predicts the 2% dose increase relative to the dose of unmodiﬁed CT for a 10% systematic increase in HU values",
+"quote"
+],
+[
+14,
+"whereas for model predicts the 8.5% decrease in dose for a 10% systematic decrease in CT values. Similarly, the",
+"quote"
+],
+[
+16,
+"model predictions can deviate from the training data signiﬁcantly for heterogeneous materials such as the lungs",
+"quote"
+]
+]
+},
+{
+"t": 406.9,
+"e": 453.56,
+"scene": "Recap",
+"cites": [
+[
+2,
+"and 122 MeV lie within 1% and 2%, respectively. This was achieved using 105 coincidences acquired",
+"quote"
+],
+[
+2,
+"distributions predicted by the model from the true values for mono-energetic irradiation between 50",
+"quote"
+],
+[
+13,
+"coincidences to achieve the uncertainty below 2%",
+"quote"
+],
+[
+17,
+"It is presently recommended that the model be trained for each patient speciﬁcally geared to the planned",
+"quote"
+],
+[
+9,
+"512 × 512 is populated by counting the number of coincidence pairs detected along the column for each crystal",
+"quote"
+],
+[
+14,
+"2% 98997 101 770",
+"quote"
+]
+]
+}
+]
+},
 {
 "id": "diff_optical_det",
 "title": "End-to-end Differentiable Calibration and Reconstruction for Optical Particle Detectors",
