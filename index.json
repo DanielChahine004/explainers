@@ -1,5 +1,5 @@
 {
-"generated": 1795263214,
+"generated": 1795272686,
 "playlists": [
 {
 "name": "PET reading",
@@ -25,6 +25,869 @@
 }
 ],
 "videos": [
+{
+"id": "prototwin_pet",
+"title": "PROTOTWIN-PET: A Deep Learning and GPU-Based Workflow for Dose Verification in Proton…",
+"dur": 481.4,
+"v": "7bc24133a1dc",
+"size": 52287685,
+"src": "https://explainers-media.daniel-chahine004.workers.dev/prototwin_pet/7bc24133a1dc.mp4",
+"thumb": "https://explainers-media.daniel-chahine004.workers.dev/prototwin_pet/7bc24133a1dc.jpg",
+"small": "https://explainers-media.daniel-chahine004.workers.dev/prototwin_pet/2e989f1a73bf-s.mp4",
+"issue": 70,
+"notes": 0,
+"added": 1795272686,
+"updated": 1795272686,
+"reels": [
+"r0-7bc24133a1dc.jpg",
+"r1-7bc24133a1dc.jpg",
+"r2-7bc24133a1dc.jpg",
+"r3-7bc24133a1dc.jpg",
+"r4-7bc24133a1dc.jpg",
+"r5-7bc24133a1dc.jpg",
+"r6-7bc24133a1dc.jpg",
+"r7-7bc24133a1dc.jpg",
+"r8-7bc24133a1dc.jpg",
+"r9-7bc24133a1dc.jpg",
+"r10-7bc24133a1dc.jpg",
+"r11-7bc24133a1dc.jpg",
+"r12-7bc24133a1dc.jpg",
+"r13-7bc24133a1dc.jpg",
+"av-7bc24133a1dc.jpg"
+],
+"vtt": "https://explainers-media.daniel-chahine004.workers.dev/prototwin_pet/7bc24133a1dc.vtt",
+"chapters": [
+[
+"Intro",
+0.0
+],
+[
+"Gap",
+38.8
+],
+[
+"Twins",
+68.05
+],
+[
+"Simulate",
+102.884
+],
+[
+"Washout",
+142.901
+],
+[
+"Scanner",
+175.051
+],
+[
+"Network",
+224.268
+],
+[
+"Training",
+265.852
+],
+[
+"Gamma",
+276.536
+],
+[
+"Sample",
+307.97
+],
+[
+"Results",
+343.354
+],
+[
+"Ablation",
+383.454
+],
+[
+"Speed",
+409.454
+],
+[
+"Recap",
+430.621
+]
+],
+"paper": {
+"cite": "Cabrales et al. · IEEE TRPMS 2025",
+"url": "https://doi.org/10.1109/trpms.2025.3531536"
+},
+"sources": [
+{
+"t": 0.02,
+"e": 19.49,
+"scene": "Intro",
+"cites": [
+[
+1,
+"protons deposit all of their energy within the patient",
+"quote"
+],
+[
+1,
+"resulting in no",
+"quote"
+],
+[
+1,
+"imaging activated positron emitters",
+"quote"
+],
+[
+1,
+"Complutense University of Madrid",
+"quote"
+],
+[
+1,
+"Pablo Cabrales",
+"quote"
+],
+[
+1,
+"converting the data into a delivered dose image",
+"quote"
+]
+]
+},
+{
+"t": 19.49,
+"e": 38.82,
+"scene": "Intro",
+"cites": [
+[
+1,
+"To mitigate the risk of tumor underdosage",
+"quote"
+],
+[
+1,
+"of 3.5% ± 3 mm are introduced",
+"quote"
+],
+[
+1,
+"these margins lead to the overdosage of healthy",
+"quote"
+],
+[
+1,
+"Dose verification enables the detection of deviations in",
+"quote"
+]
+]
+},
+{
+"t": 38.82,
+"e": 54.24,
+"scene": "Gap",
+"cites": [
+[
+2,
+"dose delivery is related to Coulomb inelastic interactions",
+"quote"
+],
+[
+2,
+"ascribed to nuclear interactions between the protons and",
+"quote"
+],
+[
+2,
+"radiation dose can be delivered",
+"quote"
+],
+[
+2,
+"generated",
+"quote"
+]
+]
+},
+{
+"t": 54.24,
+"e": 68.57,
+"scene": "Gap",
+"cites": [
+[
+2,
+"10–100 times lower",
+"quote"
+],
+[
+2,
+"noisy PET images",
+"quote"
+],
+[
+2,
+"biological washout involves the displacement of",
+"quote"
+]
+]
+},
+{
+"t": 68.57,
+"e": 82.3,
+"scene": "Twins",
+"cites": [
+[
+2,
+"Each treatment plan variation serves",
+"quote"
+],
+[
+2,
+"as a digital twin of the patient",
+"quote"
+],
+[
+2,
+"starts",
+"quote"
+],
+[
+2,
+"with the treatment plan obtained from the patient’s CT scan",
+"quote"
+],
+[
+2,
+"one day before the first treatment session",
+"quote"
+]
+]
+},
+{
+"t": 82.3,
+"e": 103.4,
+"scene": "Twins",
+"cites": [
+[
+2,
+"∼ U (−5, 5) ◦ .",
+"quote"
+],
+[
+2,
+"all sampled uniformly from [−5, 5] millimeters or",
+"quote"
+],
+[
+3,
+"deviations of up to 10% are sampled uniformly and introduced in these",
+"quote"
+],
+[
+5,
+"200 treatment",
+"quote"
+]
+]
+},
+{
+"t": 103.4,
+"e": 120.16,
+"scene": "Simulate",
+"cites": [
+[
+3,
+"The simulations are conducted with FRED v.3.70, a fast and",
+"quote"
+],
+[
+5,
+"two anterior oblique beams",
+"quote"
+],
+[
+5,
+"of approximately 10 000 pencil beams",
+"quote"
+],
+[
+5,
+"of 171 MeV",
+"quote"
+],
+[
+5,
+"energies ranging from a minimum of 31 MeV to a maximum",
+"quote"
+]
+]
+},
+{
+"t": 120.16,
+"e": 142.92,
+"scene": "Simulate",
+"cites": [
+[
+5,
+"dose and activation maps are produced",
+"quote"
+],
+[
+3,
+"to generate a dataset of 3-D",
+"quote"
+],
+[
+5,
+"The positron-emitting isotopes 11 C, 13 N, 15 O, and 38 K",
+"quote"
+],
+[
+5,
+"200 treatment",
+"quote"
+]
+]
+},
+{
+"t": 142.92,
+"e": 153.1,
+"scene": "Washout",
+"cites": [
+[
+5,
+"the irradiation time for each field is 2 min",
+"quote"
+],
+[
+5,
+"with a 2-min delay between fields for beam requesting and",
+"quote"
+],
+[
+5,
+"a 30-min PET scan is performed",
+"quote"
+],
+[
+5,
+"Ten minutes after the irradiation",
+"quote"
+]
+]
+},
+{
+"t": 153.1,
+"e": 175.07,
+"scene": "Washout",
+"cites": [
+[
+5,
+"The activities of the isotopes at the start of the PET scan, relative",
+"quote"
+],
+[
+5,
+"to their activities immediately after irradiation, are 36%, 8%,",
+"quote"
+],
+[
+5,
+"0.3%, and 6%, respectively.",
+"quote"
+],
+[
+3,
+"fast, medium, and slow biological components",
+"quote"
+],
+[
+5,
+"primary contribution to the delayed PET scans comes from the decay",
+"quote"
+],
+[
+5,
+"The positron-emitting isotopes 11 C, 13 N, 15 O, and 38 K",
+"quote"
+]
+]
+},
+{
+"t": 175.07,
+"e": 197.87,
+"scene": "Scanner",
+"cites": [
+[
+3,
+"Positrons are emitted with non-negligible",
+"quote"
+],
+[
+3,
+"kinetic energy and travel finite distances before annihilating",
+"quote"
+],
+[
+1,
+"emission of two 511 keV anti-parallel photons which can be",
+"quote"
+],
+[
+3,
+"MCGPU-PET [38]. Monte Carlo simulation",
+"quote"
+],
+[
+4,
+"MCGPU-PET outputs the detected events in list-mode",
+"quote"
+],
+[
+5,
+"The Siemens Biograph",
+"quote"
+]
+]
+},
+{
+"t": 197.87,
+"e": 224.29,
+"scene": "Scanner",
+"cites": [
+[
+4,
+"of the detector crystal [40]",
+"quote"
+],
+[
+4,
+"as a Gaussian distribution with uniform full width at half",
+"quote"
+],
+[
+4,
+"Event positions are discretized to the",
+"quote"
+],
+[
+4,
+"to the locations of the detector’s crystals.",
+"quote"
+],
+[
+5,
+"parallelproj, the OSEM",
+"quote"
+],
+[
+5,
+"struction algorithm was used with two subsets and three",
+"quote"
+],
+[
+5,
+"photon coincidence events were detected for each treatment",
+"quote"
+],
+[
+5,
+"Approximately nine million",
+"quote"
+]
+]
+},
+{
+"t": 224.29,
+"e": 247.4,
+"scene": "Network",
+"cites": [
+[
+4,
+"to train a DL model to predict 3-D dose delivery (output)",
+"quote"
+],
+[
+4,
+"The patient’s CT scan is concatenated",
+"quote"
+],
+[
+5,
+"dimensions of 128 × 96 × 128 voxels",
+"quote"
+],
+[
+5,
+"and a resolution of 1.95 × 1.95 × 1.5 mm",
+"quote"
+],
+[
+4,
+"The nnFormer",
+"quote"
+],
+[
+4,
+"architecture is implemented",
+"quote"
+],
+[
+4,
+"their entire path in the image space, creating correlated effects.",
+"quote"
+]
+]
+},
+{
+"t": 247.4,
+"e": 265.87,
+"scene": "Network",
+"cites": [
+[
+4,
+"layers originating from the penultimate encoder layer",
+"quote"
+],
+[
+4,
+"and has 1024 neurons, followed by 256, 128, and 3 neurons,",
+"quote"
+],
+[
+4,
+"x, y",
+"quote"
+]
+]
+},
+{
+"t": 265.87,
+"e": 276.56,
+"scene": "Training",
+"cites": [
+[
+4,
+"combines the mean absolute error (MAE) for the setup",
+"quote"
+],
+[
+4,
+"squared error (MSE) for the dose delivery estimation D,",
+"quote"
+],
+[
+4,
+"0.005",
+"quote"
+],
+[
+5,
+"split into 150 for training, 25 for validation, and",
+"quote"
+]
+]
+},
+{
+"t": 276.56,
+"e": 292.19,
+"scene": "Gamma",
+"cites": [
+[
+5,
+"Mean Gamma Index",
+"quote"
+],
+[
+6,
+"dose difference tolerance T",
+"quote"
+],
+[
+6,
+"of DTA = 3 mm and",
+"quote"
+],
+[
+6,
+"T = 3%",
+"quote"
+]
+]
+},
+{
+"t": 292.19,
+"e": 307.99,
+"scene": "Gamma",
+"cites": [
+[
+6,
+"that meet the passing criterion",
+"quote"
+],
+[
+6,
+"passing rates above 90% deemed",
+"quote"
+],
+[
+null,
+"gamma 0.67 and 1.5 from the shifted profiles drawn here (min over the reference of sqrt((d/3 mm)^2+(dD/3%)^2))",
+"computed"
+]
+]
+},
+{
+"t": 307.99,
+"e": 329.32,
+"scene": "Sample",
+"cites": [
+[
+7,
+"The GPR (3 mm, 3%)",
+"quote"
+],
+[
+6,
+"passing rates above 90% deemed",
+"quote"
+],
+[
+7,
+"planned dose [Fig. 5(a)] is 75%, well below the clinically",
+"quote"
+],
+[
+6,
+"variation involves patient setup errors of x =",
+"quote"
+],
+[
+6,
+"−3.19 mm, y = 4.65 mm, and θ = −3.92◦ . It was",
+"quote"
+]
+]
+},
+{
+"t": 329.32,
+"e": 343.37,
+"scene": "Sample",
+"cites": [
+[
+7,
+"near-perfect GPR (3 mm, 3%). The model estimated the setup",
+"quote"
+],
+[
+7,
+"deviations to be",
+"quote"
+],
+[
+7,
+"deviations to be x = −3.14 mm, y = 4.66 mm, and",
+"quote"
+],
+[
+7,
+"−3.94◦",
+"quote"
+],
+[
+7,
+"Table I GPR 99.99 ± 0.03 read off the page image",
+"figure"
+]
+]
+},
+{
+"t": 343.37,
+"e": 371.89,
+"scene": "Results",
+"cites": [
+[
+7,
+"Table I values read off the page image (MRE 4 ± 1 and 0.6 ± 0.1, GPR 91 ± 8 and 99.99 ± 0.03, GPR 60 ± 20 and 97 ± 1)",
+"figure"
+],
+[
+6,
+"the fraction of delivered doses in the test set with",
+"quote"
+],
+[
+6,
+"a GPR below the 90% threshold decreased from 43% (when",
+"quote"
+],
+[
+5,
+"split into 150 for training, 25 for validation, and",
+"quote"
+]
+]
+},
+{
+"t": 371.89,
+"e": 383.47,
+"scene": "Results",
+"cites": [
+[
+6,
+"|xestimated − xactual | = 0.04 ± 0.07 mm",
+"quote"
+],
+[
+6,
+"mated by more than 0.2 millimeters or degrees.",
+"quote"
+]
+]
+},
+{
+"t": 383.47,
+"e": 404.2,
+"scene": "Ablation",
+"cites": [
+[
+7,
+"Table II values read off the page image (30 ± 2, 24 ± 2, 60 ± 30, 1.1 ± 0.3)",
+"figure"
+],
+[
+6,
+"Train four models with less-realistic datasets.",
+"quote"
+],
+[
+6,
+"Test all four models with a dataset that includes all",
+"quote"
+]
+]
+},
+{
+"t": 404.2,
+"e": 409.47,
+"scene": "Ablation",
+"cites": [
+[
+8,
+"Excluding the positron range or isotopes other than 11 C would",
+"quote"
+],
+[
+8,
+"while reducing dataset generation times by approximately",
+"quote"
+],
+[
+8,
+"40%. This reduction could be advantageous in time-sensitive",
+"quote"
+],
+[
+7,
+"The performance downgrade is most signiﬁcant for models",
+"quote"
+]
+]
+},
+{
+"t": 409.47,
+"e": 430.64,
+"scene": "Speed",
+"cites": [
+[
+6,
+"The entire dataset was generated in 18 h, and the model",
+"quote"
+],
+[
+6,
+"training took 3 h, resulting in a total PROTOTWIN-PET",
+"quote"
+],
+[
+6,
+"implementation time of 21 h",
+"quote"
+],
+[
+7,
+"38 ± 1 ms once the model is trained.",
+"quote"
+],
+[
+5,
+"NVIDIA RTX 4080 SUPER",
+"quote"
+],
+[
+5,
+"200 treatment",
+"quote"
+]
+]
+},
+{
+"t": 430.64,
+"e": 457.12,
+"scene": "Recap",
+"cites": [
+[
+1,
+"resulting in no",
+"quote"
+],
+[
+5,
+"200 treatment",
+"quote"
+],
+[
+4,
+"to train a DL model to predict 3-D dose delivery (output)",
+"quote"
+]
+]
+},
+{
+"t": 457.12,
+"e": 483.74,
+"scene": "Recap",
+"cites": [
+[
+1,
+"estimated on average within a tenth of a millimeter and degree",
+"quote"
+],
+[
+1,
+"with an average mean relative error of 0.6% and near-perfect",
+"quote"
+],
+[
+8,
+"PROTOTWIN-PET was demonstrated using an offline verification",
+"quote"
+],
+[
+9,
+"we assume that the treatment plan CT and the CT obtained during the PET scan",
+"quote"
+],
+[
+9,
+"we plan to introduce the effects of organ motion",
+"quote"
+]
+]
+}
+]
+},
 {
 "id": "pet_proton_dose_dl",
 "title": "Direct mapping from PET coincidence data to proton-dose and positron activity using a…",
