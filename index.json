@@ -1,5 +1,5 @@
 {
-"generated": 1795072129,
+"generated": 1795239028,
 "playlists": [
 {
 "name": "PET reading",
@@ -25,6 +25,558 @@
 }
 ],
 "videos": [
+{
+"id": "diff_optical_det",
+"title": "End-to-end Differentiable Calibration and Reconstruction for Optical Particle Detectors",
+"dur": 435.2,
+"v": "d64738ce98a5",
+"size": 57975737,
+"src": "https://explainers-media.daniel-chahine004.workers.dev/diff_optical_det/d64738ce98a5.mp4",
+"thumb": "https://explainers-media.daniel-chahine004.workers.dev/diff_optical_det/d64738ce98a5.jpg",
+"small": "https://explainers-media.daniel-chahine004.workers.dev/diff_optical_det/01aa11f9f55d-s.mp4",
+"issue": 68,
+"notes": 0,
+"added": 1795239028,
+"updated": 1795239028,
+"reels": [
+"r0-d64738ce98a5.jpg",
+"r1-d64738ce98a5.jpg",
+"r2-d64738ce98a5.jpg",
+"r3-d64738ce98a5.jpg",
+"r4-d64738ce98a5.jpg",
+"r5-d64738ce98a5.jpg",
+"r6-d64738ce98a5.jpg",
+"r7-d64738ce98a5.jpg",
+"r8-d64738ce98a5.jpg",
+"r9-d64738ce98a5.jpg",
+"r10-d64738ce98a5.jpg",
+"av-d64738ce98a5.jpg"
+],
+"vtt": "https://explainers-media.daniel-chahine004.workers.dev/diff_optical_det/d64738ce98a5.vtt",
+"chapters": [
+[
+"Intro",
+0.0
+],
+[
+"Light",
+62.917
+],
+[
+"Propagate",
+99.334
+],
+[
+"Relax",
+139.018
+],
+[
+"Valley",
+188.785
+],
+[
+"Calibrate",
+231.052
+],
+[
+"Recovered",
+269.502
+],
+[
+"Track",
+296.269
+],
+[
+"Result",
+337.803
+],
+[
+"Design",
+371.837
+],
+[
+"Recap",
+400.354
+]
+],
+"paper": {
+"cite": "Alterkait et al. · arXiv 2026",
+"url": "https://arxiv.org/abs/2602.24129"
+},
+"sources": [
+{
+"t": 0.02,
+"e": 13.99,
+"scene": "Intro",
+"cites": [
+[
+1,
+"Large-scale homogeneous detectors with optical readouts",
+"quote"
+],
+[
+1,
+"infers particle properties from optical signals",
+"quote"
+]
+]
+},
+{
+"t": 13.99,
+"e": 37.82,
+"scene": "Intro",
+"cites": [
+[
+3,
+"16.9 m, H = 36.2 m, sR = 25 cm, Ns = 10764",
+"quote"
+],
+[
+2,
+"photons emitted instantaneously along a cone",
+"quote"
+]
+]
+},
+{
+"t": 37.82,
+"e": 62.94,
+"scene": "Intro",
+"cites": [
+[
+2,
+"standard simulators function as non-differentiable black",
+"quote"
+],
+[
+2,
+"requires running the full simulation at least once",
+"quote"
+],
+[
+2,
+"tional cost of evaluating the full gradient vector is roughly",
+"quote"
+],
+[
+21,
+"at the scale of ten thousand parameters",
+"quote"
+]
+]
+},
+{
+"t": 62.94,
+"e": 83.2,
+"scene": "Light",
+"cites": [
+[
+4,
+"carries an intensity and parameterization that together",
+"quote"
+],
+[
+4,
+"The intensity represents a fractional photon count",
+"quote"
+],
+[
+2,
+"photons emitted instantaneously along a cone",
+"quote"
+],
+[
+2,
+"by v > c/n, where n is the refractive index",
+"quote"
+]
+]
+},
+{
+"t": 83.2,
+"e": 99.36,
+"scene": "Light",
+"cites": [
+[
+4,
+"work (SIREN) [38] to interpolate them",
+"quote"
+],
+[
+5,
+"ensuring that the detector response remains differentiable",
+"quote"
+]
+]
+},
+{
+"t": 99.36,
+"e": 123.35,
+"scene": "Propagate",
+"cites": [
+[
+7,
+"Instead of terminating rays probabilistically, we",
+"quote"
+],
+[
+7,
+"deposit the expected probability weight directly into the",
+"quote"
+]
+]
+},
+{
+"t": 123.35,
+"e": 139.04,
+"scene": "Propagate",
+"cites": [
+[
+17,
+"propagated with K = 8 iterations",
+"quote"
+],
+[
+7,
+"a fixed list of up to",
+"quote"
+],
+[
+7,
+"M nearby sensors (typically M = 4)",
+"quote"
+],
+[
+21,
+"at the scale of ten thousand parameters",
+"quote"
+]
+]
+},
+{
+"t": 139.04,
+"e": 171.55,
+"scene": "Relax",
+"cites": [
+[
+8,
+"indicator function which is 1 if the ray hits the sensor",
+"quote"
+],
+[
+8,
+"modeled by a Gaussian probability density function with",
+"quote"
+],
+[
+8,
+"even when they strictly miss a sensor (b > r)",
+"quote"
+],
+[
+8,
+"tracking studies σ is one tenth of the sensor radius",
+"quote"
+]
+]
+},
+{
+"t": 171.55,
+"e": 188.81,
+"scene": "Relax",
+"cites": [
+[
+8,
+"the probability that it scattered",
+"quote"
+],
+[
+8,
+"score function",
+"quote"
+]
+]
+},
+{
+"t": 188.81,
+"e": 231.07,
+"scene": "Valley",
+"cites": [
+[
+11,
+"The charge term is the Poisson negative log-likelihood",
+"quote"
+],
+[
+13,
+"difficult to separate from the amount of collected light",
+"quote"
+],
+[
+13,
+"long, narrow valley",
+"quote"
+],
+[
+13,
+"Fisher information matrix of the model",
+"quote"
+],
+[
+10,
+"Adding the Fisher matrix instead costs a factor",
+"quote"
+],
+[
+10,
+"independent of the number of parameters inferred",
+"quote"
+]
+]
+},
+{
+"t": 231.07,
+"e": 254.12,
+"scene": "Calibrate",
+"cites": [
+[
+14,
+"A collimated laser probes the medium along a well-defined path",
+"quote"
+],
+[
+15,
+"positioned on the top end",
+"quote"
+],
+[
+14,
+"Distributed isotropic sources illuminate the sensors over",
+"quote"
+],
+[
+14,
+"and 473 nm, matching the dye-laser lines of the Super-",
+"quote"
+]
+]
+},
+{
+"t": 254.12,
+"e": 269.52,
+"scene": "Calibrate",
+"cites": [
+[
+15,
+"so it follows in closed form from the charge collected there",
+"quote"
+],
+[
+14,
+"of the optical parameters and substitute them into the model",
+"quote"
+],
+[
+21,
+"at the scale of ten thousand parameters",
+"quote"
+]
+]
+},
+{
+"t": 269.52,
+"e": 296.29,
+"scene": "Recovered",
+"cites": [
+[
+16,
+"perturbed starting points (line style; dotted lines mark the truth)",
+"quote"
+],
+[
+16,
+"recovered versus true",
+"quote"
+],
+[
+16,
+"RMS 0.88%",
+"quote"
+],
+[
+15,
+"residual spread of 0.9%",
+"quote"
+],
+[
+16,
+"the full 600 for the diffuse reflectivities, which are the slowest",
+"quote"
+],
+[
+21,
+"at the scale of ten thousand parameters",
+"quote"
+]
+]
+},
+{
+"t": 296.29,
+"e": 321.52,
+"scene": "Track",
+"cites": [
+[
+15,
+"the vertex position x, the direction (θ, ϕ), the start time t0, and the energy E",
+"quote"
+],
+[
+16,
+"Reconstruction uses",
+"quote"
+],
+[
+16,
+"term fixing the energy scale",
+"quote"
+]
+]
+},
+{
+"t": 321.52,
+"e": 337.82,
+"scene": "Track",
+"cites": [
+[
+16,
+"updates all seven parameters simultaneously",
+"quote"
+],
+[
+17,
+"Convergence is",
+"quote"
+],
+[
+17,
+"fewer than 100 iterations sufficient",
+"quote"
+],
+[
+16,
+"coarse grid search",
+"quote"
+]
+]
+},
+{
+"t": 337.82,
+"e": 371.86,
+"scene": "Result",
+"cites": [
+[
+17,
+"500 muon events with Eµ = 1000 MeV (1 GeV) simulated",
+"quote"
+],
+[
+17,
+"tex resolution of approximately 16.1",
+"quote"
+],
+[
+17,
+"angular resolution of",
+"quote"
+],
+[
+17,
+"tion of 2.1",
+"quote"
+],
+[
+17,
+"1.10",
+"quote"
+],
+[
+17,
+"comparable to those achieved by FitQun (15.8 cm, 1.0◦ , 2.3%",
+"quote"
+],
+[
+17,
+"approximately 30 seconds per event",
+"quote"
+],
+[
+17,
+"detector geometry, sensor response, and medium properties",
+"quote"
+]
+]
+},
+{
+"t": 371.86,
+"e": 400.37,
+"scene": "Design",
+"cites": [
+[
+18,
+"performs ray tracing on the fly",
+"quote"
+],
+[
+18,
+"valid only for a fixed geometry",
+"quote"
+],
+[
+18,
+"varying the number of photosensors in the  SK-like detector",
+"quote"
+],
+[
+19,
+"Fig. 16 position panel, read off: 2000 to 16000 sensors, error from about 26 cm falling to about 17 cm",
+"figure"
+],
+[
+18,
+"varying sensor detection efficiency",
+"quote"
+]
+]
+},
+{
+"t": 400.37,
+"e": 436.89,
+"scene": "Recap",
+"cites": [
+[
+21,
+"end-to-end differentiable simulation framework",
+"quote"
+],
+[
+15,
+"not the fidelity of the optical model to a real detector",
+"quote"
+],
+[
+21,
+"at the scale of ten thousand parameters",
+"quote"
+],
+[
+17,
+"tex resolution of approximately 16.1",
+"quote"
+]
+]
+}
+]
+},
 {
 "id": "c12_pet_dose",
 "title": "An inception network for positron emission tomography based dose estimation in carbon…",
