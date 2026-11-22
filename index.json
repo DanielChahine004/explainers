@@ -1,5 +1,5 @@
 {
-"generated": 1795333209,
+"generated": 1795364804,
 "playlists": [
 {
 "name": "PET reading",
@@ -25,6 +25,497 @@
 }
 ],
 "videos": [
+{
+"id": "cion_pet_physics",
+"title": "Cion_pet_physics, a topic video: why a post-treatment PET image of a carbon-ion beam is…",
+"dur": 448.0,
+"v": "2235d4f6bc1f",
+"size": 41891633,
+"src": "https://explainers-media.daniel-chahine004.workers.dev/cion_pet_physics/2235d4f6bc1f.mp4",
+"thumb": "https://explainers-media.daniel-chahine004.workers.dev/cion_pet_physics/2235d4f6bc1f.jpg",
+"small": "https://explainers-media.daniel-chahine004.workers.dev/cion_pet_physics/f52dc4d16d2e-s.mp4",
+"issue": 73,
+"notes": 0,
+"added": 1795364804,
+"updated": 1795364804,
+"reels": [
+"r0-2235d4f6bc1f.jpg",
+"r1-2235d4f6bc1f.jpg",
+"r2-2235d4f6bc1f.jpg",
+"r3-2235d4f6bc1f.jpg",
+"r4-2235d4f6bc1f.jpg",
+"r5-2235d4f6bc1f.jpg",
+"r6-2235d4f6bc1f.jpg",
+"r7-2235d4f6bc1f.jpg",
+"r8-2235d4f6bc1f.jpg",
+"r9-2235d4f6bc1f.jpg",
+"r10-2235d4f6bc1f.jpg",
+"av-2235d4f6bc1f.jpg"
+],
+"vtt": "https://explainers-media.daniel-chahine004.workers.dev/cion_pet_physics/2235d4f6bc1f.vtt",
+"chapters": [
+[
+"Intro",
+0.0
+],
+[
+"Stopping",
+35.55
+],
+[
+"Spread",
+84.7
+],
+[
+"Sideways",
+125.834
+],
+[
+"Projectile",
+149.234
+],
+[
+"Target",
+196.184
+],
+[
+"Positron",
+223.718
+],
+[
+"Offline",
+249.502
+],
+[
+"Profile",
+311.786
+],
+[
+"Predict",
+360.97
+],
+[
+"Recap",
+407.604
+]
+],
+"paper": {
+"cite": "Kraan · Front Oncol 2015, with Rutherford et al. 2022 and Hamato et al. 2024",
+"url": "https://doi.org/10.3389/fonc.2015.00150"
+},
+"sources": [
+{
+"t": 0.02,
+"e": 15.45,
+"scene": "Intro",
+"cites": [
+[
+1,
+"Non-invasive in vivo",
+"quote"
+],
+[
+null,
+"Hamato 2024 \"almost impossible to directly measure the dose distribution\"",
+"computed"
+]
+]
+},
+{
+"t": 15.45,
+"e": 35.57,
+"scene": "Intro",
+"cites": [
+[
+3,
+"formula causes the characteristic Bragg peak.",
+"quote"
+],
+[
+8,
+"mas of 511 keV. These can be measured with a PET detector,",
+"quote"
+]
+]
+},
+{
+"t": 35.57,
+"e": 61.37,
+"scene": "Stopping",
+"cites": [
+[
+3,
+"formula causes the characteristic Bragg peak.",
+"quote"
+],
+[
+3,
+"loss with decreasing particle velocity described by the Bethe-Bloch",
+"quote"
+],
+[
+null,
+"charge squared: 6^2 = 36 for carbon, 1^2 = 1 for a proton at the same speed",
+"computed"
+]
+]
+},
+{
+"t": 61.37,
+"e": 84.72,
+"scene": "Stopping",
+"cites": [
+[
+3,
+"is a stochastic process, so that the actual range of each single",
+"quote"
+],
+[
+3,
+"widening of the Bragg peak is known as range straggling. Second,",
+"quote"
+],
+[
+3,
+"the range is defined as the distal 80% point of the Bragg peak",
+"quote"
+]
+]
+},
+{
+"t": 84.72,
+"e": 111.12,
+"scene": "Spread",
+"cites": [
+[
+null,
+"Rutherford 2022: \"12C ion pencil beams with energies from 200 to 350 MeV u-1 in steps of 15\" gives eleven energies",
+"computed"
+],
+[
+null,
+"Rutherford 2022: \"One 12C ion 116 mm SOBP (SOBP116) with energies between 200 and 350 MeV u-1\"",
+"computed"
+]
+]
+},
+{
+"t": 111.12,
+"e": 125.86,
+"scene": "Spread",
+"cites": [
+[
+8,
+"the Bragg peak region is close to 1 for protons (43) and between 3",
+"quote"
+],
+[
+8,
+"and 4 for Carbon ions (44). For the latter, it must be included in",
+"quote"
+]
+]
+},
+{
+"t": 125.86,
+"e": 149.85,
+"scene": "Sideways",
+"cites": [
+[
+4,
+"lateral broadening of",
+"quote"
+],
+[
+4,
+"Fig. 3 curve ends in water: 250 MeV protons 21 mm, 491 MeV/u carbon about 8 mm, start width 5 mm",
+"figure"
+]
+]
+},
+{
+"t": 149.85,
+"e": 170.5,
+"scene": "Projectile",
+"cites": [
+[
+7,
+"290 MeV/u carbon ions impinging on water, in average 50% of",
+"quote"
+],
+[
+7,
+"at around 16 cm (37).",
+"quote"
+],
+[
+7,
+"velocities and directions as their mothers, but larger ranges than",
+"quote"
+]
+]
+},
+{
+"t": 170.5,
+"e": 196.81,
+"scene": "Projectile",
+"cites": [
+[
+7,
+"the primary ions because range scales with A/Z2 . This leads",
+"quote"
+],
+[
+7,
+"to the characteristic tail beyond the Bragg peak (see Figure 2,",
+"quote"
+],
+[
+null,
+"A/Z^2: 12C 12/36 = 1/3, 11C 11/36 so 11/12 = 92%, 10C 10/36 so 10/12 = 83%, 4He 4/4 = 1 so 3 times 12C",
+"computed"
+]
+]
+},
+{
+"t": 196.81,
+"e": 224.04,
+"scene": "Target",
+"cites": [
+[
+7,
+"target and projectile-nuclei can fragment, as opposed to proton",
+"quote"
+],
+[
+null,
+"Table 1 of Kraan p8: 16O(p,pn)15O, 12C(p,pn)11C, 14N(p,pn)13N, each reaction removes one neutron",
+"computed"
+],
+[
+null,
+"Rutherford 2022: \"in carbon ion therapy, nuclear fragmentation of particles in both the beam and target can produce positron-emitting fragments\"",
+"computed"
+]
+]
+},
+{
+"t": 224.04,
+"e": 249.52,
+"scene": "Positron",
+"cites": [
+[
+8,
+"after traveling a small distance (of order mm), annihilates",
+"quote"
+],
+[
+8,
+"mas of 511 keV. These can be measured with a PET detector,",
+"quote"
+]
+]
+},
+{
+"t": 249.52,
+"e": 276.4,
+"scene": "Offline",
+"cites": [
+[
+14,
+"Offline data acquisition, where data are acquired with a full",
+"quote"
+],
+[
+14,
+"and monitoring greatly limits the offline method. Signal",
+"quote"
+],
+[
+8,
+"9.965",
+"quote"
+],
+[
+8,
+"20.385",
+"quote"
+],
+[
+8,
+"2.037",
+"quote"
+],
+[
+null,
+"Rutherford 2022: \"10C and 15O, with half-lives of 19.26 s and 122.24 s\"",
+"computed"
+]
+]
+},
+{
+"t": 276.4,
+"e": 289.9,
+"scene": "Offline",
+"cites": [
+[
+null,
+"assumed delay 5 min: 2^(-300/19.26) = 0.00003, 2^(-5/2.037) = 0.18 = 18%, 2^(-5/9.965) = 0.71 = 71%, 2^(-5/20.385) = 0.84 = 84%",
+"computed"
+]
+]
+},
+{
+"t": 289.9,
+"e": 311.81,
+"scene": "Offline",
+"cites": [
+[
+null,
+"Rutherford 2022: \"this isotope constitutes approximately 85% of the positron-emitting fragments at the Bragg peak\"",
+"computed"
+],
+[
+14,
+"decay and biological washout processes rapidly cause signal",
+"quote"
+],
+[
+14,
+"patients, correction factors for biological washout were applied a",
+"quote"
+]
+]
+},
+{
+"t": 311.81,
+"e": 326.62,
+"scene": "Profile",
+"cites": [
+[
+7,
+"target and projectile-nuclei can fragment, as opposed to proton",
+"quote"
+],
+[
+14,
+"additional contribution in the activity from β + emitting projectile",
+"quote"
+]
+]
+},
+{
+"t": 326.62,
+"e": 347.44,
+"scene": "Profile",
+"cites": [
+[
+15,
+"Fig. 9 panel 12C: E = 212 AMeV in PMMA; activity peak read off at 75 mm, dose peak at 79 mm",
+"figure"
+],
+[
+14,
+"activity peak. Second, we see that no direct correlation exists",
+"quote"
+],
+[
+14,
+"Two things can be noticed. First, the shape of the",
+"quote"
+]
+]
+},
+{
+"t": 347.44,
+"e": 360.99,
+"scene": "Profile",
+"cites": [
+[
+16,
+"lytical method to calculate activity by a convolution product of",
+"quote"
+],
+[
+16,
+"dose and a number of filter functions. This approach was extended",
+"quote"
+]
+]
+},
+{
+"t": 360.99,
+"e": 386.02,
+"scene": "Predict",
+"cites": [
+[
+16,
+"for a glioblastoma patient treated at HIT.",
+"quote"
+],
+[
+2,
+"range monitoring methods generally rely on direct comparisons",
+"quote"
+]
+]
+},
+{
+"t": 386.02,
+"e": 407.62,
+"scene": "Predict",
+"cites": [
+[
+16,
+"differences up to 50% in yield between the codes and the",
+"quote"
+],
+[
+17,
+"lead to a 1 and 5 mm uncertainty on the activity fall-off",
+"quote"
+],
+[
+17,
+"for 5 and 30 min in-room data-taking, respectively. To",
+"quote"
+],
+[
+16,
+"Various groups have compared β + activity predictions from",
+"quote"
+]
+]
+},
+{
+"t": 407.62,
+"e": 449.06,
+"scene": "Recap",
+"cites": [
+[
+3,
+"formula causes the characteristic Bragg peak.",
+"quote"
+],
+[
+8,
+"mas of 511 keV. These can be measured with a PET detector,",
+"quote"
+],
+[
+14,
+"activity peak. Second, we see that no direct correlation exists",
+"quote"
+],
+[
+14,
+"and monitoring greatly limits the offline method. Signal",
+"quote"
+]
+]
+}
+]
+},
 {
 "id": "rib_pet_dose",
 "title": "Dose estimation using in-beam positron emission tomography: Demonstration for 11C and…",
