@@ -1,5 +1,5 @@
 {
-"generated": 1795275398,
+"generated": 1795321162,
 "playlists": [
 {
 "name": "PET reading",
@@ -25,6 +25,836 @@
 }
 ],
 "videos": [
+{
+"id": "rib_pet_dose",
+"title": "Dose estimation using in-beam positron emission tomography: Demonstration for 11C and…",
+"dur": 453.8,
+"v": "96fd8efd2786",
+"size": 46469689,
+"src": "https://explainers-media.daniel-chahine004.workers.dev/rib_pet_dose/96fd8efd2786.mp4",
+"thumb": "https://explainers-media.daniel-chahine004.workers.dev/rib_pet_dose/96fd8efd2786.jpg",
+"small": "https://explainers-media.daniel-chahine004.workers.dev/rib_pet_dose/0909d6c5f913-s.mp4",
+"issue": 72,
+"notes": 0,
+"added": 1795321162,
+"updated": 1795321162,
+"reels": [
+"r0-96fd8efd2786.jpg",
+"r1-96fd8efd2786.jpg",
+"r2-96fd8efd2786.jpg",
+"r3-96fd8efd2786.jpg",
+"r4-96fd8efd2786.jpg",
+"r5-96fd8efd2786.jpg",
+"r6-96fd8efd2786.jpg",
+"r7-96fd8efd2786.jpg",
+"r8-96fd8efd2786.jpg",
+"r9-96fd8efd2786.jpg",
+"r10-96fd8efd2786.jpg",
+"r11-96fd8efd2786.jpg",
+"r12-96fd8efd2786.jpg",
+"av-96fd8efd2786.jpg"
+],
+"vtt": "https://explainers-media.daniel-chahine004.workers.dev/rib_pet_dose/96fd8efd2786.vtt",
+"chapters": [
+[
+"Gap",
+0.0
+],
+[
+"Beams",
+26.784
+],
+[
+"Ring",
+72.751
+],
+[
+"One beam",
+112.301
+],
+[
+"Sum",
+143.685
+],
+[
+"Library",
+171.719
+],
+[
+"Count",
+201.353
+],
+[
+"Weights",
+228.437
+],
+[
+"Result",
+258.571
+],
+[
+"Regions",
+297.371
+],
+[
+"Head",
+339.671
+],
+[
+"Limits",
+377.321
+],
+[
+"Recap",
+411.221
+]
+],
+"paper": {
+"cite": "Hamato et al. · Nucl Instrum Methods A 2024",
+"url": "https://doi.org/10.1016/j.nima.2024.169643"
+},
+"sources": [
+{
+"t": 0.02,
+"e": 18.1,
+"scene": "Gap",
+"cites": [
+[
+1,
+"predicting the depth dose from PET images",
+"quote"
+],
+[
+1,
+"Positron-emitting ion beams, known as radioactive ion (RI) beams",
+"quote"
+],
+[
+2,
+"Since it is almost impossible to directly measure",
+"quote"
+]
+]
+},
+{
+"t": 18.1,
+"e": 26.8,
+"scene": "Gap",
+"cites": [
+[
+1,
+"dose from PET images for RI beams",
+"quote"
+],
+[
+1,
+"11C and 15O",
+"quote"
+]
+]
+},
+{
+"t": 26.8,
+"e": 48.7,
+"scene": "Beams",
+"cites": [
+[
+10,
+"beryllium target (42 mm thickness)",
+"quote"
+],
+[
+10,
+"290 MeV",
+"quote"
+],
+[
+2,
+"projectile fragmentation method",
+"quote"
+]
+]
+},
+{
+"t": 48.7,
+"e": 72.77,
+"scene": "Beams",
+"cites": [
+[
+10,
+"momentum slit (SLT-131) was set at 10 mm, which corresponded to an MA of ±0.25%",
+"quote"
+],
+[
+11,
+"Two different MAs of ±0.25% and ±2.5% were set by adjusting",
+"quote"
+],
+[
+11,
+"(BM-01) to 10 mm and 100 mm",
+"quote"
+],
+[
+2,
+"±2.5%, respectively, at the HIMAC",
+"quote"
+],
+[
+12,
+"between 200.64 and 219.85",
+"quote"
+]
+]
+},
+{
+"t": 72.77,
+"e": 87.59,
+"scene": "Ring",
+"cites": [
+[
+2,
+"A PMMA phantom (100",
+"quote"
+],
+[
+2,
+"mm × 100 mm × 300 mm",
+"quote"
+],
+[
+2,
+"featuring a total of 160 detectors",
+"quote"
+],
+[
+2,
+"660 mm, and each detector was made of a",
+"quote"
+],
+[
+2,
+"prototype PET scanner with an axial field of view (FOV) of 241 mm",
+"quote"
+]
+]
+},
+{
+"t": 87.59,
+"e": 112.32,
+"scene": "Ring",
+"cites": [
+[
+2,
+"had a macroscopic pulsed structure with a periodic duration of 3.3 s",
+"quote"
+],
+[
+2,
+"extraction time of 1.9 s and off for the",
+"quote"
+],
+[
+2,
+"remaining duration of 1.4 s in each spill",
+"quote"
+],
+[
+3,
+"the majority part of the",
+"quote"
+],
+[
+3,
+"PET signals came from the incident ion beams",
+"quote"
+],
+[
+3,
+"min for the 11C ion beams",
+"quote"
+],
+[
+3,
+"carried out for a total duration of 13 min for the 15O ion beams and 23",
+"quote"
+]
+]
+},
+{
+"t": 112.32,
+"e": 134.12,
+"scene": "OneBeam",
+"cites": [
+[
+4,
+"the dose distribution of the monoenergetic beams was sharper around the Bragg",
+"quote"
+],
+[
+3,
+"the majority part of the",
+"quote"
+],
+[
+3,
+"PET signals came from the incident ion beams",
+"quote"
+],
+[
+3,
+"the incident ion beams were positron emitters",
+"quote"
+]
+]
+},
+{
+"t": 134.12,
+"e": 143.71,
+"scene": "OneBeam",
+"cites": [
+[
+4,
+"position was shifted to the left",
+"quote"
+],
+[
+4,
+"energetic beams compared to the monoenergetic beams",
+"quote"
+],
+[
+4,
+"the dose distribution of the monoenergetic beams was sharper around the Bragg",
+"quote"
+]
+]
+},
+{
+"t": 143.71,
+"e": 156.5,
+"scene": "Sum",
+"cites": [
+[
+2,
+"was considered to be a summation of those of different",
+"quote"
+],
+[
+6,
+"A polyenergetic ion beam was assumed to be composed of multiple",
+"quote"
+]
+]
+},
+{
+"t": 156.5,
+"e": 171.74,
+"scene": "Sum",
+"cites": [
+[
+4,
+"PETpoly,k",
+"quote"
+],
+[
+4,
+"wi PETi,k",
+"quote"
+],
+[
+4,
+"where wi is the weighing factor for the ith energy beam",
+"quote"
+],
+[
+4,
+"Dosei,k",
+"quote"
+]
+]
+},
+{
+"t": 171.74,
+"e": 185.92,
+"scene": "Library",
+"cites": [
+[
+3,
+"The ranges of the monoenergetic",
+"quote"
+],
+[
+3,
+"(SRIM-2013) [25]",
+"quote"
+],
+[
+6,
+"values of 0.99999",
+"quote"
+],
+[
+6,
+"the 11C and 15O ion beams resulted in R (coefficient of determination)",
+"quote"
+]
+]
+},
+{
+"t": 185.92,
+"e": 201.37,
+"scene": "Library",
+"cites": [
+[
+3,
+"same trend and shape as those measured for the monoenergetic",
+"quote"
+],
+[
+3,
+"the depth of each profile was calculated",
+"quote"
+],
+[
+3,
+"energies ranged from 180 to 250",
+"quote"
+]
+]
+},
+{
+"t": 201.37,
+"e": 210.37,
+"scene": "Count",
+"cites": [
+[
+4,
+"was roughly estimated from the energy",
+"quote"
+],
+[
+4,
+"tribution of each polyenergetic ion beam, which was extracted from its",
+"quote"
+],
+[
+4,
+"measured momentum distribution",
+"quote"
+],
+[
+6,
+"A polyenergetic ion beam was assumed to be composed of multiple",
+"quote"
+]
+]
+},
+{
+"t": 210.37,
+"e": 228.46,
+"scene": "Count",
+"cites": [
+[
+1,
+"the depth dose of polyenergetic ion beams of 11C and 15O from PET images",
+"quote"
+],
+[
+6,
+"number of required mono-energetic ion beams",
+"quote"
+],
+[
+6,
+"increased from 1 until the mean squared error between the measured",
+"quote"
+],
+[
+8,
+"beams when thirteen and eleven monoenergetic ion beams were",
+"quote"
+]
+]
+},
+{
+"t": 228.46,
+"e": 239.84,
+"scene": "Weights",
+"cites": [
+[
+4,
+"The linear combination that",
+"quote"
+],
+[
+4,
+"minimizes the mean squared error between the observed and fitted PET",
+"quote"
+],
+[
+4,
+"profiles can result in fluctuations of the estimated dose distribution",
+"quote"
+]
+]
+},
+{
+"t": 239.84,
+"e": 258.59,
+"scene": "Weights",
+"cites": [
+[
+4,
+"regularization term), suppresses oscillations in the estimated depth",
+"quote"
+],
+[
+4,
+"Rfit constrains the slope of the depth dose calculated from the PET",
+"quote"
+],
+[
+4,
+"were iteratively calculated for each",
+"quote"
+],
+[
+4,
+"mum and the dose gradient smoothly changed.",
+"quote"
+]
+]
+},
+{
+"t": 258.59,
+"e": 268.05,
+"scene": "Result",
+"cites": [
+[
+8,
+"The depth dose was generally well predicted for each polyenergetic",
+"quote"
+],
+[
+8,
+"ion beam in PMMA",
+"quote"
+],
+[
+1,
+"the depth dose of polyenergetic ion beams of 11C and 15O from PET images",
+"quote"
+],
+[
+7,
+"Comparison of predicted and measured a) PET profiles",
+"quote"
+]
+]
+},
+{
+"t": 268.05,
+"e": 297.39,
+"scene": "Result",
+"cites": [
+[
+8,
+"peak matched the measured position within 0.13 mm for both the 11C",
+"quote"
+],
+[
+8,
+"and 15O ion beams",
+"quote"
+],
+[
+8,
+"distal fall-off position at 80% of the Bragg",
+"quote"
+],
+[
+3,
+"cubic voxel size of 0.5",
+"quote"
+],
+[
+8,
+"phantom were 1.8 mm and 2.1 mm for 15O and 11C beams, respectively",
+"quote"
+],
+[
+null,
+"0.13 mm / 0.5 mm = 0.26, a quarter of a voxel",
+"computed"
+],
+[
+null,
+"2.1 mm / 0.13 mm = 16, and 1.8 / 0.13 = 13.8, both more than ten times",
+"computed"
+]
+]
+},
+{
+"t": 297.39,
+"e": 307.69,
+"scene": "Regions",
+"cites": [
+[
+4,
+"The MRE was also evaluated across the entire depth dose",
+"quote"
+],
+[
+4,
+"was defined relative to the maximum measured or simulated depth dose",
+"quote"
+],
+[
+4,
+"mean relative error (MRE) in three regions",
+"quote"
+],
+[
+1,
+"the depth dose of polyenergetic ion beams of 11C and 15O from PET images",
+"quote"
+]
+]
+},
+{
+"t": 307.69,
+"e": 314.99,
+"scene": "Regions",
+"cites": [
+[
+4,
+"less than 0.62), the Bragg peak",
+"quote"
+],
+[
+4,
+"was between 0.62 and 1 before the Bragg peak, and between 1 and 0.19",
+"quote"
+],
+[
+4,
+"the relative measured dose was less than 0.19)",
+"quote"
+],
+[
+4,
+"relative measured depth dose was less than 0.62)",
+"quote"
+]
+]
+},
+{
+"t": 314.99,
+"e": 339.69,
+"scene": "Regions",
+"cites": [
+[
+1,
+"the depth dose of polyenergetic ion beams of 11C and 15O from PET images",
+"quote"
+],
+[
+8,
+"1.55 5.55 2.20",
+"quote"
+],
+[
+8,
+"5.07",
+"quote"
+],
+[
+8,
+"3.03 2.17 10.55 1.95",
+"quote"
+]
+]
+},
+{
+"t": 339.69,
+"e": 358.15,
+"scene": "Head",
+"cites": [
+[
+3,
+"version 3.33 for monoenergetic ion beams of 175, 195, 210, 225 and",
+"quote"
+],
+[
+3,
+"anthropomorphic head phantom, the proton therapy dosimetry head (Model",
+"quote"
+],
+[
+3,
+"the CT values were used to define tissue types such as soft tissue, brain",
+"quote"
+],
+[
+3,
+"175 and 240 MeV",
+"quote"
+]
+]
+},
+{
+"t": 358.15,
+"e": 377.34,
+"scene": "Head",
+"cites": [
+[
+3,
+"which had a Gaussian energy distribution with full width at half maximum (FWHM)",
+"quote"
+],
+[
+3,
+"of 28 MeV",
+"quote"
+],
+[
+8,
+"largest MRE for the overall depth in the head was less than 0.69%",
+"quote"
+],
+[
+8,
+"position within 0.08 ± 0.03 mm",
+"quote"
+]
+]
+},
+{
+"t": 377.34,
+"e": 393.2,
+"scene": "Limits",
+"cites": [
+[
+8,
+"The same",
+"quote"
+],
+[
+8,
+"ratio should be related to the beam",
+"quote"
+],
+[
+8,
+"The largest MRE was observed for the tail region for",
+"quote"
+],
+[
+8,
+"plateau and tail regions in PMMA can potentially be improved by implementing",
+"quote"
+]
+]
+},
+{
+"t": 393.2,
+"e": 411.24,
+"scene": "Limits",
+"cites": [
+[
+8,
+"by measuring the depth doses for all monoenergetic beams",
+"quote"
+],
+[
+8,
+"phantom the accuracy of the predicted doses in the plateau and tail",
+"quote"
+],
+[
+8,
+"The average",
+"quote"
+],
+[
+8,
+"MRE was less than 0.91% for all regions",
+"quote"
+],
+[
+9,
+"biological washout",
+"quote"
+],
+[
+9,
+"the natural transport of RI ions or positron-emitting nuclei",
+"quote"
+]
+]
+},
+{
+"t": 411.24,
+"e": 430.94,
+"scene": "Recap",
+"cites": [
+[
+1,
+"the depth dose of polyenergetic ion beams of 11C and 15O from PET images",
+"quote"
+],
+[
+9,
+"A set of depth dose and PET profiles was",
+"quote"
+],
+[
+9,
+"structed for several monoenergetic ion beams using the measured data",
+"quote"
+]
+]
+},
+{
+"t": 430.94,
+"e": 458.1,
+"scene": "Recap",
+"cites": [
+[
+9,
+"The mean relative errors in the",
+"quote"
+],
+[
+9,
+"overall dose were 2.20% and 1.95% for the 11C and 15O ion beams,",
+"quote"
+],
+[
+9,
+"peak were verified to be within 0.13 mm",
+"quote"
+],
+[
+9,
+"beam to demonstrate its capability to three dimensions",
+"quote"
+],
+[
+8,
+"position within 0.08 ± 0.03 mm",
+"quote"
+],
+[
+9,
+"we plan to extend our",
+"quote"
+]
+]
+}
+]
+},
 {
 "id": "hofmann_emitters",
 "title": "Prediction of positron emitter distributions for range monitoring in carbon ion…",
