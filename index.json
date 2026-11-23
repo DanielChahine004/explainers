@@ -1,5 +1,5 @@
 {
-"generated": 1795364804,
+"generated": 1795396831,
 "playlists": [
 {
 "name": "PET reading",
@@ -25,6 +25,88 @@
 }
 ],
 "videos": [
+{
+"id": "sbs_theory",
+"title": "Mathematical Theory of Stimulated Brillouin Scattering",
+"dur": 417.8,
+"v": "8ba3157fe781",
+"size": 67413007,
+"src": "https://explainers-media.daniel-chahine004.workers.dev/sbs_theory/8ba3157fe781.mp4",
+"thumb": "https://explainers-media.daniel-chahine004.workers.dev/sbs_theory/8ba3157fe781.jpg",
+"small": "https://explainers-media.daniel-chahine004.workers.dev/sbs_theory/9180637652cd-s.mp4",
+"issue": 65,
+"notes": 0,
+"added": 1794984996,
+"updated": 1795396831,
+"reels": [
+"r0-8ba3157fe781.jpg",
+"r1-8ba3157fe781.jpg",
+"r2-8ba3157fe781.jpg",
+"r3-8ba3157fe781.jpg",
+"r4-8ba3157fe781.jpg",
+"r5-8ba3157fe781.jpg",
+"r6-8ba3157fe781.jpg",
+"r7-8ba3157fe781.jpg",
+"r8-8ba3157fe781.jpg",
+"r9-8ba3157fe781.jpg",
+"r10-8ba3157fe781.jpg",
+"r11-8ba3157fe781.jpg",
+"av-8ba3157fe781.jpg"
+],
+"vtt": "https://explainers-media.daniel-chahine004.workers.dev/sbs_theory/8ba3157fe781.vtt",
+"chapters": [
+[
+"Intro",
+0.0
+],
+[
+"Grating",
+39.367
+],
+[
+"Envelope",
+72.601
+],
+[
+"Optical eq",
+106.951
+],
+[
+"Electro",
+140.385
+],
+[
+"Coupling",
+172.702
+],
+[
+"Steady",
+204.686
+],
+[
+"Slices",
+242.186
+],
+[
+"Stats",
+280.603
+],
+[
+"Phase noise",
+310.437
+],
+[
+"Phase check",
+339.337
+],
+[
+"Takeaway",
+372.654
+]
+],
+"paper": null,
+"sources": []
+},
 {
 "id": "cion_pet_physics",
 "title": "Cion_pet_physics, a topic video: why a post-treatment PET image of a carbon-ion beam is…",
@@ -4881,88 +4963,6 @@ null,
 [
 "Recap",
 337.038
-]
-],
-"paper": null,
-"sources": []
-},
-{
-"id": "sbs_theory",
-"title": "Mathematical Theory of Stimulated Brillouin Scattering",
-"dur": 417.8,
-"v": "9dd6cc75e13e",
-"size": 55232540,
-"src": "https://explainers-media.daniel-chahine004.workers.dev/sbs_theory/9dd6cc75e13e.mp4",
-"thumb": "https://explainers-media.daniel-chahine004.workers.dev/sbs_theory/9dd6cc75e13e.jpg",
-"small": "https://explainers-media.daniel-chahine004.workers.dev/sbs_theory/b97172737488-s.mp4",
-"issue": 65,
-"notes": 0,
-"added": 1794984996,
-"updated": 1794984996,
-"reels": [
-"r0-9dd6cc75e13e.jpg",
-"r1-9dd6cc75e13e.jpg",
-"r2-9dd6cc75e13e.jpg",
-"r3-9dd6cc75e13e.jpg",
-"r4-9dd6cc75e13e.jpg",
-"r5-9dd6cc75e13e.jpg",
-"r6-9dd6cc75e13e.jpg",
-"r7-9dd6cc75e13e.jpg",
-"r8-9dd6cc75e13e.jpg",
-"r9-9dd6cc75e13e.jpg",
-"r10-9dd6cc75e13e.jpg",
-"r11-9dd6cc75e13e.jpg",
-"av-9dd6cc75e13e.jpg"
-],
-"vtt": "https://explainers-media.daniel-chahine004.workers.dev/sbs_theory/9dd6cc75e13e.vtt",
-"chapters": [
-[
-"Intro",
-0.0
-],
-[
-"Grating",
-39.184
-],
-[
-"Envelope",
-72.401
-],
-[
-"Optical eq",
-106.785
-],
-[
-"Electro",
-140.235
-],
-[
-"Coupling",
-172.519
-],
-[
-"Steady",
-204.486
-],
-[
-"Slices",
-242.003
-],
-[
-"Stats",
-280.37
-],
-[
-"Phase noise",
-310.22
-],
-[
-"Phase check",
-339.12
-],
-[
-"Takeaway",
-372.454
 ]
 ],
 "paper": null,
