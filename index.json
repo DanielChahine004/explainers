@@ -1,5 +1,5 @@
 {
-"generated": 1795720310,
+"generated": 1795859040,
 "playlists": [
 {
 "name": "PET reading",
@@ -25,6 +25,103 @@
 }
 ],
 "videos": [
+{
+"id": "diff_optics_engine",
+"title": "LuMOS: a differentiable model of light response in monolithic scintillators, validated…",
+"dur": 516.0,
+"v": "2ad1a9e6b15a",
+"size": 68979344,
+"src": "https://explainers-media.daniel-chahine004.workers.dev/diff_optics_engine/2ad1a9e6b15a.mp4",
+"thumb": "https://explainers-media.daniel-chahine004.workers.dev/diff_optics_engine/2ad1a9e6b15a.jpg",
+"small": "https://explainers-media.daniel-chahine004.workers.dev/diff_optics_engine/9362623448c6-s.mp4",
+"issue": 74,
+"notes": 0,
+"added": 1795859040,
+"updated": 1795859040,
+"reels": [
+"r0-2ad1a9e6b15a.jpg",
+"r1-2ad1a9e6b15a.jpg",
+"r2-2ad1a9e6b15a.jpg",
+"r3-2ad1a9e6b15a.jpg",
+"r4-2ad1a9e6b15a.jpg",
+"r5-2ad1a9e6b15a.jpg",
+"r6-2ad1a9e6b15a.jpg",
+"r7-2ad1a9e6b15a.jpg",
+"r8-2ad1a9e6b15a.jpg",
+"r9-2ad1a9e6b15a.jpg",
+"r10-2ad1a9e6b15a.jpg",
+"r11-2ad1a9e6b15a.jpg",
+"r12-2ad1a9e6b15a.jpg",
+"r13-2ad1a9e6b15a.jpg",
+"r14-2ad1a9e6b15a.jpg",
+"av-2ad1a9e6b15a.jpg"
+],
+"vtt": "https://explainers-media.daniel-chahine004.workers.dev/diff_optics_engine/2ad1a9e6b15a.vtt",
+"chapters": [
+[
+"Intro",
+0.0
+],
+[
+"Response",
+31.117
+],
+[
+"Images",
+66.051
+],
+[
+"Wrapped",
+100.985
+],
+[
+"Solve",
+144.185
+],
+[
+"Gradients",
+184.185
+],
+[
+"Bound",
+212.852
+],
+[
+"Parity",
+262.388
+],
+[
+"Slice",
+286.964
+],
+[
+"Tiles",
+323.214
+],
+[
+"Events",
+347.798
+],
+[
+"Beam",
+375.498
+],
+[
+"Fitted",
+408.915
+],
+[
+"Errors",
+439.721
+],
+[
+"Recap",
+466.738
+]
+],
+"paper": null,
+"sources": []
+},
 {
 "id": "rib_pet_dose",
 "title": "Dose estimation using in-beam positron emission tomography: Demonstration for 11C and…",
